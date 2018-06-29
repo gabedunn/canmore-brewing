@@ -1,18 +1,47 @@
 <template>
-  <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="main">
+    <navbar/>
+    <landing/>
+    <tours/>
+    <social/>
+    <our-beers/>
+    <our-story/>
+    <beer-locator/>
+    <contact/>
+    <copy-footer/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Navbar from '../components/Navbar'
+import Landing from '../components/sections/Landing'
+import Tours from '../components/sections/Tours'
+import Social from '../components/sections/Social'
+import OurBeers from '../components/sections/OurBeers'
+import OurStory from '../components/sections/OurStory'
+import News from '../components/sections/News'
+import BeerLocator from '../components/sections/BeerLocator'
+import Contact from '../components/sections/Contact'
+import CopyFooter from '../components/sections/CopyFooter'
 
 export default {
-  name: 'home',
+  name: 'HomePage',
+  metaInfo: {
+    title: 'Beer Awesomeness'
+    // TODO: add canonical link when published
+    // link: [{ rel: 'canonical', href: 'https://canmorebrewing.com' }]
+  },
   components: {
-    HelloWorld
+    Navbar,
+    Landing,
+    Tours,
+    Social,
+    OurBeers,
+    OurStory,
+    News,
+    BeerLocator,
+    Contact,
+    CopyFooter
   }
 }
 </script>
