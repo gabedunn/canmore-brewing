@@ -1,0 +1,21 @@
+@import "~reset-css/sass/reset";
+
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+// Set own variables here
+$cb-orange: #F45A24;
+$cb-orange-invert: findColorInvert($cb-orange);
+$light-cb-orange: #E3592A;
+$light-cb-orange-invert: findColorInvert($light-cb-orange);
+
+$footer-background-color: black;
+
+@import "~bulma/sass/utilities/derived-variables";
+
+$addColours: ("cb-orange":($cb-orange, $cb-orange-invert), "light-cb-orange":($light-cb-orange, $light-cb-orange-invert));
+$colors: map_merge($colors, $addColours);
+
+@import "~bulma/bulma";
+@import "helpers/init";
+@import "helpers/spacing";
