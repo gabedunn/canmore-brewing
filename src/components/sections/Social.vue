@@ -18,6 +18,7 @@
         :username="username"
         :token="token"
         :count="count"
+        container-class="columns"
       >
         <template
           slot="feeds"
@@ -48,7 +49,7 @@
 
 <script>
 import SocialPost from '../SocialPost'
-import VueInstagram from '../VueInstagram'
+import VueInstagram from 'vue-instagram'
 
 export default {
   name: 'Social',
