@@ -1,6 +1,6 @@
 {
-  "name": "canmore-brewing",
-  "short_name": "canmore-brewing",
+  "name": "Canmore Brewing Company",
+  "short_name": "Canmore Brewing",
   "icons": [
     {
       "src": "/img/icons/android-chrome-192x192.png",
@@ -8,8 +8,8 @@
       "type": "image/png"
     },
     {
-      "src": "/img/icons/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "/img/icons/android-chrome-256x256.png",
+      "sizes": "256x256",
       "type": "image/png"
     }
   ],
