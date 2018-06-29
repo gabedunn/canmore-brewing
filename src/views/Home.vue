@@ -19,7 +19,6 @@ import Tours from '../components/sections/Tours'
 import Social from '../components/sections/Social'
 import OurBeers from '../components/sections/OurBeers'
 import OurStory from '../components/sections/OurStory'
-import News from '../components/sections/News'
 import BeerLocator from '../components/sections/BeerLocator'
 import Contact from '../components/sections/Contact'
 import CopyFooter from '../components/sections/CopyFooter'
@@ -38,7 +37,6 @@ export default {
     Social,
     OurBeers,
     OurStory,
-    News,
     BeerLocator,
     Contact,
     CopyFooter
