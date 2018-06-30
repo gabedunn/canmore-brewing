@@ -113,28 +113,28 @@
 </template>
 
 <script>
-import MapMarker from '../MapMarker'
-import MarkerInfo from '../MarkerInfo'
+  import MapMarker from '../MapMarker'
+  import MarkerInfo from '../MarkerInfo'
 
-export default {
-  name: 'Contact',
-  components: {
-    MapMarker,
-    MarkerInfo
-  },
-  data () {
-    return {
-      mapOptions: this.$store.state.mapOptions,
-      marker: this.$store.state.markers[0],
-      infoStatus: true
-    }
-  },
-  methods: {
-    handleClick () {
-      this.infoStatus = !this.infoStatus
+  export default {
+    name: 'Contact',
+    components: {
+      MapMarker,
+      MarkerInfo
+    },
+    data () {
+      return {
+        mapOptions: this.$store.state.mapOptions,
+        marker: this.$store.state.markers[0],
+        infoStatus: true
+      }
+    },
+    methods: {
+      handleClick () {
+        this.infoStatus = !this.infoStatus
+      }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">

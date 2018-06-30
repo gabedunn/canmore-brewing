@@ -48,23 +48,23 @@
 </template>
 
 <script>
-import SocialPost from '../SocialPost'
-import VueInstagram from 'vue-instagram'
+  import SocialPost from '../SocialPost'
+  import VueInstagram from 'vue-instagram'
 
-export default {
-  name: 'Social',
-  components: {
-    SocialPost,
-    VueInstagram
-  },
-  data () {
-    return {
-      username: 'canmorebrewing',
-      token: '***REMOVED***',
-      count: 3
+  export default {
+    name: 'Social',
+    components: {
+      SocialPost,
+      VueInstagram
+    },
+    data () {
+      return {
+        username: 'canmorebrewing',
+        token: '***REMOVED***',
+        count: 4
+      }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">

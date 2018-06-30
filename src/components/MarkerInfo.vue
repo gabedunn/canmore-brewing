@@ -30,17 +30,17 @@
 </template>
 
 <script>
-export default {
-  name: 'MarkerInfo',
-  props: {
-    opened: { type: Boolean, required: true },
-    name: { type: String, required: true },
-    address: { type: String, required: true },
-    extra: { type: String, required: true },
-    lat: { type: Number, required: true },
-    lng: { type: Number, required: true }
+  export default {
+    name: 'MarkerInfo',
+    props: {
+      opened: {type: Boolean, required: true},
+      name: {type: String, required: true},
+      address: {type: String, required: true},
+      extra: {type: String, required: true},
+      lat: {type: Number, required: true},
+      lng: {type: Number, required: true}
+    }
   }
-}
 </script>
 
 <style scoped lang="scss">

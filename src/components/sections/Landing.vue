@@ -30,9 +30,9 @@
 </template>
 
 <script>
-export default {
-  name: 'Landing'
-}
+  export default {
+    name: 'Landing'
+  }
 </script>
 
 <style scoped lang="scss">

@@ -67,84 +67,84 @@
 </template>
 
 <script>
-export default {
-  name: 'Beer',
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
-    side: {
-      type: String,
-      default: 'left',
-      validator: value => {
-        return value === 'left' || value === 'right'
-      }
-    },
-    bg: {
-      type: String,
-      default: 'white',
-      validator: value => {
-        if (value === '') { return false }
-        if (value === 'inherit') { return false }
-        if (value === 'transparent') { return false }
+  export default {
+    name: 'Beer',
+    props: {
+      title: {
+        type: String,
+        required: true
+      },
+      side: {
+        type: String,
+        default: 'left',
+        validator: value => {
+          return value === 'left' || value === 'right'
+        }
+      },
+      bg: {
+        type: String,
+        default: 'white',
+        validator: value => {
+          if (value === '') { return false }
+          if (value === 'inherit') { return false }
+          if (value === 'transparent') { return false }
 
-        const image = document.createElement('img')
-        image.style.color = 'rgb(0, 0, 0)'
-        image.style.color = value
-        if (image.style.color !== 'rgb(0, 0, 0)') { return true }
-        image.style.color = 'rgb(255, 255, 255)'
-        image.style.color = value
-        return image.style.color !== 'rgb(255, 255, 255)'
-      }
-    },
-    colour: {
-      type: String,
-      default: 'black',
-      validator: value => {
-        if (value === '') { return false }
-        if (value === 'inherit') { return false }
-        if (value === 'transparent') { return false }
+          const image = document.createElement('img')
+          image.style.color = 'rgb(0, 0, 0)'
+          image.style.color = value
+          if (image.style.color !== 'rgb(0, 0, 0)') { return true }
+          image.style.color = 'rgb(255, 255, 255)'
+          image.style.color = value
+          return image.style.color !== 'rgb(255, 255, 255)'
+        }
+      },
+      colour: {
+        type: String,
+        default: 'black',
+        validator: value => {
+          if (value === '') { return false }
+          if (value === 'inherit') { return false }
+          if (value === 'transparent') { return false }
 
-        const image = document.createElement('img')
-        image.style.color = 'rgb(0, 0, 0)'
-        image.style.color = value
-        if (image.style.color !== 'rgb(0, 0, 0)') { return true }
-        image.style.color = 'rgb(255, 255, 255)'
-        image.style.color = value
-        return image.style.color !== 'rgb(255, 255, 255)'
+          const image = document.createElement('img')
+          image.style.color = 'rgb(0, 0, 0)'
+          image.style.color = value
+          if (image.style.color !== 'rgb(0, 0, 0)') { return true }
+          image.style.color = 'rgb(255, 255, 255)'
+          image.style.color = value
+          return image.style.color !== 'rgb(255, 255, 255)'
+        }
+      },
+      logo: {
+        type: String,
+        required: true
+      },
+      image: {
+        type: String,
+        required: true
+      },
+      alcohol: {
+        type: Number,
+        required: true
+      },
+      ibu: {
+        type: Number,
+        required: true
+      },
+      srm: {
+        type: Number,
+        required: true
       }
     },
-    logo: {
-      type: String,
-      required: true
-    },
-    image: {
-      type: String,
-      required: true
-    },
-    alcohol: {
-      type: Number,
-      required: true
-    },
-    ibu: {
-      type: Number,
-      required: true
-    },
-    srm: {
-      type: Number,
-      required: true
-    }
-  },
-  computed: {
-    styleObj () {
-      return {
-        backgroundColor: this.bg,
-        color: this.colour
+    computed: {
+      styleObj () {
+        return {
+          backgroundColor: this.bg,
+          color: this.colour
+        }
       }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">

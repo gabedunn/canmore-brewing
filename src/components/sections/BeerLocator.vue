@@ -63,46 +63,46 @@
 </template>
 
 <script>
-import MapMarker from '../MapMarker'
-import MarkerInfo from '../MarkerInfo'
+  import MapMarker from '../MapMarker'
+  import MarkerInfo from '../MarkerInfo'
 
-export default {
-  name: 'BeerLocator',
-  components: {
-    MapMarker,
-    MarkerInfo
-  },
-  data () {
-    return {
-      markerState: 'all'
-    }
-  },
-  computed: {
-    markers () {
-      if (this.markerState === 'retail') {
-        return this.$store.getters.retail
-      } else if (this.markerState === 'restaurants') {
-        return this.$store.getters.restaurants
-      } else {
-        return this.$store.state.markers
+  export default {
+    name: 'BeerLocator',
+    components: {
+      MapMarker,
+      MarkerInfo
+    },
+    data () {
+      return {
+        markerState: 'all'
       }
-    }
-  },
-  methods: {
-    handleClick (payload) {
-      if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === true) {
-        this.$store.commit('changeLocatorStatus', { status: false })
-      } else if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === false) {
-        this.$store.commit('changeLocatorStatus', { status: true })
-      } else if (this.$store.state.locatorInfo.open === false) {
-        this.$store.commit('changeLocatorInfo', payload)
-        this.$store.commit('changeLocatorStatus', { status: true })
-      } else {
-        this.$store.commit('changeLocatorInfo', payload)
+    },
+    computed: {
+      markers () {
+        if (this.markerState === 'retail') {
+          return this.$store.getters.retail
+        } else if (this.markerState === 'restaurants') {
+          return this.$store.getters.restaurants
+        } else {
+          return this.$store.state.markers
+        }
+      }
+    },
+    methods: {
+      handleClick (payload) {
+        if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === true) {
+          this.$store.commit('changeLocatorStatus', {status: false})
+        } else if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === false) {
+          this.$store.commit('changeLocatorStatus', {status: true})
+        } else if (this.$store.state.locatorInfo.open === false) {
+          this.$store.commit('changeLocatorInfo', payload)
+          this.$store.commit('changeLocatorStatus', {status: true})
+        } else {
+          this.$store.commit('changeLocatorInfo', payload)
+        }
       }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">
