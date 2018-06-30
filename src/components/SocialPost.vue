@@ -108,6 +108,10 @@
 </script>
 
 <style scoped lang="scss">
+  .card-image {
+    padding: 0.7rem;
+  }
+
   .media-content {
     .title {
       a {

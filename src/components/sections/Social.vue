@@ -18,7 +18,7 @@
         :username="username"
         :token="token"
         :count="count"
-        container-class="columns"
+        container-class="columns ig-feed"
       >
         <template
           slot="feeds"
@@ -70,6 +70,10 @@
 <style scoped lang="scss">
   $border: 0;
   @import "../../../node_modules/bulma/sass/utilities/mixins";
+
+  .ig-feed {
+    margin: 0;
+  }
 
   .title {
     font-family: "Archivo Black", Arial, sans-serif;
