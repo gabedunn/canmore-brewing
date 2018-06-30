@@ -23,9 +23,9 @@
 </template>
 
 <script>
-export default {
-  name: 'NotFound'
-}
+  export default {
+    name: 'NotFound'
+  }
 </script>
 
 <style scoped lang="scss">

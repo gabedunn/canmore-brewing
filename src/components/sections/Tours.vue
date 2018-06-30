@@ -50,9 +50,9 @@
 </template>
 
 <script>
-export default {
-  name: 'OurStory'
-}
+  export default {
+    name: 'OurStory'
+  }
 </script>
 
 <style scoped lang="scss">
@@ -76,7 +76,7 @@ export default {
     }
   }
 
- .tours {
+  .tours {
     p {
       font-family: "Open Sans", Arial, sans-serif;
       font-weight: 600;

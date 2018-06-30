@@ -52,9 +52,9 @@
 </template>
 
 <script>
-export default {
-  name: 'OurStory'
-}
+  export default {
+    name: 'OurStory'
+  }
 </script>
 
 <style scoped lang="scss">

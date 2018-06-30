@@ -83,22 +83,22 @@
 </template>
 
 <script>
-import Beer from '../Beer'
+  import Beer from '../Beer'
 
-export default {
-  name: 'OurBeers',
-  components: {
-    Beer
-  },
-  methods: {
-    can (name) {
-      return require('../../assets/img/beers/' + name + '.can.png')
+  export default {
+    name: 'OurBeers',
+    components: {
+      Beer
     },
-    logo (name) {
-      return require('../../assets/img/logo/' + name + '.logo.png')
+    methods: {
+      can (name) {
+        return require('../../assets/img/beers/' + name + '.can.png')
+      },
+      logo (name) {
+        return require('../../assets/img/logo/' + name + '.logo.png')
+      }
     }
   }
-}
 </script>
 
 <style scoped lang="scss">
