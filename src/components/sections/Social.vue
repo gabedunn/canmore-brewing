@@ -15,7 +15,6 @@
     </div>
     <div class="container has-padding-top-lg has-padding-bottom-lg">
       <vue-instagram
-        :username="username"
         :token="token"
         :count="count"
         container-class="columns ig-feed"
@@ -59,7 +58,6 @@
     },
     data () {
       return {
-        username: 'canmorebrewing',
         token: '***REMOVED***',
         count: 4
       }
