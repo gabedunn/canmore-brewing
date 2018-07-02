@@ -5,12 +5,13 @@
     aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <router-link
+        <a
+          v-scroll-to="{el:'#landing',offset:0}"
           class="navbar-item"
-          to="/"
+          href="#"
         >
           <img src="../assets/img/Canmore_Brewing_Logo_360.png">
-        </router-link>
+        </a>
         <button
           class="button navbar-burger"
           data-target="nav-menu"
