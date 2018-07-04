@@ -6,6 +6,7 @@
     >
       <div class="hero-body">
         <div class="container">
+          <h1 class="title is-1 has-text-centered">Crafted at 1,309 Metres.</h1>
           <div class="columns">
             <div class="column is-one-third has-text-centered">
               <img src="../../assets/img/Canmore_Brewing_Logo_360.png">
@@ -23,7 +24,15 @@
         </div>
       </div>
       <div class="hero-foot has-text-centered">
-        <h2 class="title is-1-desktop">Crafted at 1,309 meters.</h2>
+        <h2 class="title is-1-desktop">Tasting Room & Brewery</h2>
+        <h3 class="subtitle is-3-desktop">
+          <a
+            v-scroll-to="{el:'#contact'}"
+            href="#"
+          >
+            Address & Map Below
+          </a>
+        </h3>
       </div>
     </section>
   </div>
@@ -47,12 +56,14 @@
   /*}*/
 
   .hero {
-    background: url(../../assets/img/tasting_room/tasting_room_landscape.jpg) center top;
-    /*background: url(../../assets/img/mountains-orange.jpg) center top;*/
+    background-size: cover;
+    background: url(../../assets/img/tasting_room/taps_in_tasting_room_cropped.png) no-repeat center center;
 
     .hero-foot {
-      h2 {
-        padding: 2rem;
+      padding: 2rem;
+
+      h2, h3 {
+        color: black;
       }
     }
   }
