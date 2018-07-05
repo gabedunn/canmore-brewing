@@ -6,6 +6,7 @@ jobs:
     - image: circleci/node:10-browsers
     working_directory: ~/cb-build
     environment:
+      PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
       NODE_ENV: 'production'
       BUILD_DIR: ~/cb-build/dist
     steps:
