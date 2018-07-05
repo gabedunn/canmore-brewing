@@ -19,7 +19,7 @@ jobs:
         paths:
         - node_modules
         key: v1-dependencies-{{ checksum "package.json" }}
-    - run: npm global install @vue/cli
+    - run: npm i -g @vue/cli
     - run: npm run lint
 #    - run: npm run test
     - run: npm run build
