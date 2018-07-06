@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/node:10-browsers
+    - image: circleci/node:10-stretch-browsers
     working_directory: ~/cb-build
     environment:
 #      PATH: "${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin"
@@ -12,17 +12,13 @@ jobs:
     - checkout
     - restore_cache:
         keys:
-        - v1-dependencies-{{ checksum "package.json" }}
+        - v1-dependencies-{{ checksum "yarn.lock" }}
         - v1-dependencies-
-    - run: yarn install
+    - run: yarn
     - save_cache:
         paths:
         - node_modules
-        key: v1-dependencies-{{ checksum "package.json" }}
-#    - run: npm i -g @vue/cli
-#    - run: |
-#        npm run lint
-#        npm run build
+        key: v1-dependencies-{{ checksum "yarn.lock" }}
     - run: |
         yarn lint
         yarn build
