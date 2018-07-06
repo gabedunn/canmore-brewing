@@ -13,7 +13,52 @@
         </div>
       </div>
     </div>
-    <div class="container has-padding-top-lg has-padding-bottom-lg">
+    <div class="container has-padding-top-lg">
+      <div class="columns profile-pic-columns">
+        <div class="column">
+          <vue-instagram
+            :token="token"
+            :count="1"
+          >
+            <template
+              slot="feeds"
+              slot-scope="props"
+            >
+              <figure class="profile-pic image is-64x64 is-hidden-mobile">
+                <a
+                  :href="`https://instagram.com/${props.feed.user.username}`"
+                  target="_blank"
+                >
+
+                  <img
+                    :src="props.feed.user.profile_picture"
+                    alt="Profile Picture"
+                  >
+                </a>
+              </figure>
+              <div class="profile-info has-padding-left-md">
+                <a
+                  :href="`https://instagram.com/${props.feed.user.username}`"
+                  target="_blank"
+                >
+                  <h1
+                    class="title is-3 is-5-mobile"
+                    v-text="props.feed.user.full_name"
+                  />
+                </a>
+                <a
+                  :href="`https://instagram.com/${props.feed.user.username}`"
+                  target="_blank"
+                >
+                  <h2 class="subtitle is-5-desktop">@{{ props.feed.user.username }}</h2>
+                </a>
+              </div>
+            </template>
+          </vue-instagram>
+        </div>
+      </div>
+    </div>
+    <div class="container has-padding-top-md has-padding-bottom-lg">
       <vue-instagram
         :token="token"
         :count="count"
@@ -24,9 +69,6 @@
           slot-scope="props"
         >
           <social-post
-            :profile-pic="props.feed.user.profile_picture"
-            :full-name="props.feed.user.full_name"
-            :username="props.feed.user.username"
             :created-time="props.feed.created_time"
             :caption="props.feed.caption.text"
             :images="props.feed.images"
@@ -69,11 +111,23 @@
   $border: 0;
   @import "../../../node_modules/bulma/sass/utilities/mixins";
 
-  .ig-feed {
+  .profile-pic {
+    display: inline-block;
+    img {
+      border-radius: 7px;
+    }
+  }
+
+  .profile-info {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .profile-pic-columns, .ig-feed {
     margin: 0;
   }
 
-  .title {
+  .hero .title {
     font-family: "Archivo Black", Arial, sans-serif;
     font-size: 1.7rem;
     @include tablet() {
