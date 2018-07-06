@@ -24,7 +24,7 @@
               slot="feeds"
               slot-scope="props"
             >
-              <figure class="profile-pic image is-64x64 is-hidden-mobile">
+              <figure class="profile-pic image is-64x64 is-hidden-when-small">
                 <a
                   :href="`https://instagram.com/${props.feed.user.username}`"
                   target="_blank"
@@ -125,6 +125,12 @@
 
   .profile-pic-columns, .ig-feed {
     margin: 0;
+  }
+
+  .is-hidden-when-small {
+    @media (max-width: 510px) {
+      display: none;
+    }
   }
 
   .hero .title {
