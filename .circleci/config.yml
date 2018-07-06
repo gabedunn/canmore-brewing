@@ -20,6 +20,9 @@ jobs:
         - node_modules
         key: v1-dependencies-{{ checksum "package.json" }}
 #    - run: npm i -g @vue/cli
+#    - run: |
+#        npm run lint
+#        npm run build
     - run: |
-        npm run lint
-        npm run build
+        yarn lint
+        yarn build
