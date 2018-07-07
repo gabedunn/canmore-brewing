@@ -3,10 +3,11 @@ jobs:
   build:
     docker:
     - image: circleci/node:10-stretch-browsers
-    working_directory: ~/cb-build
+#    working_directory: ~/cb-build
     environment:
       NODE_ENV: 'production'
-      BUILD_DIR: ~/cb-build/dist
+#      BUILD_DIR: ~/cb-build/dist
+      BUILD_DIR: ~/dist
     steps:
     - checkout
     - restore_cache:
