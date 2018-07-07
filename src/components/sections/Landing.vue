@@ -2,37 +2,72 @@
   <div>
     <section
       id="landing"
-      class="hero is-light-cb-orange is-fullheight"
+      class="hero is-light-cb-orange has-transparent-background is-fullheight"
     >
-      <div class="hero-body">
+      <div class="background-image" />
+      <div class="hero-head">
         <div class="container">
           <h1 class="title is-1 has-text-centered">Crafted at 1,309 Metres.</h1>
+          <h2 class="subtitle is-3 has-text-centered">Have your best day ever, in Canmore.</h2>
+        </div>
+      </div>
+      <div class="hero-body">
+        <div class="container">
           <div class="columns">
-            <div class="column is-one-third has-text-centered">
-              <img src="../../assets/img/Canmore_Brewing_Logo_360.png">
-              <h3 class="title is-3">Find Us</h3>
+            <div class="column is-one-quarter has-text-centered">
+              <a
+                v-scroll-to="{el:'#tours',offset:0}"
+                href="#"
+                class="button is-large is-light-cb-orange"
+              >
+                Book a Tour
+              </a>
             </div>
-            <div class="column is-one-third has-text-centered">
-              <img src="../../assets/img/Canmore_Brewing_Logo_360.png">
-              <h3 class="title is-3">Find Our Beer</h3>
+            <div class="column is-one-quarter has-text-centered">
+              <a
+                v-scroll-to="{el:'#social',offset:0}"
+                href="#"
+                class="button is-large is-light-cb-orange"
+              >
+                Social Media
+              </a>
             </div>
-            <div class="column is-one-third has-text-centered">
-              <img src="../../assets/img/Canmore_Brewing_Logo_360.png">
-              <h3 class="title is-3">Our Beers</h3>
+            <div class="column is-one-quarter has-text-centered">
+              <a
+                v-scroll-to="{el:'#our-beers',offset:0}"
+                href="#"
+                class="button is-large is-light-cb-orange"
+              >
+                Our Beers
+              </a>
+            </div>
+            <div class="column is-one-quarter has-text-centered">
+              <a
+                v-scroll-to="{el:'#beer-locator',offset:0}"
+                href="#"
+                class="button is-large is-light-cb-orange"
+              >
+                Where to Get Us
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div class="hero-foot has-text-centered">
-        <h2 class="title is-1-desktop">Tasting Room & Brewery</h2>
+        <h2 class="title is-1-desktop"><a
+          v-scroll-to="{el:'#contact'}"
+          href="#"
+        >Tasting Room & Brewery</a></h2>
         <h3 class="subtitle is-3-desktop">
           <a
             v-scroll-to="{el:'#contact'}"
             href="#"
-          >
-            Address & Map Below
-          </a>
+          >Address & Map Below</a>
         </h3>
+        <h3 class="is-3-desktop"><a
+          v-scroll-to="{el:'#contact'}"
+          href="#"
+        ><font-awesome-icon icon="chevron-down"/></a></h3>
       </div>
     </section>
   </div>
@@ -55,15 +90,38 @@
 
   /*}*/
 
+  .has-transparent-background {
+    background: transparent;
+  }
+
   .hero {
-    background-size: cover;
-    background: url(../../assets/img/tasting_room/taps_in_tasting_room_cropped.png) no-repeat center center;
+    .background-image {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background: url(../../assets/img/tasting_room/taps_in_tasting_room_blurry_dark.png) no-repeat center center;
+    }
+
+    .hero-head {
+      padding-top: 4rem;
+
+      .title {
+        text-transform: capitalize;
+      }
+
+      .subtitle {
+        font-family: 'Open Sans', 'Roboto', 'Source Sans Pro', sans-serif;
+      }
+    }
 
     .hero-foot {
-      padding: 2rem;
+      font-family: 'Open Sans', 'Roboto', 'Source Sans Pro', sans-serif;
+      padding: 1.5rem;
 
-      h2, h3 {
-        color: black;
+      .subtitle {
+        margin-bottom: 0.5rem;
       }
     }
   }
