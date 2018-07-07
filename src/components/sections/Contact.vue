@@ -16,19 +16,19 @@
                   href="https://twitter.com/canmorebrewing"
                   target="_blank"
                 >
-                  <i class="socicon-twitter has-padding-right-sm"/>
+                  <font-awesome-icon :icon="['fab', 'twitter']" />
                 </a>
                 <a
                   href="https://www.facebook.com/canmorebrewing/"
                   target="_blank"
                 >
-                  <i class="socicon-facebook has-padding-right-sm"/>
+                  <font-awesome-icon :icon="['fab', 'facebook']" />
                 </a>
                 <a
                   href="https://www.instagram.com/canmorebrewing/"
                   target="_blank"
                 >
-                  <i class="socicon-instagram has-padding-right-sm"/>
+                  <font-awesome-icon :icon="['fab', 'instagram']" />
                 </a>
                 @canmorebrewing
               </p>
@@ -104,7 +104,7 @@
                 </p>
               </div>
             </div>
-            <div class="column is-1"/>
+            <div class="column is-1" />
           </div>
         </div>
       </div>
@@ -196,6 +196,10 @@
     }
     @include fullhd() {
       font-size: 2rem;
+    }
+
+    a {
+      padding: 0 0.25rem;
     }
   }
 
