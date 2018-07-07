@@ -5,14 +5,13 @@ import VueScrollTo from 'vue-scrollto'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VuePlyr from 'vue-plyr'
 import 'vue-plyr/dist/vue-plyr.css'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import './fontAwesome'
 
 Vue.use(VueAxios, axios)
 Vue.use(VueScrollTo, {
@@ -25,7 +24,6 @@ Vue.use(VueGoogleMaps, {
   }
 })
 Vue.use(VuePlyr)
-library.add(faChevronDown)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
