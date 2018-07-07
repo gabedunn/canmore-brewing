@@ -4,7 +4,6 @@
       id="landing"
       class="hero is-light-cb-orange has-transparent-background is-fullheight"
     >
-      <div class="background-image" />
       <div class="hero-head">
         <div class="container">
           <h1 class="title is-1 has-text-centered">Crafted at 1,309 Metres.</h1>
@@ -67,7 +66,9 @@
         <h3 class="is-3-desktop"><a
           v-scroll-to="{el:'#contact'}"
           href="#"
-        ><font-awesome-icon icon="chevron-down"/></a></h3>
+        >
+          <font-awesome-icon icon="chevron-down" />
+        </a></h3>
       </div>
     </section>
   </div>
@@ -95,14 +96,8 @@
   }
 
   .hero {
-    .background-image {
-      z-index: -1;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background: url(../../assets/img/tasting_room/taps_in_tasting_room_blurry_dark.png) no-repeat center center;
-    }
+    background-size: cover;
+    background: url(../../assets/img/tasting_room/taps_in_tasting_room_blurry_dark.png) no-repeat center center;
 
     .hero-head {
       padding-top: 4rem;
