@@ -15,7 +15,8 @@ import './fontAwesome'
 
 Vue.use(VueAxios, axios)
 Vue.use(VueScrollTo, {
-  offset: -52
+  offset: -72
+  // offset: -52
 })
 Vue.use(VueGoogleMaps, {
   load: {
