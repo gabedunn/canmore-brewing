@@ -3,22 +3,11 @@ jobs:
   build:
     docker:
     - image: circleci/node:10-stretch-browsers
-#    working_directory: ~/cb-build
     environment:
       NODE_ENV: 'production'
-#      BUILD_DIR: ~/cb-build/dist
-#      BUILD_DIR: ~/dist
     steps:
     - checkout
-#    - restore_cache:
-#        keys:
-#        - v1-dependencies-{{ checksum "yarn.lock" }}
-#        - v1-dependencies-
-    - run: yarn install --verbose
-#    - save_cache:
-#        paths:
-#        - node_modules
-#        key: v1-dependencies-{{ checksum "yarn.lock" }}
     - run: |
+        yarn
         yarn lint
         yarn build
