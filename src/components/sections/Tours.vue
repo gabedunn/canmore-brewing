@@ -26,7 +26,7 @@
                   You can book a tour with a minimum of 10 people (you can have less but you must still pay for 10).
                 </p>
                 <a
-                  class="button is-large is-light-cb-orange has-margin-top-lg"
+                  class="button is-large is-cb-orange has-margin-top-lg"
                   href="https://eventbrite.com"
                   target="_blank"
                 >

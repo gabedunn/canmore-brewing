@@ -1,7 +1,7 @@
 <template>
   <section
     id="not-found"
-    class="hero is-light-cb-orange is-fullheight"
+    class="hero is-cb-orange is-fullheight"
   >
     <div class="hero-body">
       <div class="container">
