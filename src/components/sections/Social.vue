@@ -51,8 +51,7 @@
                   target="_blank"
                 >
                   <h2 class="subtitle is-5-desktop">
-                    @{{ props.feed.user.username }}
-                    <font-awesome-icon :icon="['fab', 'instagram']" />
+                    <font-awesome-icon :icon="['fab', 'instagram']" /> {{ props.feed.user.username }}
                   </h2>
                 </a>
               </div>
