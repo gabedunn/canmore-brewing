@@ -2,10 +2,20 @@ version: 2
 jobs:
   build:
     docker:
-    - image: circleci/node:10-stretch-browsers
+    - image: circleci/node:10-browsers
+    working_directory: ~/cb-build
+    environment:
+      BUILD_DIR: ~/cb-build/dist
     steps:
     - checkout
-    - run: |
-        yarn
-        yarn lint
-        yarn build
+    - restore_cache:
+        keys:
+        - v1-dependencies-{{ checksum "yarn.lock" }}
+        - v1-dependencies-
+    - run: yarn
+    - save_cache:
+        paths:
+        - node_modules
+        key: v1-dependencies-{{ checksum "yarn.lock" }}
+    - run: yarn lint
+    - run: yarn build
