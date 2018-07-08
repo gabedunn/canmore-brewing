@@ -27,8 +27,7 @@
                 </p>
                 <a
                   class="button is-large is-cb-orange has-margin-top-lg"
-                  href="https://eventbrite.com"
-                  target="_blank"
+                  href="mailto:info@canmorebrewing.com"
                 >
                   Book a Tour
                 </a>
