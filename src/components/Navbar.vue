@@ -102,8 +102,24 @@
 </script>
 
 <style scoped lang="scss">
-  .navbar-burger {
-    border: none;
-    background-color: rgba(0, 0, 0, 0);
+  nav {
+    .navbar-brand {
+      a.navbar-item {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    .navbar-menu {
+      a.navbar-item {
+        font-size: 1.2rem;
+        /*font-weight: bold;*/
+      }
+    }
+
+    .navbar-burger {
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
+    }
   }
 </style>

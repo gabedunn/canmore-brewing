@@ -8,7 +8,8 @@ $cb-orange: #F45A24;
 $cb-orange-invert: findColorInvert($cb-orange);
 $light-cb-orange: #E3592A;
 $light-cb-orange-invert: findColorInvert($light-cb-orange);
-
+$navbar-height: 4.5rem;
+$navbar-item-img-max-height: 4.25rem;
 $footer-background-color: black;
 
 @import "~bulma/sass/utilities/derived-variables";
