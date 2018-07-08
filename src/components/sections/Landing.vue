@@ -106,7 +106,9 @@
 
   .hero {
     background-size: cover;
-    background: url(../../assets/img/tasting_room/landing-background.png) no-repeat center;
+    background-image: url(../../assets/img/tasting_room/landing-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
 
     .hero-head {
       padding-top: 4rem;
