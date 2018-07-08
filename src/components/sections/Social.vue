@@ -50,7 +50,10 @@
                   :href="`https://instagram.com/${props.feed.user.username}`"
                   target="_blank"
                 >
-                  <h2 class="subtitle is-5-desktop">@{{ props.feed.user.username }}</h2>
+                  <h2 class="subtitle is-5-desktop">
+                    @{{ props.feed.user.username }}
+                    <font-awesome-icon :icon="['fab', 'instagram']" />
+                  </h2>
                 </a>
               </div>
             </template>

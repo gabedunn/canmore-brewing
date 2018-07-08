@@ -2,7 +2,7 @@
   <div>
     <section
       id="landing"
-      class="hero is-light-cb-orange has-transparent-background is-fullheight"
+      class="hero is-cb-orange has-transparent-background is-fullheight"
     >
       <div class="hero-head">
         <div class="container">
@@ -13,40 +13,49 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns">
-            <div class="column is-one-quarter has-text-centered">
+            <div class="column is-one-fifth has-text-centered">
               <a
                 v-scroll-to="{el:'#tours',offset:0}"
                 href="#"
-                class="button is-large is-light-cb-orange"
+                class="button is-large is-cb-orange"
               >
                 Book a Tour
               </a>
             </div>
-            <div class="column is-one-quarter has-text-centered">
+            <div class="column is-one-fifth has-text-centered">
               <a
                 v-scroll-to="{el:'#social',offset:0}"
                 href="#"
-                class="button is-large is-light-cb-orange"
+                class="button is-large is-cb-orange"
               >
                 Social Media
               </a>
             </div>
-            <div class="column is-one-quarter has-text-centered">
+            <div class="column is-one-fifth has-text-centered">
               <a
                 v-scroll-to="{el:'#our-beers',offset:0}"
                 href="#"
-                class="button is-large is-light-cb-orange"
+                class="button is-large is-cb-orange"
               >
                 Our Beers
               </a>
             </div>
-            <div class="column is-one-quarter has-text-centered">
+            <div class="column is-one-fifth has-text-centered">
               <a
                 v-scroll-to="{el:'#beer-locator',offset:0}"
                 href="#"
-                class="button is-large is-light-cb-orange"
+                class="button is-large is-cb-orange"
               >
-                Where to Get Us
+                Beer Locator
+              </a>
+            </div>
+            <div class="column is-one-fifth has-text-centered">
+              <a
+                v-scroll-to="{el:'#contact',offset:0}"
+                href="#"
+                class="button is-large is-cb-orange"
+              >
+                Our Location
               </a>
             </div>
           </div>
@@ -97,7 +106,7 @@
 
   .hero {
     background-size: cover;
-    background: url(../../assets/img/tasting_room/taps_in_tasting_room_blurry_dark.png) no-repeat center center;
+    background: url(../../assets/img/tasting_room/landing-background.png) no-repeat center;
 
     .hero-head {
       padding-top: 4rem;
