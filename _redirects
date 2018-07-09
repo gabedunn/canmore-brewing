@@ -1,6 +1,5 @@
 # Redirect Netlify domain to real domain.
-https://nifty-edison-5c0237
-.netlify.com/* https://canmorebrewingco.com/:splat 301!
+https://nifty-edison-5c0237.netlify.com/* https://canmorebrewingco.com/:splat 301!
 
 # History mode for SPA
 /* /index.html 200
