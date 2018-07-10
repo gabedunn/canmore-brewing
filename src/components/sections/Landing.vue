@@ -106,7 +106,8 @@
 
   .hero {
     background-size: cover;
-    background-image: url(../../assets/img/tasting_room/landing-background.png);
+    background-image:
+url(../../assets/img/tasting_room/landing-background.webp);
     background-position: center;
     background-repeat: no-repeat;
 
