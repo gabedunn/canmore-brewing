@@ -22,7 +22,7 @@
             <div class="column is-5 is-offset-1">
               <figure class="image is-3by2">
                 <img
-                  src="../../assets/img/tasting_room/susie_at_taps.png"
+                  src="../../assets/img/tasting_room/susie_at_taps.webp"
                   align="Our Distillery"
                 >
               </figure>

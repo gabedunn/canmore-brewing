@@ -5,7 +5,7 @@
         <div class="container">
           <div class="columns">
             <div class="column is-offset-1">
-              <h1 class="title is-uppercase">
+              <h1 class="hero-title title is-uppercase">
                 Our Beers
               </h1>
             </div>
@@ -14,6 +14,26 @@
       </div>
     </div>
     <div class="beers">
+      <div class="hero">
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <div class="column is-offset-1">
+                <h1 class="title is-1">Current Seasonal:</h1>
+                <h2 class="subtitle is-3">Flower Daze Honey Session Ale.</h2>
+                <p>
+                  The Flower Daze honey session ale is an exquisite beer, comprised of flowery undertones and honey
+                  flavours in addition to the crisp refreshing mouth feel that you are familiar with from the rest of
+                  our mouth-watering products. I'm also just going to put in some filler text here just to show how it
+                  looks with some extra text, because sometimes you just need to see how something looks with a few
+                  lines of text instead of just one. Do you understand?
+                </p>
+              </div>
+              <div class="column is-1" />
+            </div>
+          </div>
+        </div>
+      </div>
       <beer
         :logo="logo('Pale')"
         :alcohol="5"
@@ -78,6 +98,21 @@
         coal. This English style stout features pale, chocolate and caramel malts along with roasted and flaked barley
         for a complex, delicious treat.
       </beer>
+      <beer
+        :logo="logo('Misty')"
+        :alcohol="6.4"
+        :ibu="55"
+        :srm="3.0"
+        :image="can('Misty')"
+        title="Misty Mountain Hops"
+        side="left"
+        bg="#e15829">
+        When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks
+        pack their bags. Some folks stay for a beer and have some fun - that's us.
+        <br ><br >
+        This New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and
+        flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops.
+      </beer>
     </div>
   </section>
 </template>
@@ -92,10 +127,10 @@
     },
     methods: {
       can (name) {
-        return require('../../assets/img/beers/' + name + '.can.png')
+        return require('../../assets/img/beers/' + name + '.can.webp')
       },
       logo (name) {
-        return require('../../assets/img/logo/' + name + '.logo.png')
+        return require('../../assets/img/logo/' + name + '.logo.webp')
       }
     }
   }
@@ -105,7 +140,7 @@
   $border: 0;
   @import "../../../node_modules/bulma/sass/utilities/mixins";
 
-  .title {
+  .hero-title.title {
     font-family: "Archivo Black", Arial, sans-serif;
     font-size: 1.7rem;
     @include tablet() {

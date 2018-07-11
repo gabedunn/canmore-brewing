@@ -36,7 +36,7 @@
             <div class="column is-5 is-offset-1">
               <figure class="image is-4by3">
                 <img
-                  src="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
+                  src="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
                   align="Tours"
                 >
               </figure>
