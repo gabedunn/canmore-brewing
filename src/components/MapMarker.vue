@@ -24,7 +24,7 @@
     data () {
       return {
         icon: {
-          url: require(`../assets/img/icons/map-icon-${this.type}.png`),
+          url: require(`../assets/img/icons/map-icon-${this.type}.webp`),
           scaledSize: this.$store.state.scaledSize
         }
       }

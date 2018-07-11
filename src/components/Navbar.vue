@@ -10,7 +10,7 @@
           class="navbar-item"
           href="#"
         >
-          <img src="../assets/img/Canmore_Brewing_Logo_360.png">
+          <img src="../assets/img/CanmoreBrewingLogo.webp">
         </a>
         <button
           class="button navbar-burger"
