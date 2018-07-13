@@ -26,7 +26,12 @@
           </div>
         </div>
       </div>
-      <hr class="separator">
+      <div class="columns">
+        <div class="column is-offset-1">
+          <hr class="separator">
+        </div>
+        <div class="column is-1" />
+      </div>
       <beer
         :logo="logo('Pale')"
         :alcohol="5"
@@ -149,8 +154,10 @@
       font-size: 4.2rem;
     }
   }
+
   .separator {
     height: 7.5px;
     background-color: #0A0A0A;
+    margin-top: 0.2rem;
   }
 </style>
