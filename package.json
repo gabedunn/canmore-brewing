@@ -17,6 +17,7 @@
     "axios": "^0.18.0",
     "browser-jsonp": "^1.1.5",
     "bulma": "^0.7.1",
+    "contentful": "^6.1.1",
     "moment": "^2.22.2",
     "postcss-preset-env": "^5.2.1",
     "pug": "^2.0.3",

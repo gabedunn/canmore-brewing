@@ -3,12 +3,14 @@ import Vuex from 'vuex'
 
 import markers from './assets/js/markers.json'
 import mapOptions from './assets/js/mapOptions'
+import mapMarkers from './assets/js/contentfulMarkers'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
     markers,
+    mapMarkers: mapMarkers(),
     locatorInfo: {
       open: false,
       id: 0,
