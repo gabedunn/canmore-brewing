@@ -19,21 +19,14 @@
           <div class="container">
             <div class="columns">
               <div class="column is-offset-1">
-                <h1 class="title is-1">Current Seasonal:</h1>
-                <h2 class="subtitle is-3">Flower Daze Honey Session Ale.</h2>
-                <p>
-                  The Flower Daze honey session ale is an exquisite beer, comprised of flowery undertones and honey
-                  flavours in addition to the crisp refreshing mouth feel that you are familiar with from the rest of
-                  our mouth-watering products. I'm also just going to put in some filler text here just to show how it
-                  looks with some extra text, because sometimes you just need to see how something looks with a few
-                  lines of text instead of just one. Do you understand?
-                </p>
+                <h1 class="title is-2">Stay Tuned - Our next seasonal is in the tank now.</h1>
               </div>
               <div class="column is-1" />
             </div>
           </div>
         </div>
       </div>
+      <hr class="separator">
       <beer
         :logo="logo('Pale')"
         :alcohol="5"
@@ -106,10 +99,10 @@
         :image="can('Misty')"
         title="Misty Mountain Hops"
         side="left"
-        bg="#e15829">
+        bg="#B4B4B4">
         When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks
         pack their bags. Some folks stay for a beer and have some fun - that's us.
-        <br ><br >
+        <br><br>
         This New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and
         flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops.
       </beer>
@@ -155,5 +148,9 @@
     @include fullhd() {
       font-size: 4.2rem;
     }
+  }
+  .separator {
+    height: 7.5px;
+    background-color: #0A0A0A;
   }
 </style>
