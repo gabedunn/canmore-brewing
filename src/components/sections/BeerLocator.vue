@@ -74,7 +74,8 @@
     },
     data () {
       return {
-        markerState: 'all'
+        markerState: 'all',
+        resolvedMarkers: {}
       }
     },
     computed: {
@@ -85,8 +86,12 @@
           return this.$store.getters.restaurants
         } else {
           return this.$store.state.markers
+          // return this.resolvedMarkers
         }
       }
+    },
+    async mounted () {
+      this.resolvedMarkers = await this.$store.state.mapMarkers
     },
     methods: {
       handleClick (payload) {
