@@ -20,10 +20,15 @@
             <div class="column is-5 is-offset-1">
               <div class="tours">
                 <p class="has-text-justified">
-                  In addition to just a tasting room we also offer tours - a personal and informative tour of how our
-                  brewery works - from grain in one end to drunk people out the other end.
+                  We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
+                  where we came from and how we make our delicious beer.
+                  <br><br>
+                  Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
+                  spot. Private
+                  tours for 10 or more and private events are also available. Come celebrate with us. For more info
+                  please contact:
                   <br>
-                  You can book a tour with a minimum of 10 people (you can have less but you must still pay for 10).
+                  <a href="mailto:susan.dunn@canmorebrewing.com">susan.dunn@canmorebrewing.com</a>.
                 </p>
                 <a
                   class="button is-large is-cb-orange has-margin-top-lg"
@@ -41,6 +46,15 @@
                 >
               </figure>
             </div>
+          </div>
+          <div class="columns">
+            <div class="column is-offset-1 tours">
+              <p class="has-text-justified">
+                Even if you can't make a tour, we have plenty of seating overlooking our brewhouse, so you might even
+                get to watch your next beer being made.
+              </p>
+            </div>
+            <div class="column is-1" />
           </div>
         </div>
       </div>
