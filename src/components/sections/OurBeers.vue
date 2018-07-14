@@ -33,11 +33,10 @@
         <div class="column is-1" />
       </div>
       <beer
-        :logo="logo('Pale')"
         :alcohol="5"
         :ibu="33"
         :srm="7"
-        :image="can('Pale')"
+        image="Pale"
         title="Ten Peaks Pale Ale"
         side="left"
       >
@@ -48,11 +47,10 @@
         ale, slightly sweet, biscuity and very quenching. Welcome to craft beer.
       </beer>
       <beer
-        :logo="logo('IPA')"
         :alcohol="6"
         :ibu="60"
         :srm="11"
-        :image="can('IPA')"
+        image="IPA"
         title="Railway Ave IPA"
         side="right"
         bg="#6c3431"
@@ -65,11 +63,10 @@
         a thorough dry hop. This IPA is very approachable.
       </beer>
       <beer
-        :logo="logo('Brown')"
         :alcohol="6"
         :ibu="26"
         :srm="23"
-        :image="can('Brown')"
+        image="Brown"
         title="Georgetown Brown"
         side="left"
         bg="#a2cfc9">
@@ -81,11 +78,10 @@
         malts, this brown ale will entice you over to the dark side – in a good way! Crisp, sweet and soooooo caramello.
       </beer>
       <beer
-        :logo="logo('Stout')"
         :alcohol="5"
         :ibu="21"
         :srm="3"
-        :image="can('Stout')"
+        image="Stout"
         title="Mineside Stout"
         side="right"
         bg="#e15829">
@@ -97,11 +93,10 @@
         for a complex, delicious treat.
       </beer>
       <beer
-        :logo="logo('Misty')"
         :alcohol="6.4"
         :ibu="55"
         :srm="3.0"
-        :image="can('Misty')"
+        image="Misty"
         title="Misty Mountain Hops"
         side="left"
         bg="#B4B4B4">
@@ -122,14 +117,6 @@
     name: 'OurBeers',
     components: {
       Beer
-    },
-    methods: {
-      can (name) {
-        return require('../../assets/img/beers/' + name + '.can.webp')
-      },
-      logo (name) {
-        return require('../../assets/img/logo/' + name + '.logo.webp')
-      }
     }
   }
 </script>

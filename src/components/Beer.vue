@@ -9,21 +9,41 @@
           v-if="side === 'left'"
           class="columns"
         >
-          <div class="column is-1"/>
+          <div class="column is-1" />
           <div class="column">
-            <img
-              :src="image"
-              :alt="title"
-              class="beer-img"
-            >
+            <picture>
+              <source
+                :srcset="can('webp')"
+                type="image/webp"
+              >
+              <source
+                :srcset="can('png')"
+                type="image/png"
+              >
+              <img
+                :src="can('png')"
+                :alt="title"
+                class="beer-img"
+              >
+            </picture>
           </div>
           <div class="column has-text-centered">
-            <img
-              :src="logo"
-              :alt="title"
-            >
+            <picture>
+              <source
+                :srcset="logo('webp')"
+                type="image/webp"
+              >
+              <source
+                :srcset="logo('png')"
+                type="image/png"
+              >
+              <img
+                :src="logo('png')"
+                :alt="title"
+              >
+            </picture>
             <p class="beer-description">
-              <slot/>
+              <slot />
             </p>
             <div class="beer-info has-text-centered">
               <p>{{ alcohol }}% Alc/vol.</p>
@@ -31,19 +51,30 @@
               <p>{{ srm }} SRM</p>
             </div>
           </div>
-          <div class="column is-1"/>
+          <div class="column is-1" />
         </div>
         <div
           v-else-if="side === 'right'"
           class="columns"
         >
-          <div class="column is-1"/>
+          <div class="column is-1" />
           <div class="column has-text-centered">
-            <img
-              :src="logo"
-              :alt="title">
+            <picture>
+              <source
+                :srcset="logo('webp')"
+                type="image/webp"
+              >
+              <source
+                :srcset="logo('png')"
+                type="image/png"
+              >
+              <img
+                :src="logo('png')"
+                :alt="title"
+              >
+            </picture>
             <p class="beer-description">
-              <slot/>
+              <slot />
             </p>
             <div class="beer-info has-text-centered">
               <p>{{ alcohol }}% Alc/vol.</p>
@@ -51,13 +82,23 @@
               <p>{{ srm }} SRM</p>
             </div>
           </div>
-          <div class="column is-2"/>
+          <div class="column is-2" />
           <div class="column">
-            <img
-              :src="image"
-              :alt="title"
-              class="beer-img"
-            >
+            <picture>
+              <source
+                :srcset="can('webp')"
+                type="image/webp"
+              >
+              <source
+                :srcset="can('png')"
+                type="image/png"
+              >
+              <img
+                :src="can('png')"
+                :alt="title"
+                class="beer-img"
+              >
+            </picture>
           </div>
           <!--<div class="column is-1"></div>-->
         </div>
@@ -115,10 +156,6 @@
           return image.style.color !== 'rgb(255, 255, 255)'
         }
       },
-      logo: {
-        type: String,
-        required: true
-      },
       image: {
         type: String,
         required: true
@@ -143,7 +180,16 @@
           color: this.colour
         }
       }
+    },
+    methods: {
+      can (type) {
+        return require('../assets/img/beers/' + this.image + '.can.' + type)
+      },
+      logo (type) {
+        return require('../assets/img/logo/' + this.image + '.logo.' + type)
+      }
     }
+
   }
 </script>
 
