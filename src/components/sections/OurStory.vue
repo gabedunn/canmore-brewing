@@ -21,10 +21,18 @@
             </div>
             <div class="column is-5 is-offset-1">
               <figure class="image is-3by2">
-                <img
-                  src="../../assets/img/tasting_room/susie_at_taps.webp"
-                  align="Our Distillery"
-                >
+                <picture>
+                  <source
+                    srcset="../../assets/img/tasting_room/susie_at_taps.webp"
+                    type="image/webp" >
+                  <source
+                    srcset="../../assets/img/tasting_room/susie_at_taps.png"
+                    type="image/png" >
+                  <img
+                    src="../../assets/img/tasting_room/susie_at_taps.png"
+                    align="Our Distillery"
+                  >
+                </picture>
               </figure>
             </div>
           </div>

@@ -40,10 +40,18 @@
             </div>
             <div class="column is-5 is-offset-1">
               <figure class="image is-4by3">
-                <img
-                  src="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
-                  align="Tours"
-                >
+                <picture>
+                  <source
+                    srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
+                    type="image/webp" >
+                  <source
+                    srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
+                    type="image/png" >
+                  <img
+                    src="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
+                    align="Tours"
+                  >
+                </picture>
               </figure>
             </div>
           </div>

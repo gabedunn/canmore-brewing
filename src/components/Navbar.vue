@@ -10,15 +10,23 @@
           class="navbar-item"
           href="#"
         >
-          <img src="../assets/img/CanmoreBrewingLogo.webp">
+          <picture>
+            <source
+              srcset="../assets/img/CanmoreBrewingLogo.webp"
+              type="image/webp" >
+            <source
+              srcset="../assets/img/CanmoreBrewingLogo.png"
+              type="image/png" >
+            <img src="../assets/img/CanmoreBrewingLogo.png">
+          </picture>
         </a>
         <button
           class="button navbar-burger"
           data-target="nav-menu"
         >
-          <span/>
-          <span/>
-          <span/>
+          <span />
+          <span />
+          <span />
         </button>
       </div>
       <div
