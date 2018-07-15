@@ -7,11 +7,17 @@ if (process.env.NODE_ENV === 'production') {
     ready () {
       console.log('App is being served from cache by a service worker.\nFor more details, visit https://goo.gl/AFskqB')
     },
-    cached () {
-      console.log('Content has been cached for offline use.')
+    registered (registration) {
+      console.log('Service worked registered.')
+      console.log(registration)
     },
-    updated () {
+    cached (registration) {
+      console.log('Content has been cached for offline use.')
+      console.log(registration)
+    },
+    updated (registration) {
       console.log('New content is available; please refresh.')
+      console.log(registration)
     },
     offline () {
       console.log('No internet connection found. App is running in offline mode.')
