@@ -6,7 +6,7 @@
     >
       <div class="hero-head">
         <div class="container">
-          <h1 class="title is-1 has-text-centered">WOOT</h1>
+          <h1 class="title is-1 has-text-centered">Crafted at 1,309 Metres.</h1>
           <h2 class="subtitle is-3 has-text-centered">Have your best day ever, in Canmore.</h2>
         </div>
       </div>
