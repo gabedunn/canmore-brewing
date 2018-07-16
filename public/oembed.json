@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "provider_name": "Canmore Brewing Company",
+  "provider_url": "https:\/\/canmorebrewing.com",
+  "author_name": "Gabe Dunn",
+  "author_url": "https:\/\/redxte.ch",
+  "title": "Canmore Brewing Company - Beer Awesomeness",
+  "type": "photo",
+  "thumbnail_url": "/img/CanmoreBrewingLogo.png",
+  "thumbnail_height": 360,
+  "thumbnail_width": 360
+}
