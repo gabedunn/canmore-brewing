@@ -1,5 +1,32 @@
-# Redirect default Netlify subdomain to primary domain
-https://nifty-edison-5c0237.netlify.com/* https://canmorebrewingco.com/:splat 301!
+# Redirect domain aliases to primary domain
+https://canmorebrewing.co/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.beer/* https://canmorebrewing.com/:splat 301!
+https://canmorebrew.ca/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.biz/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.net/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewingcompany.com/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.info/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.org/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewingco.com/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewing.ca/* https://canmorebrewing.com/:splat 301!
+https://canbrew.ca/* https://canmorebrewing.com/:splat 301!
+https://canmorebrewingcompany.ca/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.com/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.co/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.beer/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrew.ca/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.biz/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.net/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewingcompany.com/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.info/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.org/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewingco.com/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewing.ca/* https://canmorebrewing.com/:splat 301!
+https://www.canbrew.ca/* https://canmorebrewing.com/:splat 301!
+https://www.canmorebrewingcompany.ca/* https://canmorebrewing.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://nifty-edison-5c0237.netlify.com/* https://canmorebrewing.com/:splat 301!
 
 # History mode for SPA
 /* /index.html 200
