@@ -42,7 +42,7 @@
               <p class="has-padding-top-lg">
                 Sales
                 <br>
-                <a href="tel:4036195846">(403) 707 5695</a>
+                <a href="tel:4037075695">(403) 707 5695</a>
                 <br>
                 <a href="mailto:steve.dunn@canmorebrewing.com">steve.dunn@&#8203;canmorebrewing.com</a>
               </p>
