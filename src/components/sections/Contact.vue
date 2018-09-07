@@ -90,9 +90,8 @@
                 <h3>
                   Hours:
                 </h3>
-                <p>Monday: 1PM - 7PM</p>
-                <p>Tuesday: Closed</p>
-                <p>Wednesday-Thursday: 1PM - 7PM</p>
+                <p>Monday-Tuesday: Closed</p>
+                <p>Wednesday-Thursday: 2PM - 7PM</p>
                 <p>Friday-Saturday: 1PM - 8PM</p>
                 <p>Sunday: 1PM – 6PM</p>
               </div>
