@@ -80,7 +80,7 @@
       <beer
         :alcohol="5"
         :ibu="21"
-        :srm="3"
+        :srm="31"
         image="Stout"
         title="Mineside Stout"
         side="right"
