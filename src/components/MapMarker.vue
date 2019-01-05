@@ -12,14 +12,14 @@
   export default {
     name: 'MapMarker',
     props: {
-      id: {type: Number, required: true},
-      name: {type: String, required: true},
-      address: {type: String, required: true},
-      infoOpen: {type: Boolean, default: false},
-      type: {type: String, default: 'retail', validator: value => value === 'retail' || value === 'eat'},
-      extra: {type: String, required: true},
-      lat: {type: Number, required: true},
-      lng: {type: Number, required: true}
+      id: { type: Number, required: true },
+      name: { type: String, required: true },
+      address: { type: String, required: true },
+      infoOpen: { type: Boolean, default: false },
+      type: { type: String, default: 'retail', validator: value => value === 'retail' || value === 'eat' },
+      extra: { type: String, required: true },
+      lat: { type: Number, required: true },
+      lng: { type: Number, required: true }
     },
     data () {
       return {

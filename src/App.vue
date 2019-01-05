@@ -10,12 +10,12 @@
     metaInfo: {
       title: 'Beer Awesomeness',
       titleTemplate: '%s | Canmore Brewing Company',
-      htmlAttrs: {lang: 'en'},
+      htmlAttrs: { lang: 'en' },
       meta: [
-        {charset: 'utf-8'},
-        {name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }
       ],
-      link: [{rel: 'stylesheet', href: 'https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?rd5re8'}]
+      link: [{ rel: 'stylesheet', href: 'https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?rd5re8' }]
     }
   }
 </script>

@@ -50,12 +50,12 @@
     name: 'SocialPost',
     // TODO: add proper validation for these props
     props: {
-      createdTime: {type: String, required: true},
-      caption: {type: String, required: true},
-      images: {type: Object, required: true},
-      videos: {type: Object, required: false, default: () => {}},
-      link: {type: String, required: true},
-      type: {type: String, required: true}
+      createdTime: { type: String, required: true },
+      caption: { type: String, required: true },
+      images: { type: Object, required: true },
+      videos: { type: Object, required: false, default: () => {} },
+      link: { type: String, required: true },
+      type: { type: String, required: true }
     },
     computed: {
       time () {

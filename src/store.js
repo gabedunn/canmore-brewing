@@ -20,7 +20,7 @@ export default new Vuex.Store({
       lat: 0,
       lng: 0
     },
-    scaledSize: {width: 36, height: 56, f: 'px', b: 'px'},
+    scaledSize: { width: 36, height: 56, f: 'px', b: 'px' },
     mapOptions
   },
   getters: {
