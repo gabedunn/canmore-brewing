@@ -40,11 +40,18 @@
                 <a href="mailto:info@canmorebrewing.com">info@&#8203;canmorebrewing.com</a>
               </p>
               <p class="has-padding-top-lg">
-                Sales
+                Sales (Bow Valley Area)
                 <br>
                 <a href="tel:4037075695">(403) 707 5695</a>
                 <br>
                 <a href="mailto:steve.dunn@canmorebrewing.com">steve.dunn@&#8203;canmorebrewing.com</a>
+              </p>
+              <p class="has-padding-top-lg">
+                Sales (Calgary Area & Rest of Alberta)
+                <br>
+                <a href="tel:4038273791">(403) 827 3791</a>
+                <br>
+                <a href="mailto:john.hedley@canmorebrewing.com">john.hedley@&#8203;canmorebrewing.com</a>
               </p>
               <p class="has-padding-top-lg">
                 Tasting Room and Brewery located at:
