@@ -96,12 +96,12 @@
     methods: {
       handleClick (payload) {
         if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === true) {
-          this.$store.commit('changeLocatorStatus', {status: false})
+          this.$store.commit('changeLocatorStatus', { status: false })
         } else if (this.$store.state.locatorInfo.id === payload.id && this.$store.state.locatorInfo.open === false) {
-          this.$store.commit('changeLocatorStatus', {status: true})
+          this.$store.commit('changeLocatorStatus', { status: true })
         } else if (this.$store.state.locatorInfo.open === false) {
           this.$store.commit('changeLocatorInfo', payload)
-          this.$store.commit('changeLocatorStatus', {status: true})
+          this.$store.commit('changeLocatorStatus', { status: true })
         } else {
           this.$store.commit('changeLocatorInfo', payload)
         }
