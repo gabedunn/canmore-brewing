@@ -35,7 +35,6 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.2",
-    "@vue/cli-plugin-e2e-cypress": "^3.2.3",
     "@vue/cli-plugin-eslint": "^3.2.2",
     "@vue/cli-plugin-pwa": "^3.2.2",
     "@vue/cli-plugin-unit-jest": "^3.2.3",
@@ -45,7 +44,7 @@
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "lint-staged": "^8.1.0",
-    "node-sass": "^4.11.0",
+    "sass": "^1.16.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.5.21"
   },
