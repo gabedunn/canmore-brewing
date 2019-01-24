@@ -28,11 +28,19 @@
                   tours for 10 or more and private events are also available. Come celebrate with us. For more info
                   please contact:
                   <br>
-                  <a href="mailto:susan.dunn@canmorebrewing.com">susan.dunn@canmorebrewing.com</a>.
+                  <a
+                    href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    susan.dunn@canmorebrewing.com
+                  </a>.
                 </p>
                 <a
                   class="button is-large is-cb-orange has-margin-top-lg"
-                  href="mailto:info@canmorebrewing.com"
+                  href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+                  target="_blank"
+                  rel="noopener"
                 >
                   Book a Tour
                 </a>
