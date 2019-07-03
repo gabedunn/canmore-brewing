@@ -9,20 +9,19 @@ const CSVDataDir = join(__dirname, 'csvData')
 const storesPath = join(CSVDataDir, 'stores.csv')
 const salesPath = join(CSVDataDir, 'sales.csv')
 
-const storesArray = parseFile(storesPath)
+const allStoresArray = parseFile(storesPath)
 const salesArray = [... new Set(parseFile(salesPath).map(sale => sale['LicNumber']))]
 
-const stores = {}
+const allStores = {}
 
-for (const store of storesArray) {
-  if (!stores.hasOwnProperty(store['LicNumber'])) {
-    stores[store['LicNumber']] = store
+for (const store of allStoresArray) {
+  if (!allStores.hasOwnProperty(store['LicNumber'])) {
+    allStores[store['LicNumber']] = store
   } else {
     console.log(`Duplicate LicNumber: ${store['LicNumber']}`)
   }
 }
 
-const sales = salesArray.map(sale => stores[sale])
+const carriers = salesArray.map(sale => allStores[sale])
 
-// console.log(stores)
-console.log(sales.length)
+console.log(carriers)
