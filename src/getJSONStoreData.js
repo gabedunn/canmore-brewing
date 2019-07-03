@@ -82,7 +82,7 @@ const main = async () => {
 
   // finalData.forEach(console.log)
 
-  writeFileSync(join(CSVDataDir, 'data.json'), JSON.stringify(finalData, null, 2), 'utf8')
+  writeFileSync(join(__dirname, 'assets', 'js', 'markers-1.json'), JSON.stringify(finalData, null, 2), 'utf8')
 
 }
 
