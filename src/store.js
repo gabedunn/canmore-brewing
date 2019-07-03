@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import markers from './assets/js/markers.json'
-import mapOptions from './assets/js/mapOptions'
+import styles from './assets/js/mapStyles'
 import mapMarkers from './assets/js/contentfulMarkers'
 
 Vue.use(Vuex)
@@ -21,7 +21,7 @@ export default new Vuex.Store({
       lng: 0
     },
     scaledSize: { width: 36, height: 56, f: 'px', b: 'px' },
-    mapOptions
+    mapOptions: { styles }
   },
   getters: {
     retail: state => {

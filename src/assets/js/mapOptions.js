@@ -101,7 +101,8 @@ export default {
     {
       featureType: 'water',
       elementType: 'all',
-      stylers: [{ color: '#f45a24' }]
+      // stylers: [{ color: '#f45a24' }]
+      stylers: [{ color: '#30b1f4' }]
     },
     {
       featureType: 'water',
