@@ -1,0 +1,364 @@
+[
+  {
+    "id": 1,
+    "name": "Canmore Brewing Company Ltd.",
+    "address": "1460 Railway Avenue, Canmore, AB, Canada",
+    "extra": "Canmore+Brewing+Company,+1460+Railway+Ave,+Canmore,+AB+T1W+1P6",
+    "lat": 51.094513,
+    "lng": -115.3591137
+  },
+  {
+    "id": 2,
+    "name": "5 Vines",
+    "address": "218 12th Avenue SW, Calgary, AB, Canada",
+    "extra": "5+Vines+Wine,+Craft+Beer+%26+Spirits,+12+Avenue+Southeast,+Calgary,+AB",
+    "lat": 51.041758,
+    "lng": -114.066469
+  },
+  {
+    "id": 3,
+    "name": "Craft Cellars",
+    "address": "1345 32nd Avenue NE, Calgary, AB, Canada",
+    "extra": "Craft+Cellars,+32+Avenue+Northeast,+Calgary,+AB",
+    "lat": 51.08142,
+    "lng": -114.02521
+  },
+  {
+    "id": 4,
+    "name": "Crush & Cork",
+    "address": "117 - 1000 7th Avenue, Canmore, AB, Canada",
+    "extra": "Crush+%26+Cork+Wine+Beer+%26+Spirits,+Canmore,+AB",
+    "lat": 51.090249,
+    "lng": -115.361229
+  },
+  {
+    "id": 5,
+    "name": "Drake Pub and Inn",
+    "address": "909 Railway Avenue, Canmore, AB, Canada",
+    "extra": "The+Drake+Pub,+Railway+Avenue,+Canmore,+AB",
+    "type": "eat",
+    "lat": 51.090061,
+    "lng": -115.355042
+  },
+  {
+    "id": 6,
+    "name": "Half Hitch Brewing",
+    "address": "10 Griffin Industrial Point, Cochrane, AB, Canada",
+    "extra": "Half+Hitch+Brewing+Company,+Griffin+Industrial+Point,+Cochrane,+AB",
+    "type": "eat",
+    "lat": 51.1838529,
+    "lng": -114.4549774
+  },
+  {
+    "id": 7,
+    "name": "Highlander liquor North Hill Plaza",
+    "address": "2033 16 Ave NW, Calgary, AB, Canada",
+    "extra": "Highlander+Wine+%26+Spirits+North+Hill",
+    "lat": 51.0663937,
+    "lng": -114.1076129
+  },
+  {
+    "id": 8,
+    "name": "Hogshead",
+    "address": "721 8th Street, Canmore, AB, Canada",
+    "extra": "Hogshead,+Canmore,+AB",
+    "type": "eat",
+    "lat": 51.08893,
+    "lng": -115.359965
+  },
+  {
+    "id": 9,
+    "name": "J. Webb, Farmers Market",
+    "address": "520 77 Ave SE, Calgary, AB, Canada",
+    "extra": "J.Webb+Market+Wines,+520+77+Ave+SE,+Calgary,+AB+T2H+1C3",
+    "lat": 50.9860787,
+    "lng": -114.0515721
+  },
+  {
+    "id": 10,
+    "name": "National Westhills",
+    "address": "180 Stewart Green SW, Calgary, AB, Canada",
+    "extra": "National+Westhills,+Stewart+Green+Southwest,+Calgary,+AB",
+    "type": "eat",
+    "lat": 51.015831,
+    "lng": -114.1673289
+  },
+  {
+    "id": 11,
+    "name": "Oak & Vine Mount Pleasant",
+    "address": "1030 16th Avenue NW, Calgary, AB, Canada",
+    "extra": "Oak+%26+Vine+Craft+Beer,+Wine+and+Spirits+Ltd.,+16+Avenue+Northwest,+Calgary,+AB",
+    "lat": 51.0671311,
+    "lng": -114.0846108
+  },
+  {
+    "id": 12,
+    "name": "Point McKay Liquor",
+    "address": "145 Point Drive NW, Calgary, AB, Canada",
+    "extra": "Point+McKay+Wine+Store,+145+Point+Dr+NW,+Calgary,+AB+T3B+4W1",
+    "lat": 51.0621646,
+    "lng": -114.1464148
+  },
+  {
+    "id": 13,
+    "name": "Spirits West Bragg Creek",
+    "address": "414 -7 Balsam Avenue, Bragg Creek, AB, Canada",
+    "extra": "Spirits+West+Merchants,+414+-7+Balsam+Avenue,+Bragg+Creek+Shopping+Centre,+Bragg+Creek,+AB+T0L+0K0",
+    "lat": 50.9517108,
+    "lng": -114.5621628
+  },
+  {
+    "id": 14,
+    "name": "The Wood Steakhouse & Lounge",
+    "address": "838 8th Street, Canmore, AB, Canada",
+    "extra": "The+Wood+Restaurant+%26+Lounge,+838+8+St,+Canmore,+AB+T1W+2B7",
+    "type": "eat",
+    "lat": 51.0894229,
+    "lng": -115.362957
+  },
+  {
+    "id": 15,
+    "name": "Unwined @ 3Sisters Wine, Beer & Spirits",
+    "address": "102b 75 Dyrgas Gate, Canmore, AB, Canada",
+    "extra": "The+Market+Bistro+2017,+Canmore,+AB+T1W+0A6",
+    "lat": 51.0553027,
+    "lng": -115.3217627
+  },
+  {
+    "id": 16,
+    "name": "Grand Rockies - Habitat",
+    "address": "901 Mountain Street, Canmore, AB, Canada",
+    "extra": "Habitat+Restaurant,+901+Mountain+St,+Canmore,+AB+T1W+0C9",
+    "type": "eat",
+    "lat": 51.090826,
+    "lng": -115.348389
+  },
+  {
+    "id": 17,
+    "name": "Liquor Depot at Cascade - Banff",
+    "address": "202 Wolf Street, Banff, AB, Canada",
+    "extra": "Liquor+Depot,+202+Wolf+St,+Banff,+AB+T1L+1A7",
+    "lat": 51.1784767,
+    "lng": -115.5713733
+  },
+  {
+    "id": 18,
+    "name": "Liquor Depot at North Canmore",
+    "address": "1120 Railway Avenue, Canmore, AB, Canada",
+    "extra": "Liquor+Depot%2FCanmore+North,+1120+Railway+Ave+Unit+120,+Canmore,+AB+T1W+1P4",
+    "lat": 51.0919259,
+    "lng": -115.3560025
+  },
+  {
+    "id": 19,
+    "name": "Mountain Restaurant",
+    "address": "200 Village Road, Lake Louise, AB, Canada",
+    "extra": "Mountain+Restaurant,+Village+Road,+Lake+Louise,+AB",
+    "type": "eat",
+    "lat": 51.428155,
+    "lng": -116.182859
+  },
+  {
+    "id": 20,
+    "name": "Rusty's Downtown Liquor",
+    "address": "801 8 Street, Canmore, AB, Canada",
+    "extra": "Rusty's+Downtown+Liqour,+8+Street,+Canmore,+AB",
+    "lat": 51.0891009,
+    "lng": -115.3612787
+  },
+  {
+    "id": 21,
+    "name": "Silvertip Resort",
+    "address": "2000 Silvertip Trail, Canmore, AB, Canada",
+    "extra": "Silvertip+Resort,+Silvertip+Trail,+Canmore,+AB",
+    "type": "eat",
+    "lat": 51.105607,
+    "lng": -115.341698
+  },
+  {
+    "id": 22,
+    "name": "Sobeys Liquor Canmore",
+    "address": "1040 Railway Avenue, Canmore, AB, Canada",
+    "extra": "Sobeys+Liquor+Canmore,+Railway+Avenue,+Canmore,+AB",
+    "lat": 51.091044,
+    "lng": -115.355315
+  },
+  {
+    "id": 23,
+    "name": "The Beer Vault",
+    "address": "102 Meridian Rd NE, Calgary, AB, Canada",
+    "extra": "The+Beer+Vault,+Meridian+Road+Northeast,+Calgary,+AB",
+    "lat": 51.052584,
+    "lng": -114.000755
+  },
+  {
+    "id": 24,
+    "name": "Thumbprint Craft Beer Market",
+    "address": "6112 403 Mackenzie Way Southwest, Airdrie, AB, Canada",
+    "extra": "Thumbprint+Craft+Beer+Market,+Airdrie,+AB",
+    "lat": 51.289119,
+    "lng": -114.023025
+  },
+  {
+    "id": 25,
+    "name": "Maple Leaf Grille & Spirits",
+    "address": "137 Banff Avenue, Banff, AB, Canada",
+    "extra": "The+Maple+Leaf",
+    "type": "eat",
+    "lat": 51.1764447,
+    "lng": -115.5713224
+  },
+  {
+    "id": 26,
+    "name": "Cellar Fine Wines & Spirits",
+    "address": "100-137 8 Avenue Southwest, Calgary, AB, Canada",
+    "extra": "The+Cellar+Wine+Store,+137+8+Ave+SW,+Calgary,+AB+T2P+1B4",
+    "lat": 51.0454907,
+    "lng": -114.0650618
+  },
+  {
+    "id": 27,
+    "name": "Little Guy Liquor Co.",
+    "address": "126-270 Baseline Road, Sherwood Park, AB, Canada",
+    "extra": "Little+Guy+Liquor,+Baseline+Road,+Sherwood+Park,+AB",
+    "lat": 53.542008,
+    "lng": -113.3099974
+  },
+  {
+    "id": 28,
+    "name": "Road King Liquor",
+    "address": "6002 30 Avenue, Beaumont, AB, Canada",
+    "extra": "RoadKing+Liquor+Store,+6002+29+Ave,+Beaumont,+AB+T4X+0H5",
+    "lat": 53.3392305,
+    "lng": -113.4216048
+  },
+  {
+    "id": 29,
+    "name": "Wine & Beyond At Windermere",
+    "address": "6284 Currents Drive Northwest, Edmonton, AB, Canada",
+    "extra": "Wine+and+Beyond,+6276+Currents+Dr+NW,+Edmonton,+AB+T6W+0L8",
+    "lat": 53.4367767,
+    "lng": -113.6103641
+  },
+  {
+    "id": 30,
+    "name": "Devine Wines & Spirits",
+    "address": "10111 104 Street Northwest, Edmonton, AB, Canada",
+    "extra": "deVine+Wines+%26+Spirits,+10111+104+St+NW,+Edmonton,+AB+T5J+0Z9",
+    "lat": 53.5412712,
+    "lng": -113.4989015
+  },
+  {
+    "id": 31,
+    "name": "Sobeys Liquor (Lakeland)",
+    "address": "120 Lakeland Drive, Sherwood Park, AB, Canada",
+    "extra": "Sobeys+Liquor+Lakeland,+Baseline+Road,+Sherwood+Park,+AB",
+    "lat": 53.556505,
+    "lng": -113.2841511
+  },
+  {
+    "id": 32,
+    "name": "Sobeys Liquor (Summit)",
+    "address": "10-585 St Albert Trail, St. Albert, AB, Canada",
+    "extra": "Sobeys+Liquor+Summit,+Saint+Albert+Trail,+St.+Albert,+AB",
+    "lat": 53.6524813,
+    "lng": -113.627809
+  },
+  {
+    "id": 33,
+    "name": "Sobeys Liquor (Thickwood)",
+    "address": "164a-101 Signal Road, Fort McMurray, AB, Canada",
+    "extra": "Sobeys+Liquor+Thickwood,+Fort+McMurray,+AB",
+    "lat": 56.7302687,
+    "lng": -111.4269312
+  },
+  {
+    "id": 34,
+    "name": "Sundance Wine Market",
+    "address": "17 Sunmills Drive Southeast, Calgary, AB, Canada",
+    "extra": "Sundance+Wine+Market,+17+Sunmills+Dr+SE,+Calgary,+AB",
+    "lat": 50.9063604,
+    "lng": -114.0474706
+  },
+  {
+    "id": 35,
+    "name": "Keg N Cork",
+    "address": "3845 99 Street Northwest, Edmonton, AB, Canada",
+    "extra": "Keg+n+Cork+Liquor+Company,+99+Street+Northwest,+Edmonton,+AB",
+    "lat": 53.4730503,
+    "lng": -113.4852621
+  },
+  {
+    "id": 36,
+    "name": "Kensington Liquor Cellar",
+    "address": "1a-506 10 Street Northwest, Calgary, AB, Canada",
+    "extra": "Kensington+Liquor+Cellar+Ltd,+10+Street+Northwest,+Calgary,+AB",
+    "lat": 51.0570262,
+    "lng": -114.0854309
+  },
+  {
+    "id": 37,
+    "name": "Sherbrooke Liquor Store",
+    "address": "11819 St Albert Trail NW, Edmonton, AB, Canada",
+    "extra": "Sherbrooke+Liquor,+St+Albert+Trail,+Edmonton,+AB",
+    "lat": 53.5708169,
+    "lng": -113.549336
+  },
+  {
+    "id": 38,
+    "name": "Lacombe Park Spirits",
+    "address": "202-506a St Albert Trail, St. Albert, AB, Canada",
+    "extra": "Lacombe+Park+Spirits,+Saint+Albert+Trail,+St.+Albert,+AB",
+    "lat": 53.6486636,
+    "lng": -113.6293919
+  },
+  {
+    "id": 39,
+    "name": "Vine Arts Wine And Spirits",
+    "address": "1310 1 Street Southwest, Calgary, AB, Canada",
+    "extra": "Vine+Arts+Wine+and+Spirits,+1+Street+Southwest,+Calgary,+AB",
+    "lat": 51.0401313,
+    "lng": -114.0656706
+  },
+  {
+    "id": 40,
+    "name": "Cilantro And Chive",
+    "address": "5021 50 Street Northwest, Edmonton, AB, Canada",
+    "extra": "Cilantro+and+Chive,+50+Street,+Lacombe,+AB",
+    "type": "eat",
+    "lat": 53.4883617,
+    "lng": -113.4180756
+  },
+  {
+    "id": 41,
+    "name": "Trackside Liquor Store",
+    "address": "1031 South Railway Street, Medicine Hat, AB, Canada",
+    "extra": "Track+Side+Liquor+Store,+South+Railway+Street,+Medicine+Hat,+AB",
+    "lat": 50.0300196,
+    "lng": -110.659961
+  },
+  {
+    "id": 42,
+    "name": "Cougar's Liquor",
+    "address": "1005 Cougar Creek Drive, Canmore, AB, Canada",
+    "extra": "Cougar's+Liquor,+Cougar+Creek+Drive,+Canmore,+AB",
+    "lat": 51.086649,
+    "lng": -115.3314142
+  },
+  {
+    "id": 43,
+    "name": "Liquor Depot At Brentwood",
+    "address": "3630 Brentwood Road Northwest, Calgary, AB, Canada",
+    "extra": "Liquor+Depot,+Brentwood+Road+Northwest,+Calgary,+AB",
+    "lat": 51.086788,
+    "lng": -114.1294875
+  },
+  {
+    "id": 44,
+    "name": "Brooks Liquor Store",
+    "address": "420 2 Avenue West, Brooks, AB, Canada",
+    "extra": "The+Original+Brooks+Liquor+Store,+420+2+Ave+W,+Brooks,+AB+T1R+0E9",
+    "lat": 50.566665,
+    "lng": -111.902145
+  }
+]
