@@ -55,7 +55,14 @@ const main = async () => {
   let notOK = 0
 
   for (const carrier of carriers) {
-    const results = await mapsAPI(carrier['StoreAddress1'], carrier['StorePC'])
+    let results
+    results = await mapsAPI(carrier['StoreAddress1'], carrier['StorePC'])
+    if (results.status === 'ZERO_RESULTS') {
+      results = await mapsAPI(carrier['StoreAddress2'], carrier['StorePC'])
+    }
+    if (results.status === 'ZERO_RESULTS') {
+      results = await mapsAPI(carrier['StoreAddress3'], carrier['StorePC'])
+    }
     if (results.status === 'OK') {
       if (results.hasOwnProperty('results')) {
         const result = results.results[0]
@@ -80,7 +87,7 @@ const main = async () => {
     }
   }
 
-  // finalData.forEach(console.log)
+  finalData.forEach(console.log)
 
   writeFileSync(join(__dirname, 'assets', 'js', 'markers-1.json'), JSON.stringify(finalData, null, 2), 'utf8')
 
