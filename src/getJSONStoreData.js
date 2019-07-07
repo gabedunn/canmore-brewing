@@ -11,13 +11,13 @@ const parseFile = file => parse(readFileSync(file, 'utf8').trim(), { columns: tr
 const mapsAPI = async (address, postalCode) => {
   try {
     return get(
-      'https://maps.googleapis.com/maps/api/geocode/json?'
-      + `key=${process.env.GOOGLE_MAPS_API_KEY}`
-      + '&region=ca'
-      + '&components='
-      + 'country:CA'
-      + `|postal_code:${postalCode}`
-      + `&address=${address}`
+      'https://maps.googleapis.com/maps/api/geocode/json?' +
+        `key=${process.env.GOOGLE_MAPS_API_KEY}` +
+        '&region=ca' +
+        '&components=' +
+        'country:CA' +
+        `|postal_code:${postalCode}` +
+        `&address=${address}`
     ).json
   } catch (err) {
     console.error('Failed to fetch maps API data:', err)
@@ -26,7 +26,6 @@ const mapsAPI = async (address, postalCode) => {
 }
 
 const main = async () => {
-
   const CSVDataDir = join(__dirname, 'assets', 'csv')
 
   const storesPath = join(CSVDataDir, 'stores.csv')
@@ -45,22 +44,21 @@ const main = async () => {
     }
   }
 
-  const finalData = [{
-    id: 0,
-    name: 'Canmore Brewing Company Ltd.',
-    address: '1460 Railway Avenue, Canmore, AB, Canada',
-    extra: 'Canmore+Brewing+Company,+1460+Railway+Ave,+Canmore,+AB+T1W+1P6',
-    lat: 51.094513,
-    lng: -115.3591137
-  }]
+  let id = 0
 
   const carriers = salesArray
     .map(sale => allStores[sale])
     .filter(carrier => carrier !== undefined)
 
-  let id = 0
+  const CBCName = 'CANMORE BREWING COMPANY LTD.'
 
-  for (const carrier of carriers) {
+  carriers.unshift({
+    'LicName': CBCName,
+    'StoreAddress1': '1460 Railway Avenue, Canmore, AB, Canada',
+    'StorePC': 'T1W 1P6'
+  })
+
+  const finalData = await Promise.all(carriers.map(async carrier => {
     let results
     results = await mapsAPI(carrier['StoreAddress1'], carrier['StorePC'])
     if (results.status === 'ZERO_RESULTS') {
@@ -75,15 +73,14 @@ const main = async () => {
         if (result.hasOwnProperty('formatted_address') && result.hasOwnProperty('geometry')) {
           if (result.geometry.hasOwnProperty('location')) {
             if (result.geometry.location.hasOwnProperty('lat') && result.geometry.location.hasOwnProperty('lng')) {
-              const data = {
-                id: ++id,
+              return {
+                id: carrier['LicName'] === CBCName ? 0 : ++id,
                 name: carrier['LicName'],
                 address: result.formatted_address,
                 extra: `${carrier['LicName']},${result.formatted_address}`,
                 lat: result.geometry.location.lat,
                 lng: result.geometry.location.lng
               }
-              finalData.push(data)
             }
           }
         }
@@ -91,12 +88,13 @@ const main = async () => {
     } else {
       console.log(carrier)
     }
-  }
+  }))
+
+  finalData.sort((a, b) => a.id - b.id)
 
   finalData.forEach(console.log)
 
   writeFileSync(join(__dirname, 'assets', 'js', 'markers-1.json'), JSON.stringify(finalData, null, 2), 'utf8')
-
 }
 
 return main()
