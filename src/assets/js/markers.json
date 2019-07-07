@@ -1,5 +1,13 @@
 [
   {
+    "id": 0,
+    "name": "Canmore Brewing Company Ltd.",
+    "address": "1460 Railway Avenue, Canmore, AB, Canada",
+    "extra": "Canmore+Brewing+Company,+1460+Railway+Ave,+Canmore,+AB+T1W+1P6",
+    "lat": 51.094513,
+    "lng": -115.3591137
+  },
+  {
     "id": 1,
     "name": "CHATEAU LOUIS HOTEL & CONFERENCE CENTRE",
     "address": "Edmonton, AB T5G 3A1, Canada",

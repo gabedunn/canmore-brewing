@@ -1,7 +1,7 @@
 const parse = require('csv-parse/lib/sync')
 const { get } = require('r2')
 const { config } = require('dotenv')
-const {readFileSync, writeFileSync} = require('fs')
+const { readFileSync, writeFileSync } = require('fs')
 const { join } = require('path')
 
 config()
@@ -45,14 +45,20 @@ const main = async () => {
     }
   }
 
-  const finalData = []
+  const finalData = [{
+    id: 0,
+    name: 'Canmore Brewing Company Ltd.',
+    address: '1460 Railway Avenue, Canmore, AB, Canada',
+    extra: 'Canmore+Brewing+Company,+1460+Railway+Ave,+Canmore,+AB+T1W+1P6',
+    lat: 51.094513,
+    lng: -115.3591137
+  }]
 
   const carriers = salesArray
     .map(sale => allStores[sale])
     .filter(carrier => carrier !== undefined)
 
   let id = 0
-  let notOK = 0
 
   for (const carrier of carriers) {
     let results
