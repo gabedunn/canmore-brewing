@@ -160,7 +160,7 @@ const main = async () => {
   finalData.forEach(store => console.log(store))
 
   // Write the data to a temp file (markers-1.json) in JSON format.
-  writeFileSync(join(__dirname, 'assets', 'js', 'markers-1.json'), JSON.stringify(finalData, null, 2), 'utf8')
+  writeFileSync(join(__dirname, 'assets', 'js', 'markers.json'), JSON.stringify(finalData, null, 2), 'utf8')
 }
 
 // Run the main function.
