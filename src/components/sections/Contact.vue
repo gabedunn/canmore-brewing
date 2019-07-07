@@ -112,7 +112,7 @@
                 </p>
               </div>
             </div>
-            <div class="column is-1" />
+            <div class="column is-1"/>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@
     data () {
       return {
         mapOptions: this.$store.state.mapOptions,
-        marker: this.$store.state.markers[0],
+        marker: this.$store.state.markers.find(m => m.id === 0),
         infoStatus: true
       }
     },
