@@ -67,7 +67,7 @@
             <div class="column">
               <div class="has-map">
                 <gmap-map
-                  :center="{lat:51.094513, lng:-115.3591137}"
+                  :center="{lat:51.098, lng:-115.356925}"
                   :zoom="14"
                   :options="mapOptions"
                   map-type-id="roadmap"
@@ -112,7 +112,7 @@
                 </p>
               </div>
             </div>
-            <div class="column is-1"/>
+            <div class="column is-1" />
           </div>
         </div>
       </div>
@@ -213,6 +213,7 @@
 
   a {
     color: #e15829;
+
     &:hover {
       color: #e19129;
     }
