@@ -103,15 +103,6 @@
                 <p>Friday-Saturday: 1PM - 8PM</p>
                 <p>Sunday: 1PM – 6PM</p>
               </div>
-              <div class="hours has-padding-top-md">
-                <p>
-                  To find accommodations near Canmore Brewing Company, visit
-                  <a
-                    href="https://www.hotelscombined.com"
-                    target="_blank"
-                  >HotelsCombined</a>.
-                </p>
-              </div>
             </div>
             <div class="column is-1" />
           </div>
