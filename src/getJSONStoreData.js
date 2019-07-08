@@ -22,16 +22,16 @@ const mapsAPI = async (address, postalCode) => {
     // Sends a request to the API endpoint with the API key and convert to JSON.
     return get(
       'https://maps.googleapis.com/maps/api/geocode/json?' +
-        // Add the API key to the query.
-        `key=${process.env.GOOGLE_MAPS_API_KEY}` +
-        // Limit results to region=ca (Canada).
-        '&region=ca' +
-        '&components=' +
-        'country:CA' +
-        // Limit results to the area of the supplied postal code.
-        `|postal_code:${postalCode}` +
-        // Passes the address as the main argument.
-        `&address=${address}`
+      // Add the API key to the query.
+      `key=${process.env.GOOGLE_MAPS_API_KEY}` +
+      // Limit results to region=ca (Canada).
+      '&region=ca' +
+      '&components=' +
+      'country:CA' +
+      // Limit results to the area of the supplied postal code.
+      `|postal_code:${postalCode}` +
+      // Passes the address as the main argument.
+      `&address=${address}`
     ).json
   } catch (err) {
     console.error('Failed to fetch maps API data:', err)
@@ -47,14 +47,19 @@ const main = async () => {
   // Set the file paths for the list of stores and sales.
   const storesPath = join(CSVDataDir, 'stores.csv')
   const salesPath = join(CSVDataDir, 'sales.csv')
+  const localPath = join(CSVDataDir, 'local.csv')
   const saskPath = join(CSVDataDir, 'sask.csv')
 
   // Create an array with the parsed data for all of the stores.
   const allStoresArray = parseFile(storesPath)
 
-  // Create an array from a set (to remove duplicate values) of the parses sales data (stripped down to only the license
+  // Create an array from a set (to remove duplicate values) of the parsed sales data (stripped down to only the license
   // number to be used as a key for future reference).
   const salesArray = [...new Set(parseFile(salesPath).map(sale => sale['LicNumber']))]
+
+  // Create an array from a set (to remove duplicate values) of the parsed local sales data (stripped down to only the
+  // license number to be used as a key for future reference).
+  const localArray = [...new Set(parseFile(localPath).map(sale => `${sale['License #']}00`))]
 
   // Create an array with the parsed data for the Saskatchewan stores.
   const saskArray = parseFile(saskPath)
@@ -78,6 +83,8 @@ const main = async () => {
 
   // Map each sale in salesArray to a store from allStores, and filter out undefined results.
   const carriers = salesArray
+  // Add local sales numbers to the array.
+    .concat(localArray)
     .map(sale => allStores[sale])
     .filter(carrier => carrier !== undefined)
 
@@ -87,7 +94,7 @@ const main = async () => {
     return {
       'LicName': store['Store'],
       'StoreAddress1': `${store['Address']}, ${store['City']}, ${store['Province']}`,
-      'StorePC': pc.slice(0, 3) + " " + pc.slice(3)
+      'StorePC': `${pc.slice(0, 3)} ${pc.slice(3)}`
     }
   }).forEach(store => carriers.push(store))
 
