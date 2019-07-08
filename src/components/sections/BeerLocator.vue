@@ -30,8 +30,8 @@
     <div class="hero has-map">
       <div class="hero-body">
         <gmap-map
-          :center="{lat:51.094513, lng:-115.3591137}"
-          :zoom="6"
+          :center="{lat:53.5, lng:-111}"
+          :zoom="5.8"
           :options="this.$store.state.mapOptions"
           map-type-id="roadmap"
           style="width: 100%; height: 640px"
