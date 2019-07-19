@@ -32,6 +32,7 @@
     "r2": "^2.0.1",
     "register-service-worker": "^1.5.2",
     "reset-css": "^4.0.1",
+    "tailwindcss": "^1.0.5",
     "vue": "^2.5.21",
     "vue-axios": "^2.1.4",
     "vue-instagram": "^2.0.1",
