@@ -74,16 +74,16 @@
       return {
         buttons: [
           {
-            text: 'Book a Tour',
-            el: '#tours'
-          },
-          {
             text: 'Tasting Room',
             el: '#tasting-room'
           },
           {
             text: 'Food',
             el: '#food'
+          },
+          {
+            text: 'Book a Tour',
+            el: '#tours'
           },
           {
             text: 'Social Media',
