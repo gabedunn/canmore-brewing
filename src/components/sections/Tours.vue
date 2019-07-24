@@ -57,7 +57,7 @@
                     type="image/png" >
                   <img
                     src="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
-                    align="Tours"
+                    alt="Brian doing tour"
                   >
                 </picture>
               </figure>
@@ -80,7 +80,7 @@
 
 <script>
   export default {
-    name: 'OurStory'
+    name: 'Tours'
   }
 </script>
 
