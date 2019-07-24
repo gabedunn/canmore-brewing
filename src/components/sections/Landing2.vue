@@ -120,7 +120,7 @@
   @tailwind utilities;
 
   #landing {
-    padding-top: 52px;
+    padding-top: 4.5rem;
     background-image: url(../../assets/img/tasting_room/landing-background.webp),
     url(../../assets/img/tasting_room/landing-background.png);
     background-size: cover;

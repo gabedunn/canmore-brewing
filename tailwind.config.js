@@ -3,7 +3,8 @@ module.exports = {
     extend: {
       colors: {
         cborange: {
-          default: '#F45A24'
+          default: '#F45A24',
+          light: '#E3592A'
         }
       }
     }
