@@ -17,7 +17,9 @@
             <source
               srcset="../assets/img/CanmoreBrewingLogo.png"
               type="image/png" >
-            <img src="../assets/img/CanmoreBrewingLogo.png">
+            <img
+              alt="Canmore Brewing Logo"
+              src="../assets/img/CanmoreBrewingLogo.png">
           </picture>
         </a>
         <button
@@ -49,11 +51,32 @@
             Tours
           </a>
           <a
+            v-scroll-to="{el:'#tasting-room'}"
+            class="navbar-item"
+            href="#"
+          >
+            Tasting Room
+          </a>
+          <a
+            v-scroll-to="{el:'#food'}"
+            class="navbar-item"
+            href="#"
+          >
+            Food
+          </a>
+          <a
             v-scroll-to="'#social'"
             class="navbar-item"
             href="#"
           >
             Social
+          </a>
+          <a
+            v-scroll-to="'#events'"
+            class="navbar-item"
+            href="#"
+          >
+            Events
           </a>
           <a
             v-scroll-to="'#our-beers'"
