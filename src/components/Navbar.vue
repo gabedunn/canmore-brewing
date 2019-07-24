@@ -19,7 +19,8 @@
               type="image/png" >
             <img
               alt="Canmore Brewing Logo"
-              src="../assets/img/CanmoreBrewingLogo.png">
+              src="../assets/img/CanmoreBrewingLogo.png"
+            >
           </picture>
         </a>
         <button
@@ -44,13 +45,6 @@
             Home
           </a>
           <a
-            v-scroll-to="{el:'#tours'}"
-            class="navbar-item"
-            href="#"
-          >
-            Tours
-          </a>
-          <a
             v-scroll-to="{el:'#tasting-room'}"
             class="navbar-item"
             href="#"
@@ -63,6 +57,13 @@
             href="#"
           >
             Food
+          </a>
+          <a
+            v-scroll-to="{el:'#tours'}"
+            class="navbar-item"
+            href="#"
+          >
+            Tours
           </a>
           <a
             v-scroll-to="'#social'"
