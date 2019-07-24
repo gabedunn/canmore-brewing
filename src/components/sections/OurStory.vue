@@ -30,7 +30,7 @@
                     type="image/png" >
                   <img
                     src="../../assets/img/tasting_room/susie_at_taps.png"
-                    align="Our Distillery"
+                    alt="Susie at the taps"
                   >
                 </picture>
               </figure>

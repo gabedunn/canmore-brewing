@@ -69,7 +69,7 @@
 
 <script>
   export default {
-    name: 'Landing2',
+    name: 'LandingPage2',
     data () {
       return {
         buttons: [
