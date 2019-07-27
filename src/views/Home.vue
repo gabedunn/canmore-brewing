@@ -6,6 +6,7 @@
     <food />
     <tours/>
     <social/>
+    <events />
     <our-beers/>
     <our-story/>
     <beer-locator/>
@@ -21,6 +22,7 @@
   import Food from '../components/sections/Food'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
+  import Events from '../components/sections/Events'
   import OurBeers from '../components/sections/OurBeers'
   import OurStory from '../components/sections/OurStory'
   import BeerLocator from '../components/sections/BeerLocator'
@@ -41,6 +43,7 @@
       Food,
       Tours,
       Social,
+      Events,
       OurBeers,
       OurStory,
       BeerLocator,
