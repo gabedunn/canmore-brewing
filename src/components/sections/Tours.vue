@@ -26,15 +26,12 @@
                   Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
                   spot. Private
                   tours for 10 or more and private events are also available. Come celebrate with us. For more info
-                  please contact:
-                  <br>
+                  please visit our Eventbrite page
                   <a
                     href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
                     target="_blank"
                     rel="noopener"
-                  >
-                    susan.dunn@canmorebrewing.com
-                  </a>.
+                  >linked here</a>.
                 </p>
                 <a
                   class="button is-large is-cb-orange has-margin-top-lg"
