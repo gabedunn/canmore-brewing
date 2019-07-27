@@ -2,6 +2,7 @@
   <div class="main">
     <navbar/>
     <landing/>
+    <tasting-room />
     <tours/>
     <social/>
     <our-beers/>
@@ -15,6 +16,7 @@
 <script>
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing2'
+  import TastingRoom from '../components/sections/TastingRoom'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import OurBeers from '../components/sections/OurBeers'
@@ -33,6 +35,7 @@
     components: {
       Navbar,
       Landing,
+      TastingRoom,
       Tours,
       Social,
       OurBeers,

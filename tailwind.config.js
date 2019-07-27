@@ -1,3 +1,5 @@
+const theme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   theme: {
     extend: {
@@ -13,6 +15,12 @@ module.exports = {
         bgblack: {
           default: '#0a0a0a'
         }
+      },
+      screens: {
+        'fhd': '1440px'
+      },
+      fontFamily: {
+        cbsans: ['"Open Sans"', ...theme.fontFamily.sans]
       }
     }
   }
