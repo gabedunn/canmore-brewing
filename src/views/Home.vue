@@ -3,6 +3,7 @@
     <navbar/>
     <landing/>
     <tasting-room />
+    <food />
     <tours/>
     <social/>
     <our-beers/>
@@ -17,6 +18,7 @@
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing2'
   import TastingRoom from '../components/sections/TastingRoom'
+  import Food from '../components/sections/Food'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import OurBeers from '../components/sections/OurBeers'
@@ -36,6 +38,7 @@
       Navbar,
       Landing,
       TastingRoom,
+      Food,
       Tours,
       Social,
       OurBeers,
