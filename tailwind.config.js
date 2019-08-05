@@ -21,6 +21,9 @@ module.exports = {
       },
       fontFamily: {
         cbsans: ['"Open Sans"', ...theme.fontFamily.sans]
+      },
+      container: {
+        center: true
       }
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <section id="tasting-room">
     <header-title title="Tasting Room" />
-    <div class="container mx-auto">
+    <div class="container">
       <div class="mx-40 my-12">
         <div class="tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
           <p class="py-2">

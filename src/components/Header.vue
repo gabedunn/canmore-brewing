@@ -1,6 +1,6 @@
 <template>
   <div :class="`section-header bg-${backgroundColour} text-${colour}`">
-    <div class="container mx-auto">
+    <div class="container">
       <div class="mx-40">
         <h1
           class="section-title uppercase"
