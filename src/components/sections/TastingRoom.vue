@@ -44,16 +44,16 @@
         <figure>
           <picture>
             <source
-              srcset="../../assets/img/tasting_room/landing-background.webp"
+              srcset="../../assets/img/tasting_room/taps-from-front.webp"
               type="image/webp"
             >
             <source
-              srcset="../../assets/img/tasting_room/landing-background.png"
-              type="image/png"
+              srcset="../../assets/img/tasting_room/taps-from-front.jpg"
+              type="image/jpg"
             >
             <img
               alt="Tasting Room"
-              src="../../assets/img/tasting_room/landing-background.png"
+              src="../../assets/img/tasting_room/taps-from-front.jpg"
             >
           </picture>
         </figure>
