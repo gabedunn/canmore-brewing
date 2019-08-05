@@ -18,16 +18,32 @@
         <figure>
           <picture>
             <source
-              srcset="../../assets/img/tasting_room/landing-background.webp"
+              srcset="../../assets/img/PieJunkie.webp"
               type="image/webp"
             >
             <source
-              srcset="../../assets/img/tasting_room/landing-background.png"
+              srcset="../../assets/img/PieJunkie.png"
               type="image/png"
             >
             <img
               alt="Tasting Room"
-              src="../../assets/img/tasting_room/landing-background.png"
+              src="../../assets/img/PieJunkie.png"
+            >
+          </picture>
+        </figure>
+        <figure>
+          <picture>
+            <source
+              srcset="../../assets/img/PieJunkie.webp"
+              type="image/webp"
+            >
+            <source
+              srcset="../../assets/img/PieJunkie.png"
+              type="image/png"
+            >
+            <img
+              alt="Tasting Room"
+              src="../../assets/img/PieJunkie.png"
             >
           </picture>
         </figure>
