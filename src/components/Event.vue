@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-stretch max-w-xs rounded overflow-hidden shadow-md">
+  <div class="flex flex-col items-stretch md:max-w-xs rounded overflow-hidden shadow-md my-4">
     <img
       alt="Sunset in the mountains"
       class="w-full"

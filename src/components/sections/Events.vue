@@ -2,7 +2,7 @@
   <section id="events">
     <header-title title="events"/>
     <div class="container">
-      <div class="mx-40 my-12">
+      <div class="mx-8 lg:mx-40 my-12">
         <div class="flex flex-wrap items-stretch justify-between">
           <event
             v-for="event in events"
