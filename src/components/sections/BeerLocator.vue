@@ -1,6 +1,9 @@
 <template>
   <section id="beer-locator">
-    <header-title title="Beer Locator"/>
+    <header-title
+      background-colour="cborange"
+      title="Beer Locator"
+    />
     <gmap-map
       :center="{lat:53.5, lng:-111}"
       :options="this.$store.state.mapOptions"
