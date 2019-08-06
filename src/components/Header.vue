@@ -1,7 +1,7 @@
 <template>
   <div :class="`section-header bg-${backgroundColour} text-${colour}`">
     <div class="container">
-      <div class="mx-40">
+      <div class="mx-8 lg:mx-40">
         <h1
           class="section-title uppercase"
           v-text="title"
