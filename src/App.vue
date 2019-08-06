@@ -5,6 +5,8 @@
 </template>
 
 <script>
+  // TODO: switch to tailwind
+
   export default {
     name: 'App',
     metaInfo: {
@@ -21,5 +23,5 @@
 </script>
 
 <style lang="scss">
-  @import "./assets/scss/styles.scss";
+  @import "assets/css/styles.scss";
 </style>

@@ -66,6 +66,8 @@
   import MapMarker from '../MapMarker'
   import MarkerInfo from '../MarkerInfo'
 
+  // TODO: switch to tailwind
+
   export default {
     name: 'BeerLocator',
     components: {

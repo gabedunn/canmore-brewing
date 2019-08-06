@@ -53,10 +53,5 @@
 </script>
 
 <style scoped>
-  /* noinspection CssInvalidAtRule */
-  @tailwind base;
-  /* noinspection CssInvalidAtRule */
-  @tailwind components;
-  /* noinspection CssInvalidAtRule */
-  @tailwind utilities;
+  @import "../assets/css/tailwind.csss";
 </style>
