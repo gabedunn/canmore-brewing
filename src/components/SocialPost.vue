@@ -46,6 +46,8 @@
 <script>
   import moment from 'moment'
 
+  // TODO: switch to tailwind
+
   export default {
     name: 'SocialPost',
     // TODO: add proper validation for these props

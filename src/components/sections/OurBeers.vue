@@ -113,6 +113,8 @@
 <script>
   import Beer from '../Beer'
 
+  // TODO: switch to tailwind
+
   export default {
     name: 'OurBeers',
     components: {

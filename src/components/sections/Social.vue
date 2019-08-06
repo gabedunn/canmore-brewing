@@ -95,6 +95,8 @@
   import SocialPost from '../SocialPost'
   import VueInstagram from 'vue-instagram'
 
+  // TODO: switch to tailwind
+
   export default {
     name: 'Social',
     components: {
