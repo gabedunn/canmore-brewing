@@ -1,7 +1,7 @@
 <template>
-  <footer class="footer">
+  <footer class="bg-black pt-12 pb-24 px-6">
     <div class="container">
-      <div class="content has-text-centered">
+      <div class="text-center">
         <p>&copy; 2016 - {{ currentYear }} Canmore Brewing Co. All Rights Reserved</p>
       </div>
     </div>
@@ -9,8 +9,6 @@
 </template>
 
 <script>
-  // TODO: switch to tailwind
-
   export default {
     name: 'CopyFooter',
     computed: {
@@ -20,3 +18,7 @@
     }
   }
 </script>
+
+<style scoped>
+  @import "../../assets/css/tailwind.css";
+</style>
