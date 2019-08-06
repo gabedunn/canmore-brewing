@@ -22,6 +22,9 @@ module.exports = {
       fontFamily: {
         cbsans: ['"Open Sans"', ...theme.fontFamily.sans]
       },
+      maxHeight: {
+        'food-logos': '240px'
+      },
       container: {
         center: true
       }

@@ -1,8 +1,8 @@
 <template>
   <section id="food">
-    <header-title title="Food" />
+    <header-title title="Food"/>
     <div class="container">
-      <div class="mx-40 my-12">
+      <div class="mx-8 lg:mx-40 my-12">
         <div class="tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
           <p>
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
@@ -15,38 +15,46 @@
             please contact.
           </p>
         </div>
-        <figure>
-          <picture>
-            <source
-              srcset="../../assets/img/PieJunkie.webp"
-              type="image/webp"
-            >
-            <source
-              srcset="../../assets/img/PieJunkie.png"
-              type="image/png"
-            >
-            <img
-              alt="Tasting Room"
-              src="../../assets/img/PieJunkie.png"
-            >
-          </picture>
-        </figure>
-        <figure>
-          <picture>
-            <source
-              srcset="../../assets/img/PieJunkie.webp"
-              type="image/webp"
-            >
-            <source
-              srcset="../../assets/img/PieJunkie.png"
-              type="image/png"
-            >
-            <img
-              alt="Tasting Room"
-              src="../../assets/img/PieJunkie.png"
-            >
-          </picture>
-        </figure>
+        <div class="flex pt-8 items-center justify-around">
+          <figure>
+            <picture>
+              <source
+                class="max-h-food-logos"
+                srcset="../../assets/img/PieJunkie.webp"
+                type="image/webp"
+              >
+              <source
+                class="max-h-food-logos"
+                srcset="../../assets/img/PieJunkie.png"
+                type="image/png"
+              >
+              <img
+                alt="Tasting Room"
+                class="max-h-food-logos"
+                src="../../assets/img/PieJunkie.png"
+              >
+            </picture>
+          </figure>
+          <figure>
+            <picture>
+              <source
+                class="max-h-food-logos"
+                srcset="../../assets/img/JK_Bakery.webp"
+                type="image/webp"
+              >
+              <source
+                class="max-h-food-logos"
+                srcset="../../assets/img/JK_Bakery.jpg"
+                type="image/jpg"
+              >
+              <img
+                alt="Tasting Room"
+                class="max-h-food-logos"
+                src="../../assets/img/JK_Bakery.jpg"
+              >
+            </picture>
+          </figure>
+        </div>
       </div>
     </div>
   </section>
