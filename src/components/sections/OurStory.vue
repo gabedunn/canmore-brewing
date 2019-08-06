@@ -1,7 +1,7 @@
 <template>
   <section id="our-story">
     <div class="container">
-      <div class="mx-8 lg:mx-30 py-10 flex flex-wrap justify-between">
+      <div class="mx-8 lg:mx-32 py-10 flex flex-wrap justify-between">
         <div class="lg:w-1/2">
           <h1 class="title uppercase">
             Our Story
