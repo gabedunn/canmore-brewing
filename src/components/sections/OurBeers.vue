@@ -1,36 +1,12 @@
 <template>
   <section id="our-beers">
-    <div class="hero is-black">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-offset-1">
-              <h1 class="hero-title title is-uppercase">
-                Our Beers
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <header-title title="Our Beers"/>
     <div class="beers">
-      <div class="hero">
-        <div class="hero-body">
-          <div class="container">
-            <div class="columns">
-              <div class="column is-offset-1">
-                <h1 class="title is-2">Stay Tuned - Our next seasonal is in the tank now.</h1>
-              </div>
-              <div class="column is-1" />
-            </div>
-          </div>
+      <div class="container">
+        <div class="mx-8 lg:mx-40 my-12">
+          <h1 class="text-4xl font-semibold text-center">Stay Tuned - Our next seasonal is in the tank now.</h1>
+          <hr class="bg-cbblack-background h-2 mt-10">
         </div>
-      </div>
-      <div class="columns">
-        <div class="column is-offset-1">
-          <hr class="separator">
-        </div>
-        <div class="column is-1" />
       </div>
       <beer
         :alcohol="5"
@@ -56,10 +32,12 @@
         bg="#6c3431"
         colour="white"
       >
-        From the very street we call home, to the gentle bend in the pathway in front of the brewery, much of this town
+        From the very street we call home, to the gentle bend in the pathway in front of the brewery, much of this
+        town
         was shaped by the railway history. The trains still rumble by our door a few times a day.
         <br><br>
-        This refreshing and crisp west coast style IPA has a healthy dose of malted rye, plenty of hops in the boil and
+        This refreshing and crisp west coast style IPA has a healthy dose of malted rye, plenty of hops in the boil
+        and
         a thorough dry hop. This IPA is very approachable.
       </beer>
       <beer
@@ -75,7 +53,8 @@
         Follow the Georgetown Trail and see for yourself.
         <br><br>
         With the addition of caramel and chocolate
-        malts, this brown ale will entice you over to the dark side – in a good way! Crisp, sweet and soooooo caramello.
+        malts, this brown ale will entice you over to the dark side – in a good way! Crisp, sweet and soooooo
+        caramello.
       </beer>
       <beer
         :alcohol="5"
@@ -103,7 +82,8 @@
         When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks
         pack their bags. Some folks stay for a beer and have some fun - that's us.
         <br><br>
-        This New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and
+        This New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma
+        and
         flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops.
       </beer>
     </div>
@@ -112,41 +92,17 @@
 
 <script>
   import Beer from '../Beer'
-
-  // TODO: switch to tailwind
+  import HeaderTitle from '../Header'
 
   export default {
     name: 'OurBeers',
     components: {
-      Beer
+      Beer,
+      HeaderTitle
     }
   }
 </script>
 
-<style scoped lang="scss">
-  $border: 0;
-  @import "../../../node_modules/bulma/sass/utilities/mixins";
-
-  .hero-title.title {
-    font-family: "Archivo Black", Arial, sans-serif;
-    font-size: 1.7rem;
-    @include tablet() {
-      font-size: 2rem;
-    }
-    @include desktop() {
-      font-size: 2.5rem;
-    }
-    @include widescreen() {
-      font-size: 3.2rem;
-    }
-    @include fullhd() {
-      font-size: 4.2rem;
-    }
-  }
-
-  .separator {
-    height: 7.5px;
-    background-color: #0A0A0A;
-    margin-top: 0.2rem;
-  }
+<style scoped>
+  @import "../../assets/css/tailwind.css";
 </style>
