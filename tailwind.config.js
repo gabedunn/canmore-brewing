@@ -27,7 +27,15 @@ module.exports = {
         cbtitle: ['"Archivo Black"', 'Arial', 'sans-serif']
       },
       maxHeight: {
-        'food-logos': '240px'
+        'food-logos': '240px',
+        'social-logo': '64px'
+      },
+      maxWidth: {
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        'social-md': 'calc(33.33% - 2rem)',
+        'social-xl': 'calc(25% - 2rem)'
       },
       container: {
         center: true
