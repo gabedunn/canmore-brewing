@@ -12,7 +12,8 @@ module.exports = {
         },
         cbblack: {
           grey: '#4a4a4a',
-          background: '#0a0a0a'
+          background: '#0a0a0a',
+          text: '#363636'
         },
         bgblack: {
           default: '#0a0a0a'
@@ -22,7 +23,8 @@ module.exports = {
         'fhd': '1440px'
       },
       fontFamily: {
-        cbsans: ['"Open Sans"', ...theme.fontFamily.sans]
+        cbsans: ['"Open Sans"', ...theme.fontFamily.sans],
+        cbtitle: ['"Archivo Black"', 'Arial', 'sans-serif']
       },
       maxHeight: {
         'food-logos': '240px'
