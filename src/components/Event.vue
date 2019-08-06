@@ -53,5 +53,5 @@
 </script>
 
 <style scoped>
-  @import "../assets/css/tailwind.csss";
+  @import "../assets/css/tailwind.css";
 </style>
