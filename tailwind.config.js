@@ -6,7 +6,9 @@ module.exports = {
       colors: {
         cborange: {
           default: '#F45A24',
-          light: '#E3592A'
+          light: '#E3592A',
+          link: '#E15829',
+          'link-hover': '#E19129'
         },
         cbblack: {
           grey: '#4a4a4a',
