@@ -3,7 +3,7 @@
     <header-title title="events"/>
     <div class="container">
       <div class="mx-40 my-12">
-        <div class="flex flex-wrap items-stretch justify-around">
+        <div class="flex flex-wrap items-stretch justify-between">
           <event
             v-for="event in events"
             :date="event.date"
@@ -30,6 +30,7 @@
     },
     data () {
       return {
+        // TODO: update events. maybe pull from contentful?
         events: [
           {
             name: 'Backlot Bash',
@@ -65,32 +66,4 @@
   @tailwind components;
   /* noinspection CssInvalidAtRule */
   @tailwind utilities;
-
-  .tasting-room {
-    font-size: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .tasting-room {
-      font-size: 1.1rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .tasting-room {
-      font-size: 1.2rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .tasting-room {
-      font-size: 1.4rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .tasting-room {
-      font-size: 1.6rem;
-    }
-  }
 </style>
