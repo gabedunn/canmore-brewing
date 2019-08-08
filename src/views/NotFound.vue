@@ -28,11 +28,9 @@
   }
 </script>
 
-<style scoped lang="scss">
-  .link-home {
-    a {
-      text-decoration: underline;
-    }
+<style scoped>
+  .link-home a {
+    text-decoration: underline;
   }
 
   .link-path {

@@ -43,21 +43,22 @@
   }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
   .map-info {
     padding: 2px;
-
-    .store-title {
-      font-weight: 700;
-    }
-
-    p {
-      font-family: Roboto, Arial, sans-serif;
-      font-size: 13px;
-      font-weight: 300;
-      padding: 1px;
-      margin: 2px;
-      color: #363636;
-    }
   }
+
+  .map-info .store-title {
+    font-weight: 700;
+  }
+
+  .map-info p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 1px;
+    margin: 2px;
+    color: #363636;
+  }
+
 </style>
