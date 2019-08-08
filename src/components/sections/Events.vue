@@ -17,7 +17,14 @@
         </p>
         <h1 class="title uppercase pt-8">Upcoming Events</h1>
         <p class="py-2">
-          Check our social media streams here to see what’s coming up at the brewery. From our Brewhouse Concert Series,
+          Check our social media streams
+          <a
+            v-scroll-to="'#social'"
+            href="#"
+          >
+            here
+          </a>
+          to see what’s coming up at the brewery. From our Brewhouse Concert Series,
           new beer launches, cheap beer nights, fundraisers, movie nights, or an assortment of other great events, we’ve
           probably got something going on that you should pencil into your calendar, or get Siri to do it, or Alexa, or
           however the kids do it these days.

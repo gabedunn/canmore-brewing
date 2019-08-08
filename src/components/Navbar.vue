@@ -93,7 +93,6 @@
           >
             Our Story
           </a>
-          <!--<a class="navbar-item" href="#" v-scroll-to="'#news'">News</a>-->
           <a
             v-scroll-to="'#beer-locator'"
             class="navbar-item"
@@ -106,7 +105,7 @@
             class="navbar-item"
             href="#"
           >
-            Contact
+            Contact/Hours
           </a>
         </div>
       </div>
