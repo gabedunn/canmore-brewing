@@ -73,8 +73,6 @@
 </script>
 
 <style scoped>
-  @import "../../assets/css/tailwind.css";
-
   .tasting-room {
     font-size: 1rem;
   }

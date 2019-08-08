@@ -135,8 +135,6 @@
 </script>
 
 <style scoped>
-  @import "../assets/css/tailwind.css";
-
   .navbar {
     background-color: white;
     min-height: 4.5rem;

@@ -34,8 +34,6 @@
 </script>
 
 <style scoped>
-  @import "../assets/css/tailwind.css";
-
   .section-header {
     @apply py-12 font-semibold;
     line-height: 1.125;

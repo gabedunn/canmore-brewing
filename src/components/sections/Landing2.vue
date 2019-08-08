@@ -112,8 +112,6 @@
 </script>
 
 <style scoped>
-  @import "../../assets/css/tailwind.css";
-
   #landing {
     padding-top: 4.5rem;
     background-image: url(../../assets/img/tasting_room/landing-background.webp),

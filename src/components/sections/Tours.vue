@@ -67,8 +67,6 @@
 </script>
 
 <style scoped>
-  @import "../../assets/css/tailwind.css";
-
   .tours {
     font-size: 1rem;
   }
