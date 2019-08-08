@@ -1,149 +1,107 @@
 <template>
   <section id="tours">
-    <div class="hero is-black">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-offset-1">
-              <h1 class="title is-uppercase">
-                Tours
-              </h1>
-            </div>
-          </div>
+    <header-title title="Tours"/>
+    <div class="container">
+      <div
+        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-justify text-cbblack-grey font-semibold font-cbsans">
+        <div class="lg:w-1/2 lg:p-8 text-justify lg:order-1">
+          <p class="py-2">
+            We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
+            where we came from and how we make our delicious beer.
+          </p>
+          <p class="py-2">
+            Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
+            spot. Private
+            tours for 10 or more and private events are also available. Come celebrate with us. For more info
+            please visit our Eventbrite page
+            <a
+              href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+              rel="noopener"
+              target="_blank"
+            >linked here</a>.
+          </p>
         </div>
-      </div>
-    </div>
-    <div class="hero">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-5 is-offset-1">
-              <div class="tours">
-                <p class="has-text-justified">
-                  We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
-                  where we came from and how we make our delicious beer.
-                  <br><br>
-                  Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
-                  spot. Private
-                  tours for 10 or more and private events are also available. Come celebrate with us. For more info
-                  please visit our Eventbrite page
-                  <a
-                    href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
-                    target="_blank"
-                    rel="noopener"
-                  >linked here</a>.
-                </p>
-                <a
-                  class="button is-large is-cb-orange has-margin-top-lg"
-                  href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Book a Tour
-                </a>
-              </div>
-            </div>
-            <div class="column is-5 is-offset-1">
-              <figure class="image is-4by3">
-                <picture>
-                  <source
-                    srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
-                    type="image/webp" >
-                  <source
-                    srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
-                    type="image/png" >
-                  <img
-                    src="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
-                    alt="Brian doing tour"
-                  >
-                </picture>
-              </figure>
-            </div>
-          </div>
-          <div class="columns">
-            <div class="column is-offset-1 tours">
-              <p class="has-text-justified">
-                Even if you can't make a tour, we have plenty of seating overlooking our brewhouse, so you might even
-                get to watch your next beer being made.
-              </p>
-            </div>
-            <div class="column is-1" />
-          </div>
-        </div>
+        <figure class="lg:w-1/2 order-last lg:order-2">
+          <picture>
+            <source
+              class="rounded"
+              srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
+              type="image/webp">
+            <source
+              class="rounded"
+              srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
+              type="image/png">
+            <img
+              alt="Brian doing tour"
+              class="rounded"
+              src="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
+            >
+          </picture>
+        </figure>
+        <p class="lg:w-full text-justify lg:order-3">
+          Even if you can't make a tour, we have plenty of seating overlooking our brewhouse, so you might even
+          get to watch your next beer being made.
+        </p>
+        <a
+          class="btn btn-orange mx-auto my-8 lg:mb-0 w-4/5 md:w-1/2 lg:w-1/4 text-center text-2xl lg:order-4"
+          href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+          rel="noopener"
+          target="_blank"
+        >
+          Book a Tour
+        </a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  // TODO: switch to tailwind
+  import HeaderTitle from '../Header'
 
   export default {
-    name: 'Tours'
+    name: 'Tours',
+    components: {
+      HeaderTitle
+    }
   }
 </script>
 
-<style scoped lang="scss">
-  $border: 0;
-  @import "../../../node_modules/bulma/sass/utilities/mixins";
-
-  .title {
-    font-family: "Archivo Black", Arial, sans-serif;
-    font-size: 1.7rem;
-    @include tablet() {
-      font-size: 2rem;
-    }
-    @include desktop() {
-      font-size: 2.5rem;
-    }
-    @include widescreen() {
-      font-size: 3.2rem;
-    }
-    @include fullhd() {
-      font-size: 4.2rem;
-    }
-  }
+<style scoped>
+  @import "../../assets/css/tailwind.css";
 
   .tours {
-    p {
-      font-family: "Open Sans", Arial, sans-serif;
-      font-weight: 600;
-      font-size: 1rem;
-      @include tablet() {
-        font-size: 1.1rem;
-      }
-      @include desktop() {
-        font-size: 1.2rem;
-      }
-      @include widescreen() {
-        font-size: 1.4rem;
-      }
-      @include fullhd() {
-        font-size: 1.6rem;
-      }
+    font-size: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .tours {
+      font-size: 1.1rem;
     }
   }
 
-  .values {
-    ul {
-      list-style: disc;
-      li {
-        font-family: "Open Sans", Arial, sans-serif;
-        font-weight: 600;
-        font-size: 1rem;
-        @include tablet() {
-          font-size: 1.1rem;
-        }
-        @include desktop() {
-          font-size: 1.2rem;
-        }
-        @include widescreen() {
-          font-size: 1.4rem;
-        }
-        @include fullhd() {
-          font-size: 1.6rem;
-        }
-      }
+  @media (min-width: 1024px) {
+    .tours {
+      font-size: 1.2rem;
     }
+  }
+
+  @media (min-width: 1280px) {
+    .tours {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .tours {
+      font-size: 1.6rem;
+    }
+  }
+
+  .btn {
+    @apply font-bold p-3 rounded font-normal;
+  }
+
+  .btn-orange {
+    @apply bg-cborange text-white;
   }
 </style>
