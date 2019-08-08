@@ -38,7 +38,7 @@
             >
           </picture>
         </figure>
-        <p class="lg:w-full text-justify lg:order-3">
+        <p class="lg:w-full lg:px-8 text-justify lg:order-3">
           Even if you can't make a tour, we have plenty of seating overlooking our brewhouse, so you might even
           get to watch your next beer being made.
         </p>
