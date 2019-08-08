@@ -2,11 +2,11 @@
   <div class="main">
     <navbar/>
     <landing/>
-    <tasting-room />
-    <food />
+    <tasting-room/>
+    <food/>
     <tours/>
     <social/>
-    <events />
+    <events/>
     <our-beers/>
     <our-story/>
     <beer-locator/>
@@ -32,9 +32,8 @@
   export default {
     name: 'HomePage',
     metaInfo: {
-      title: 'Beer Awesomeness'
-    // TODO: add canonical link when published
-    // link: [{ rel: 'canonical', href: 'https://canmorebrewing.com' }]
+      title: 'Beer Awesomeness',
+      link: [{ rel: 'canonical', href: 'https://canmorebrewing.com' }]
     },
     components: {
       Navbar,
