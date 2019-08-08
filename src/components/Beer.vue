@@ -5,24 +5,7 @@
   >
     <div class="container">
       <div class="mx-8 lg:mx-40 my-12 flex flex-wrap items-center justify-around">
-        <div :class="`:w-1/2 inline-block order-${imageOrder}`">
-          <picture>
-            <source
-              :srcset="can('webp')"
-              type="image/webp"
-            >
-            <source
-              :srcset="can('png')"
-              type="image/png"
-            >
-            <img
-              :alt="title"
-              :src="can('png')"
-              class="mx-auto"
-            >
-          </picture>
-        </div>
-        <div class="w-1/2 inline-block text-center">
+        <div class="md:w-1/2 inline-block text-center">
           <picture>
             <source
               :srcset="logo('webp')"
@@ -46,6 +29,23 @@
             <p>{{ ibu }} IBU</p>
             <p>{{ srm }} SRM</p>
           </div>
+        </div>
+        <div :class="`inline-block md:order-${imageOrder} pt-8 md:pt-0`">
+          <picture>
+            <source
+              :srcset="can('webp')"
+              type="image/webp"
+            >
+            <source
+              :srcset="can('png')"
+              type="image/png"
+            >
+            <img
+              :alt="title"
+              :src="can('png')"
+              class="mx-auto"
+            >
+          </picture>
         </div>
       </div>
     </div>
