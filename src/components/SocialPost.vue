@@ -50,8 +50,6 @@
 <script>
   import moment from 'moment'
 
-  // TODO: check video compatibility
-
   export default {
     name: 'SocialPost',
     // TODO: add proper validation for these props
@@ -74,6 +72,6 @@
   }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
   @import "../assets/css/tailwind.css";
 </style>
