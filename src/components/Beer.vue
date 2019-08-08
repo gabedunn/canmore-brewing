@@ -3,102 +3,48 @@
     :style="styleObj"
     class="hero"
   >
-    <div class="hero-body">
-      <div class="container">
-        <div
-          v-if="side === 'left'"
-          class="columns"
-        >
-          <div class="column is-1" />
-          <div class="column">
-            <picture>
-              <source
-                :srcset="can('webp')"
-                type="image/webp"
-              >
-              <source
-                :srcset="can('png')"
-                type="image/png"
-              >
-              <img
-                :src="can('png')"
-                :alt="title"
-                class="beer-img"
-              >
-            </picture>
-          </div>
-          <div class="column has-text-centered">
-            <picture>
-              <source
-                :srcset="logo('webp')"
-                type="image/webp"
-              >
-              <source
-                :srcset="logo('png')"
-                type="image/png"
-              >
-              <img
-                :src="logo('png')"
-                :alt="title"
-              >
-            </picture>
-            <p class="beer-description">
-              <slot />
-            </p>
-            <div class="beer-info has-text-centered">
-              <p>{{ alcohol }}% Alc/vol.</p>
-              <p>{{ ibu }} IBU</p>
-              <p>{{ srm }} SRM</p>
-            </div>
-          </div>
-          <div class="column is-1" />
+    <div class="container">
+      <div class="mx-8 lg:mx-40 my-12 flex flex-wrap items-center justify-around">
+        <div :class="`:w-1/2 inline-block order-${imageOrder}`">
+          <picture>
+            <source
+              :srcset="can('webp')"
+              type="image/webp"
+            >
+            <source
+              :srcset="can('png')"
+              type="image/png"
+            >
+            <img
+              :alt="title"
+              :src="can('png')"
+              class="mx-auto"
+            >
+          </picture>
         </div>
-        <div
-          v-else-if="side === 'right'"
-          class="columns"
-        >
-          <div class="column is-1" />
-          <div class="column has-text-centered">
-            <picture>
-              <source
-                :srcset="logo('webp')"
-                type="image/webp"
-              >
-              <source
-                :srcset="logo('png')"
-                type="image/png"
-              >
-              <img
-                :src="logo('png')"
-                :alt="title"
-              >
-            </picture>
-            <p class="beer-description">
-              <slot />
-            </p>
-            <div class="beer-info has-text-centered">
-              <p>{{ alcohol }}% Alc/vol.</p>
-              <p>{{ ibu }} IBU</p>
-              <p>{{ srm }} SRM</p>
-            </div>
-          </div>
-          <div class="column is-2" />
-          <div class="column">
-            <picture>
-              <source
-                :srcset="can('webp')"
-                type="image/webp"
-              >
-              <source
-                :srcset="can('png')"
-                type="image/png"
-              >
-              <img
-                :src="can('png')"
-                :alt="title"
-                class="beer-img"
-              >
-            </picture>
+        <div class="w-1/2 inline-block text-center">
+          <picture>
+            <source
+              :srcset="logo('webp')"
+              type="image/webp"
+            >
+            <source
+              :srcset="logo('png')"
+              type="image/png"
+            >
+            <img
+              :alt="title"
+              :src="logo('png')"
+              class="mx-auto"
+            >
+          </picture>
+          <p class="beer-description font-cbsans font-semibold text-xl py-8">
+            <slot/>
+          </p>
+          <div class="font-beer-info font-light text-xl">
+            <p>{{ alcohol }}% Alc/vol.</p>
+            <p>{{ ibu }} IBU</p>
+            <p>{{ srm }} SRM</p>
           </div>
         </div>
       </div>
@@ -107,8 +53,6 @@
 </template>
 
 <script>
-  // TODO: switch to tailwind
-
   export default {
     name: 'Beer',
     props: {
@@ -180,6 +124,9 @@
           backgroundColor: this.bg,
           color: this.colour
         }
+      },
+      imageOrder () {
+        return this.side === 'left' ? 'first' : 'last'
       }
     },
     methods: {
@@ -194,26 +141,6 @@
   }
 </script>
 
-<style scoped lang="scss">
-  .hero-body {
-    padding-bottom: 0;
-  }
-
-  .beer-description {
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 2rem 0;
-  }
-
-  .beer-info {
-    font-family: 'Oswald', Arial, sans-serif;
-    font-size: 1.3rem;
-    font-weight: 300;
-  }
-
-  .beer-img {
-    display: block;
-    margin: 0 auto;
-  }
+<style scoped>
+  @import "../assets/css/tailwind.css";
 </style>

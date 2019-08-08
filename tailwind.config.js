@@ -24,7 +24,8 @@ module.exports = {
       },
       fontFamily: {
         cbsans: ['"Open Sans"', ...theme.fontFamily.sans],
-        cbtitle: ['"Archivo Black"', 'Arial', 'sans-serif']
+        cbtitle: ['"Archivo Black"', 'Arial', 'sans-serif'],
+        'beer-info': ['"Oswald"', 'Arial', 'sans-serif']
       },
       maxHeight: {
         'food-logos': '240px',
