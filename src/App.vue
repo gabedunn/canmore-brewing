@@ -22,6 +22,6 @@
   }
 </script>
 
-<style lang="scss">
-  @import "assets/css/styles.scss";
+<style>
+  @import "assets/css/tailwind.css";
 </style>

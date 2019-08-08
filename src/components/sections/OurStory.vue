@@ -56,8 +56,6 @@
 </script>
 
 <style scoped>
-  @import "../../assets/css/tailwind.css";
-
   .title {
     @apply font-cbtitle;
     font-size: 1.7rem;
