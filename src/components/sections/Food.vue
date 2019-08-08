@@ -5,14 +5,15 @@
       <div class="mx-8 lg:mx-40 my-12">
         <div class="tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
           <p class="py-2">
-            We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
-            where we came from and how we make our delicious beer.
+            Feeling peckish? We’ve got a selection of light fare to get you through the growlies. From savoury hand pies
+            by Pie Junkie - made from scratch with an all butter crust and homemade fillings, to beer pretzels crafted
+            just outside our back door by JK Bakery – made with our very own Georgetown Brown Ale. Of course, we also
+            have a selection of salty snacks if you just need a little pick-me-up.
           </p>
           <p class="py-2">
-            Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
-            spot. Private
-            tours for 10 or more and private events are also available. Come celebrate with us. For more info
-            please contact.
+            If you need something more substantial, you’re welcome to order anything from pizza to sushi from any one of
+            Canmore’s fantastic restaurants and have it delivered to the brewery so you can enjoy it right where your
+            beer was made.
           </p>
         </div>
         <div class="flex pt-8 items-center justify-around">
