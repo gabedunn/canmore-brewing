@@ -5,11 +5,6 @@ module.exports = {
   },
   assetsDir: 'assets',
   css: {
-    sourceMap: true,
-    loaderOptions: {
-      sass: {
-        implementation: require('sass')
-      }
-    }
+    sourceMap: true
   }
 }

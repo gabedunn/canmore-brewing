@@ -89,10 +89,7 @@
   }
 </script>
 
-<style scoped lang="scss">
-  $border: 0;
-  @import "../../../node_modules/bulma/sass/utilities/mixins";
-
+<style scoped>
   //@include mobile() {
   #landing {
     padding-top: 52px;
