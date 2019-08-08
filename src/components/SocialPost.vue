@@ -19,7 +19,7 @@
       v-else-if="type === 'video'"
       class="w-full"
     >
-      <plyr>
+      <vue-plyr>
         <video
           :poster="images.standard_resolution.url"
           loop
@@ -29,7 +29,7 @@
             type="video/mp4"
           >
         </video>
-      </plyr>
+      </vue-plyr>
     </figure>
     <div class="px-6 py-4">
       <p
