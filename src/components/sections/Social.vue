@@ -90,7 +90,7 @@
     },
     data () {
       return {
-        token: '***REMOVED***',
+        token: process.env.VUE_APP_INSTAGRAM_TOKEN,
         count: 4
       }
     }
