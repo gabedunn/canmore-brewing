@@ -90,7 +90,7 @@
     },
     data () {
       return {
-        token: '3682787925.cd9b449.fd5b02affc984d409912e9dcbb54e996',
+        token: process.env.VUE_APP_INSTAGRAM_TOKEN,
         count: 4
       }
     }
