@@ -1,6 +1,4 @@
 import Vue from 'vue'
-import axios from 'axios'
-import VueAxios from 'vue-axios'
 import VueScrollTo from 'vue-scrollto'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VuePlyr from 'vue-plyr'
@@ -13,7 +11,6 @@ import store from './store'
 import './registerServiceWorker'
 import './fontAwesome'
 
-Vue.use(VueAxios, axios)
 Vue.use(VueScrollTo, {
   offset: -72
   // offset: -52
