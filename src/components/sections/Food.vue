@@ -4,11 +4,11 @@
     <div class="container">
       <div class="mx-8 lg:mx-40 my-12">
         <div class="tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
-          <p>
+          <p class="py-2">
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
             where we came from and how we make our delicious beer.
           </p>
-          <p>
+          <p class="py-2">
             Regular tours are available every Saturday from 1:30-2:30. Click the button below to reserve your
             spot. Private
             tours for 10 or more and private events are also available. Come celebrate with us. For more info
