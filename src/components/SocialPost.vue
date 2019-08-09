@@ -1,9 +1,6 @@
 <template>
-  <div class="md:max-w-social-md xl:max-w-social-xl rounded overflow-hidden shadow-md m-4">
-    <figure
-      v-if="type === 'image' || type === 'carousel'"
-      class="w-full"
-    >
+  <div class="social-card">
+    <figure v-if="type === 'image' || type === 'carousel'">
       <a
         :href="link"
         target="_blank"
@@ -11,14 +8,10 @@
         <img
           :src="images.standard_resolution.url"
           alt="Placeholder image"
-          class="w-full"
         >
       </a>
     </figure>
-    <figure
-      v-else-if="type === 'video'"
-      class="w-full"
-    >
+    <figure v-else-if="type === 'video'">
       <vue-plyr>
         <video
           :poster="images.standard_resolution.url"
@@ -31,16 +24,12 @@
         </video>
       </vue-plyr>
     </figure>
-    <div class="px-6 py-4">
-      <p
-        class="text-cbblack-grey text-base"
-        v-text="caption"
-      />
+    <div>
+      <p v-text="caption"/>
     </div>
-    <div class="px-6 py-4 text-center">
+    <div>
       <time
         :datetime="isoTime"
-        class="inline-block text-sm font-semibold text-cbblack-grey"
         v-text="time"
       />
     </div>
