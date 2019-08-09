@@ -1,0 +1,35 @@
+.social-card {
+    @apply rounded overflow-hidden shadow-md m-4;
+}
+
+.social-card figure, .social-card figure img {
+    @apply w-full;
+}
+
+.social-card div {
+    @apply px-6 py-4;
+}
+
+.social-card div p {
+    @apply text-cbblack-grey text-base;
+}
+
+.social-card div:last-child {
+    @apply text-center;
+}
+
+.social-card div:last-child time {
+    @apply inline-block text-sm font-semibold text-cbblack-grey;
+}
+
+@media (min-width: 768px) {
+    .social-card {
+        @apply max-w-social-md;
+    }
+}
+
+@media (min-width: 1280px) {
+    .social-card {
+        @apply max-w-social-xl;
+    }
+}
