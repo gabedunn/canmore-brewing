@@ -58,41 +58,7 @@
 </script>
 
 <style scoped>
-  .title {
-    @apply font-cbtitle;
-    font-size: 1.7rem;
-  }
-
-  .story {
+  .story, .values li {
     @apply font-cbsans font-semibold;
-  }
-
-  .values li {
-    font-family: "Open Sans", Arial, sans-serif;
-    font-weight: 600;
-  }
-
-  @media (min-width: 768px) {
-    .title {
-      font-size: 2rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .title {
-      font-size: 2.5rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .title {
-      font-size: 3.32rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .title {
-      font-size: 4.2rem;
-    }
   }
 </style>

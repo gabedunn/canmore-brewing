@@ -3,13 +3,13 @@
     <div class="container">
       <div class="mx-8 lg:mx-40 py-12 flex flex-wrap">
         <div class="w-full md:w-3/5 pb-8 md:pb-0 text-standard">
-          <h1 class="title uppercase">
+          <h1 class="title uppercase text-white">
             Get In Touch
           </h1>
-          <h2 class="subtitle pt-8 md:w-11/12">
+          <h2 class="subtitle text-white pt-8 md:w-11/12">
             Get connected and catch the latest updates and launch details.
           </h2>
-          <p class="icons pt-6">
+          <p class="subtitle pt-6">
             <a
               class="px-1"
               href="https://twitter.com/canmorebrewing"
@@ -92,10 +92,8 @@
               @clicked="handleClick"
             />
           </gmap-map>
-          <div class="hours pt-8 md:pt-16 text-standard">
-            <h3>
-              Hours:
-            </h3>
+          <div class="hours pt-8 md:pt-16 text-standard text-white">
+            <h3 class="subtitle">Hours:</h3>
             <p>Monday: 2PM - 7PM</p>
             <p>Tuesday: Closed</p>
             <p>Wednesday-Thursday: 2PM - 7PM</p>
@@ -150,99 +148,7 @@
     @apply font-cbsans font-semibold text-white;
   }
 
-  .title {
-    @apply text-white;
-    font-family: "Archivo Black", Arial, sans-serif;
-    font-size: 1.7rem;
-  }
-
-  .subtitle {
-    @apply font-cbsans font-semibold text-white;
-    font-size: 1.2rem;
-  }
-
-  .icons {
-    font-size: 1.2rem;
-  }
-
-  .hours h3 {
-    @apply font-semibold;
-    font-size: 1.4rem;
-  }
-
   .hours p {
-    @apply font-normal text-white;
-  }
-
-  @media (min-width: 768px) {
-    .title {
-      font-size: 2rem;
-    }
-
-    .subtitle {
-      font-size: 1.4rem;
-    }
-
-    .icons {
-      font-size: 1.3rem;
-    }
-
-    .hours h3 {
-      font-size: 1.5rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .title {
-      font-size: 2.5rem;
-    }
-
-    .subtitle {
-      font-size: 1.6rem;
-    }
-
-    .icons {
-      font-size: 1.4rem;
-    }
-
-    .hours h3 {
-      font-size: 1.7rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .title {
-      font-size: 3.2rem;
-    }
-
-    .subtitle {
-      font-size: 2.5rem;
-    }
-
-    .icons {
-      font-size: 1.7rem;
-    }
-
-    .hours h3 {
-      font-size: 1.9rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .title {
-      font-size: 4.5rem;
-    }
-
-    .subtitle {
-      font-size: 2.9rem;
-    }
-
-    .icons {
-      font-size: 2rem;
-    }
-
-    .hours h3 {
-      font-size: 2.3rem;
-    }
+    @apply font-normal;
   }
 </style>
