@@ -1,7 +1,7 @@
 <template>
   <section id="our-story">
     <div class="container">
-      <div class="mx-8 lg:mx-32 py-10 flex flex-wrap justify-between">
+      <div class="mx-8 lg:mx-32 py-10 flex flex-wrap justify-between text-standard">
         <div class="lg:w-1/2">
           <h1 class="title uppercase">
             Our Story
@@ -36,12 +36,14 @@
             Our Core Values
           </h1>
           <ul class="values list-disc ml-6 md:ml-8 lg:ml-10 fhd:ml-12">
-            <li>People come first.</li>
-            <li>Respect it. Whether it’s a person, tradition, our products, or the planet.</li>
-            <li>Be a positive part of the community.</li>
-            <li>Our compass is driven by honesty and truthfulness to ourselves and our customers</li>
-            <li>Respectful and positive teams focused on “we” not “I”.</li>
-            <li>We will work hard to make our customers successful. We’re nothing without them.</li>
+            <li class="text-standard">People come first.</li>
+            <li class="text-standard">Respect it. Whether it’s a person, tradition, our products, or the planet.</li>
+            <li class="text-standard">Be a positive part of the community.</li>
+            <li class="text-standard">Our compass is driven by honesty and truthfulness to ourselves and our customers
+            </li>
+            <li class="text-standard">Respectful and positive teams focused on “we” not “I”.</li>
+            <li class="text-standard">We will work hard to make our customers successful. We’re nothing without them.
+            </li>
           </ul>
         </div>
       </div>
@@ -63,22 +65,16 @@
 
   .story {
     @apply font-cbsans font-semibold;
-    font-size: 1rem;
   }
 
   .values li {
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 600;
-    font-size: 1rem;
   }
 
   @media (min-width: 768px) {
     .title {
       font-size: 2rem;
-    }
-
-    .story, .values li {
-      font-size: 1.1rem;
     }
   }
 
@@ -86,29 +82,17 @@
     .title {
       font-size: 2.5rem;
     }
-
-    .story, .values li {
-      font-size: 1.2rem;
-    }
   }
 
   @media (min-width: 1280px) {
     .title {
       font-size: 3.32rem;
     }
-
-    .story, .values li {
-      font-size: 1.4rem;
-    }
   }
 
   @media (min-width: 1440px) {
     .title {
       font-size: 4.2rem;
-    }
-
-    .story, .values li {
-      font-size: 1.6rem;
     }
   }
 </style>

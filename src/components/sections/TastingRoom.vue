@@ -3,7 +3,7 @@
     <header-title title="Tasting Room"/>
     <div class="container">
       <div
-        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
+        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tasting-room text-standard text-justify text-cbblack-grey font-semibold font-cbsans">
         <figure class="lg:w-1/2 order-last lg:order-first">
           <picture>
             <source
@@ -84,33 +84,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .tasting-room {
-    font-size: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .tasting-room {
-      font-size: 1.1rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .tasting-room {
-      font-size: 1.2rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .tasting-room {
-      font-size: 1.4rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .tasting-room {
-      font-size: 1.6rem;
-    }
-  }
-</style>

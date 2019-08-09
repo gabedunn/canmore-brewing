@@ -3,7 +3,7 @@
     <header-title title="Tours"/>
     <div class="container">
       <div
-        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-justify text-cbblack-grey font-semibold font-cbsans">
+        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-standard text-justify text-cbblack-grey font-semibold font-cbsans">
         <div class="lg:w-1/2 lg:p-8 text-justify lg:order-1">
           <p class="py-2">
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
@@ -67,34 +67,6 @@
 </script>
 
 <style scoped>
-  .tours {
-    font-size: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .tours {
-      font-size: 1.1rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .tours {
-      font-size: 1.2rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .tours {
-      font-size: 1.4rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .tours {
-      font-size: 1.6rem;
-    }
-  }
-
   .btn {
     @apply font-bold p-3 rounded font-normal;
   }

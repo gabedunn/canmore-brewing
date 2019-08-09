@@ -2,7 +2,7 @@
   <section id="contact">
     <div class="container">
       <div class="mx-8 lg:mx-40 py-12 flex flex-wrap">
-        <div class="w-full md:w-3/5 pb-8 md:pb-0">
+        <div class="w-full md:w-3/5 pb-8 md:pb-0 text-standard">
           <h1 class="title uppercase">
             Get In Touch
           </h1>
@@ -92,7 +92,7 @@
               @clicked="handleClick"
             />
           </gmap-map>
-          <div class="hours pt-8 md:pt-16">
+          <div class="hours pt-8 md:pt-16 text-standard">
             <h3>
               Hours:
             </h3>
@@ -148,7 +148,6 @@
 
   p {
     @apply font-cbsans font-semibold text-white;
-    font-size: 1.2rem;
   }
 
   .title {
@@ -173,7 +172,6 @@
 
   .hours p {
     @apply font-normal text-white;
-    font-size: 1rem;
   }
 
   @media (min-width: 768px) {
@@ -195,10 +193,6 @@
   }
 
   @media (min-width: 1024px) {
-    p {
-      font-size: 1.2rem;
-    }
-
     .title {
       font-size: 2.5rem;
     }
@@ -214,17 +208,9 @@
     .hours h3 {
       font-size: 1.7rem;
     }
-
-    .hours p {
-      font-size: 1.2rem;
-    }
   }
 
   @media (min-width: 1280px) {
-    p {
-      font-size: 1.4rem;
-    }
-
     .title {
       font-size: 3.2rem;
     }
@@ -240,17 +226,9 @@
     .hours h3 {
       font-size: 1.9rem;
     }
-
-    .hours p {
-      font-size: 1.4rem;
-    }
   }
 
   @media (min-width: 1440px) {
-    p {
-      font-size: 1.7rem;
-    }
-
     .title {
       font-size: 4.5rem;
     }
@@ -265,10 +243,6 @@
 
     .hours h3 {
       font-size: 2.3rem;
-    }
-
-    .hours p {
-      font-size: 1.7rem;
     }
   }
 </style>

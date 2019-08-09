@@ -2,7 +2,7 @@
   <section id="events">
     <header-title title="events"/>
     <div class="container">
-      <div class="mx-8 lg:mx-40 my-12 text-justify">
+      <div class="mx-8 lg:mx-40 my-12 text-justify text-standard">
         <h1 class="title uppercase">Need a Space?</h1>
         <p class="py-2">
           Having a get-together and looking for something a little more exciting than a conference room? Get in touch
@@ -53,16 +53,11 @@
 
   p {
     @apply font-cbsans font-semibold;
-    font-size: 1rem;
   }
 
   @media (min-width: 768px) {
     .title {
       font-size: 2rem;
-    }
-
-    p {
-      font-size: 1.1rem;
     }
   }
 
@@ -70,29 +65,17 @@
     .title {
       font-size: 2.5rem;
     }
-
-    p {
-      font-size: 1.2rem;
-    }
   }
 
   @media (min-width: 1280px) {
     .title {
       font-size: 3.32rem;
     }
-
-    p {
-      font-size: 1.4rem;
-    }
   }
 
   @media (min-width: 1440px) {
     .title {
       font-size: 4.2rem;
-    }
-
-    p {
-      font-size: 1.6rem;
     }
   }
 </style>

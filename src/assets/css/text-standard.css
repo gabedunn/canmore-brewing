@@ -1,0 +1,27 @@
+.text-standard, .text-standard p {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .text-standard, .text-standard p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .text-standard, .text-standard p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .text-standard, .text-standard p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .text-standard, .text-standard p {
+        font-size: 1.6rem;
+    }
+}

@@ -3,7 +3,7 @@
     <header-title title="Food"/>
     <div class="container">
       <div class="mx-8 lg:mx-40 my-12">
-        <div class="tasting-room text-justify text-cbblack-grey font-semibold font-cbsans">
+        <div class="tasting-room text-justify text-standard text-cbblack-grey font-semibold font-cbsans">
           <p class="py-2">
             Feeling peckish? We’ve got a selection of light fare to get you through the growlies. From savoury hand pies
             by Pie Junkie - made from scratch with an all butter crust and homemade fillings, to beer pretzels crafted
@@ -71,33 +71,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .tasting-room {
-    font-size: 1rem;
-  }
-
-  @media (min-width: 768px) {
-    .tasting-room {
-      font-size: 1.1rem;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .tasting-room {
-      font-size: 1.2rem;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .tasting-room {
-      font-size: 1.4rem;
-    }
-  }
-
-  @media (min-width: 1440px) {
-    .tasting-room {
-      font-size: 1.6rem;
-    }
-  }
-</style>
