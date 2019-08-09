@@ -6,7 +6,7 @@
           <h1 class="title uppercase">
             Our Story
           </h1>
-          <p class="story text-justify">
+          <p class="font-cbsans font-semibold text-justify">
             Growing up on the east coast, near the water, we learned how to enjoy the outdoors, have fun, build
             stuff, and do things the right way. The ocean was our playground. And we learned how to share with
             family, friends, and strangers too. We learned respect. The mountains, rivers and lakes of the west
@@ -58,7 +58,7 @@
 </script>
 
 <style scoped>
-  .story, .values li {
+  .text-standard {
     @apply font-cbsans font-semibold;
   }
 </style>

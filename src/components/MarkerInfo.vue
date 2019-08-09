@@ -49,7 +49,7 @@
   }
 
   .map-info .store-title {
-    font-weight: 700;
+    @apply font-bold;
   }
 
   .map-info p {
