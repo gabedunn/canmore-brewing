@@ -17,7 +17,7 @@
 
 <script>
   import Navbar from '../components/Navbar'
-  import Landing from '../components/sections/Landing2'
+  import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
   import Food from '../components/sections/Food'
   import Tours from '../components/sections/Tours'
