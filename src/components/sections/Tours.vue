@@ -15,6 +15,7 @@
             tours for 10 or more and private events are also available. Come celebrate with us. For more info
             please visit our Eventbrite page
             <a
+              class="click-here"
               href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
               rel="noopener"
               target="_blank"

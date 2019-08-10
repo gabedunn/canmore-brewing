@@ -51,10 +51,9 @@
             picnic or
             <a
               v-scroll-to="'#food'"
+              class="click-here"
               href="#"
-            >
-              click here
-            </a>
+            >click here</a>
             to check out the tasty snacks we serve in our tasting room, all thoughtfully selected to go
             perfectly with
             beer!
@@ -65,6 +64,7 @@
           <p class="py-2">
             <a
               v-scroll-to="'#contact'"
+              class="click-here"
               href="#"
             >Click here to view our summer hours</a>.
           </p>

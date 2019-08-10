@@ -20,10 +20,9 @@
           Check our social media streams
           <a
             v-scroll-to="'#social'"
+            class="click-here"
             href="#"
-          >
-            here
-          </a>
+          >here</a>
           to see what’s coming up at the brewery. From our Brewhouse Concert Series,
           new beer launches, cheap beer nights, fundraisers, movie nights, or an assortment of other great events, we’ve
           probably got something going on that you should pencil into your calendar, or get Siri to do it, or Alexa, or
