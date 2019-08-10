@@ -2,8 +2,8 @@
   <section id="events">
     <header-title title="events"/>
     <div class="container">
-      <div class="mx-8 lg:mx-40 my-12 text-justify text-standard">
-        <h1 class="title uppercase">Need a Space?</h1>
+      <div class="mx-8 lg:mx-40 my-10 text-justify text-standard">
+        <h1 class="title uppercase leading-tight">Need a Space?</h1>
         <p class="py-2">
           Having a get-together and looking for something a little more exciting than a conference room? Get in touch
           with us to see if we have a time or space that fits the bill. We host a variety of events from a small
@@ -15,7 +15,7 @@
           For rates, availability and more details on just how flexible we can be, send a note to
           <a href="mailto:susan.dunn@canmorebrewing.com?subject=Booking Information">susan.dunn@canmorebrewing.com</a>.
         </p>
-        <h1 class="title uppercase pt-8">Upcoming Events</h1>
+        <h1 class="title uppercase leading-tight">Upcoming Events</h1>
         <p class="py-2">
           Check our social media streams
           <a

@@ -1,12 +1,12 @@
 <template>
   <section id="contact">
     <div class="container">
-      <div class="mx-8 lg:mx-40 py-12 flex flex-wrap">
-        <div class="w-full md:w-3/5 pb-8 md:pb-0 text-standard">
+      <div class="mx-8 lg:mx-40 py-10 flex flex-wrap">
+        <div class="w-full md:w-3/5 mb-8 md:mb-0 text-standard">
           <h1 class="title uppercase text-white">
             Get In Touch
           </h1>
-          <h2 class="subtitle text-white pt-8 md:w-11/12">
+          <h2 class="subtitle text-white leading-tight md:pr-8">
             Get connected and catch the latest updates and launch details.
           </h2>
           <p class="subtitle pt-6">
@@ -92,7 +92,7 @@
               @clicked="handleClick"
             />
           </gmap-map>
-          <div class="hours pt-8 md:pt-16 text-standard text-white">
+          <div class="hours mt-8 md:mt-16 text-standard text-white">
             <h3 class="subtitle">Hours:</h3>
             <p>Monday: 2PM - 7PM</p>
             <p>Tuesday: Closed</p>

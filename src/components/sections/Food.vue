@@ -2,7 +2,7 @@
   <section id="food">
     <header-title title="Food"/>
     <div class="container">
-      <div class="mx-8 lg:mx-40 my-12">
+      <div class="mx-8 lg:mx-40 my-10">
         <div class="tasting-room text-justify text-standard text-cbblack-grey font-semibold font-cbsans">
           <p class="py-2">
             Feeling peckish? We’ve got a selection of light fare to get you through the growlies. From savoury hand pies
@@ -16,7 +16,7 @@
             beer was made.
           </p>
         </div>
-        <div class="flex pt-8 items-center justify-around">
+        <div class="flex mt-8 items-center justify-around">
           <figure>
             <picture>
               <source

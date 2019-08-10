@@ -23,7 +23,7 @@
             >
           </picture>
         </figure>
-        <p class="lg:w-1/2 lg:p-8">
+        <p class="lg:w-1/2 lg:pl-8">
           Our brewery has a bright and family-friendly tasting room, a retail area and small patio,
           open 6 days a
           week

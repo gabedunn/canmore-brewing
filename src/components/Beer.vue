@@ -4,7 +4,7 @@
     class="hero"
   >
     <div class="container">
-      <div class="mx-8 lg:mx-40 my-12 flex flex-wrap items-center justify-around">
+      <div class="mx-8 lg:mx-40 py-10 flex flex-wrap items-center justify-around">
         <div class="md:w-1/2 inline-block text-center">
           <picture>
             <source

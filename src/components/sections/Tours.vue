@@ -4,7 +4,7 @@
     <div class="container">
       <div
         class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-standard text-justify text-cbblack-grey font-semibold font-cbsans">
-        <div class="lg:w-1/2 lg:p-8 text-justify lg:order-1">
+        <div class="lg:w-1/2 lg:pr-8 text-justify lg:order-1">
           <p class="py-2">
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
             where we came from and how we make our delicious beer.
@@ -38,7 +38,7 @@
             >
           </picture>
         </figure>
-        <p class="lg:w-full lg:px-8 text-justify lg:order-3">
+        <p class="lg:w-full text-justify lg:order-3">
           Even if you can't make a tour, we have plenty of seating overlooking our brewhouse, so you might even
           get to watch your next beer being made.
         </p>

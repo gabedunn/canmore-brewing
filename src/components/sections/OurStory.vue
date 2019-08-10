@@ -1,8 +1,8 @@
 <template>
   <section id="our-story">
     <div class="container">
-      <div class="mx-8 lg:mx-32 py-10 flex flex-wrap justify-between text-standard">
-        <div class="lg:w-1/2">
+      <div class="mx-8 lg:mx-32 my-10 flex flex-wrap justify-between text-standard">
+        <div class="lg:w-1/2 pr-8">
           <h1 class="title uppercase">
             Our Story
           </h1>
@@ -15,7 +15,7 @@
             strangers too. Over a beer. And respect them all.
           </p>
         </div>
-        <div class="lg:w-5/12 pt-12 lg:pt-0">
+        <div class="lg:w-1/2 mt-8 lg:mt-0">
           <figure>
             <picture>
               <source
@@ -31,7 +31,7 @@
             </picture>
           </figure>
         </div>
-        <div class="w-full pt-12">
+        <div class="w-full mt-8">
           <h1 class="title is-uppercase">
             Our Core Values
           </h1>

@@ -3,9 +3,9 @@
     <header-title title="Our Beers"/>
     <div class="beers">
       <div class="container">
-        <div class="mx-8 lg:mx-40 my-12">
+        <div class="mx-8 lg:mx-40 my-10">
           <h1 class="text-4xl font-semibold text-center">Stay Tuned - Our next seasonal is in the tank now.</h1>
-          <hr class="bg-cbblack-background h-2 mt-10">
+          <hr class="bg-cbblack-background h-2 mt-8">
         </div>
       </div>
       <beer

@@ -2,7 +2,7 @@
   <section id="social">
     <header-title title="social"/>
     <div class="container">
-      <div class="mx-8 xl:mx-32 py-8">
+      <div class="mx-8 xl:mx-32 mt-10 mb-6">
         <vue-instagram
           :count="1"
           :token="token"
@@ -50,7 +50,7 @@
       <vue-instagram
         :token="token"
         :count="count"
-        container-class="flex flex-wrap items-start content-start justify-around mx-6 xl:mx-32 pb-10"
+        container-class="flex flex-wrap items-start content-start justify-around mx-6 xl:mx-32 mb-10"
       >
         <template
           slot="feeds"
