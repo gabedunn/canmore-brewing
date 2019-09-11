@@ -103,7 +103,7 @@
           },
           {
             text: 'Our Location',
-            el: '#our-location'
+            el: '#contact'
           }
         ]
       }
