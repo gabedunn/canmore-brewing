@@ -94,8 +94,7 @@
           </gmap-map>
           <div class="hours mt-8 md:mt-16 text-standard text-white">
             <h3 class="subtitle">Hours:</h3>
-            <p>Monday: 2PM - 7PM</p>
-            <p>Tuesday: Closed</p>
+            <p>Monday-Tuesday: Closed</p>
             <p>Wednesday-Thursday: 2PM - 7PM</p>
             <p>Friday-Saturday: 1PM - 8PM</p>
             <p>Sunday: 1PM – 6PM</p>
