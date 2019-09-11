@@ -28,6 +28,16 @@
           probably got something going on that you should pencil into your calendar, or get Siri to do it, or Alexa, or
           however the kids do it these days.
         </p>
+        <h3 class="subtitle uppercase leading-tight pt-6">September 13 - Mr. Bird, Live!</h3>
+        <p class="py-2">
+          Mister Bird (aka Gareth Bruce) was born and raised in the small mountain town of Canmore Alberta. Gareth grew
+          up with the forest as his backyard. You can hear his love for nature pouring out through his music. Inspired
+          by the silent stories in the knots of old trees, and moss covered canyons & the way water sings. In his own
+          bluesy foot tapping style he highlights the magic of the wild, & the subtle miracles of everyday life.
+        </p>
+        <p>
+          Tickets $10 at the door. Show at 7pm.
+        </p>
       </div>
     </div>
   </section>
