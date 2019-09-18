@@ -4,10 +4,10 @@
     class="lg:h-screen w-full font-sans bg-fixed"
   >
     <div class="container flexy">
-      <div class="flexy-head flex object-top">
+      <div class="flexy-head flex object-top pt-12 sm:pt-16 pb-8 sm:pb-0">
         <div class="w-full text-center text-white">
-          <h1 class="text-5xl font-bold">Crafted At 1,309 Metres.</h1>
-          <h2 class="text-3xl">Have your best day ever, in Canmore.</h2>
+          <h1 class="text-4xl sm:text-5xl font-bold">Crafted At 1,309 Metres.</h1>
+          <h2 class="text-2xl sm:text-3xl">Have your best day ever, in Canmore.</h2>
         </div>
       </div>
       <div class="flexy-body flex flex-col justify-center">
@@ -127,7 +127,6 @@
   }
 
   .flexy-head {
-    padding-top: 4rem;
     flex-grow: 0;
     flex-shrink: 0;
   }
