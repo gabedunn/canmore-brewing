@@ -5,8 +5,6 @@
 </template>
 
 <script>
-  // TODO: switch to tailwind
-
   export default {
     name: 'App',
     metaInfo: {

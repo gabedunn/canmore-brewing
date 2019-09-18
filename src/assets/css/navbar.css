@@ -1,0 +1,118 @@
+.nav {
+    min-height: 4.5rem;
+}
+
+.nav > div {
+    @apply flex justify-between flex-wrap items-stretch;
+}
+
+.nav.fixed-top {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+    top: 0;
+}
+
+.nav .nav-brand {
+    @apply flex items-center flex-shrink-0 text-white mr-6
+}
+
+.nav .nav-brand .navbar-item {
+    @apply my-0;
+}
+
+.nav .nav-brand .navbar-item picture,
+.nav .nav-brand .navbar-item picture source,
+.nav .nav-brand .navbar-item picture img {
+    max-height: 4.5rem;
+}
+
+.nav .nav-burger {
+    @apply block;
+}
+
+.nav .nav-burger button {
+    color: white;
+    cursor: pointer;
+    display: block;
+    height: 4.5rem;
+    position: relative;
+    width: 4.5rem;
+    margin-left: auto;
+}
+
+.nav .nav-burger button span {
+    background-color: currentColor;
+    display: block;
+    height: 1px;
+    left: calc(50% - 8px);
+    position: absolute;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: background-color, opacity, transform;
+    transition-timing-function: ease-out;
+    width: 16px;
+}
+
+.nav .nav-burger button span:nth-child(1) {
+    top: calc(50% - 6px);
+}
+
+.nav .nav-burger button span:nth-child(2) {
+    top: calc(50% - 1px);
+}
+
+.nav .nav-burger button span:nth-child(3) {
+    top: calc(50% + 4px);
+}
+
+.nav .nav-burger button.active span:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.nav .nav-burger button.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav .nav-burger button.active span:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+.nav .nav-menu {
+    @apply hidden min-h-full w-full flex-shrink-0 bg-white;
+}
+
+.nav .nav-menu.active {
+    @apply block;
+}
+
+.nav .navbar-item {
+    @apply block my-2 text-cbblack-grey text-xl px-2 text-center;
+}
+
+.nav .navbar-item:hover {
+    @apply text-gray-600;
+}
+
+@media (min-width: 1280px) {
+    .nav .nav-burger {
+        @apply hidden;
+    }
+
+    .nav .nav-menu {
+        @apply flex items-center w-auto bg-cborange text-white;
+    }
+
+    .nav .nav-menu.active {
+        @apply flex;
+    }
+
+    .nav .navbar-item {
+        @apply inline-flex items-center my-0 min-h-full text-white;
+    }
+
+    .nav .navbar-item:hover {
+        @apply bg-cborange-navbar-hover text-white;
+    }
+}

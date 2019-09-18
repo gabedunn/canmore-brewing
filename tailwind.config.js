@@ -8,7 +8,8 @@ module.exports = {
           default: '#F45A24',
           light: '#E3592A',
           link: '#E15829',
-          'link-hover': '#E19129'
+          'link-hover': '#E19129',
+          'navbar-hover': '#f2480c'
         },
         cbblack: {
           grey: '#4a4a4a',
