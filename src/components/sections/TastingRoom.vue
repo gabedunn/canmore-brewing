@@ -66,7 +66,7 @@
               v-scroll-to="'#contact'"
               class="click-here"
               href="#"
-            >Click here to view our summer hours</a>.
+            >Click here to view our current hours</a>.
           </p>
         </div>
       </div>
