@@ -19,7 +19,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-brands-svg-icons": "^5.10.1",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
-    "@fortawesome/vue-fontawesome": "^0.1.6",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
     "contentful": "^7.9.1",
     "csv-parse": "^4.4.4",
     "dotenv": "^8.0.0",
