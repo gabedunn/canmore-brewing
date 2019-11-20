@@ -21,10 +21,10 @@
       />
       <map-marker
         v-for="marker in markers"
-        :address="marker.address"
-        :extra="marker.extra"
         :id="marker.id"
         :key="marker.id"
+        :address="marker.address"
+        :extra="marker.extra"
         :lat="marker.lat"
         :lng="marker.lng"
         :name="marker.name"

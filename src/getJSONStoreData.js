@@ -55,7 +55,7 @@ const main = async () => {
 
   // Create an array from a set (to remove duplicate values) of the parsed sales data (stripped down to only the license
   // number to be used as a key for future reference).
-  const salesArray = [...new Set(parseFile(salesPath).map(sale => sale['LicNumber']))]
+  const salesArray = [...new Set(parseFile(salesPath).map(sale => sale.LicNumber))]
 
   // Create an array from a set (to remove duplicate values) of the parsed local sales data (stripped down to only the
   // license number to be used as a key for future reference).
@@ -71,10 +71,10 @@ const main = async () => {
   for (const store of allStoresArray) {
     // If allStores doesn't already have the current license number as a key, add the current store with the license
     // number as the key. Otherwise log the duplicate.
-    if (!allStores.hasOwnProperty(store['LicNumber'])) {
-      allStores[store['LicNumber']] = store
+    if (!Object.prototype.hasOwnProperty.call(allStores, store.LicNumber)) {
+      allStores[store.LicNumber] = store
     } else {
-      console.log(`Duplicate LicNumber: ${store['LicNumber']}`)
+      console.log(`Duplicate LicNumber: ${store.LicNumber}`)
     }
   }
 
@@ -83,7 +83,7 @@ const main = async () => {
 
   // Map each sale in salesArray to a store from allStores, and filter out undefined results.
   const carriers = salesArray
-  // Add local sales numbers to the array.
+    // Add local sales numbers to the array.
     .concat(localArray)
     .map(sale => allStores[sale])
     .filter(carrier => carrier !== undefined)
@@ -92,9 +92,9 @@ const main = async () => {
   saskArray.map(store => {
     const pc = store['Postal Code']
     return {
-      'LicName': store['Store'],
-      'StoreAddress1': `${store['Address']}, ${store['City']}, ${store['Province']}`,
-      'StorePC': `${pc.slice(0, 3)} ${pc.slice(3)}`
+      LicName: store.Store,
+      StoreAddress1: `${store.Address}, ${store.City}, ${store.Province}`,
+      StorePC: `${pc.slice(0, 3)} ${pc.slice(3)}`
     }
   }).forEach(store => carriers.push(store))
 
@@ -103,9 +103,9 @@ const main = async () => {
 
   // Push the tasting room data to the front of the carriers array.
   carriers.unshift({
-    'LicName': CBCName,
-    'StoreAddress1': '1460 Railway Avenue, Canmore, AB, Canada',
-    'StorePC': 'T1W 1P6'
+    LicName: CBCName,
+    StoreAddress1: '1460 Railway Avenue, Canmore, AB, Canada',
+    StorePC: 'T1W 1P6'
   })
 
   // Create a final data array that contains the result of resolved promises from each carrier's Google Maps API calls.
@@ -114,38 +114,38 @@ const main = async () => {
     let results
 
     // Set the results to an API call from the first address specified.
-    results = await mapsAPI(carrier['StoreAddress1'], carrier['StorePC'])
+    results = await mapsAPI(carrier.StoreAddress1, carrier.StorePC)
 
     // If there aren't any results, try again with the second address.
     if (results.status === 'ZERO_RESULTS') {
-      results = await mapsAPI(carrier['StoreAddress2'], carrier['StorePC'])
+      results = await mapsAPI(carrier.StoreAddress2, carrier.StorePC)
     }
 
     // Once again if there aren't any results, try for a final time with the third address.
     if (results.status === 'ZERO_RESULTS') {
-      results = await mapsAPI(carrier['StoreAddress3'], carrier['StorePC'])
+      results = await mapsAPI(carrier.StoreAddress3, carrier.StorePC)
     }
 
     // If there are results (status === 'OK'), test for a bunch of properties on the results array and return an object
     // with all of the required data.
     if (results.status === 'OK') {
       // If the results have a results property, continue.
-      if (results.hasOwnProperty('results')) {
+      if (Object.prototype.hasOwnProperty.call(results, 'results')) {
         // Use the first result by default.
         const result = results.results[0]
         // If the result has a formatted address and a geometry property, continue.
-        if (result.hasOwnProperty('formatted_address') && result.hasOwnProperty('geometry')) {
+        if (Object.prototype.hasOwnProperty.call(result, 'formatted_address') && Object.prototype.hasOwnProperty.call(result, 'geometry')) {
           // If geometry has a location property, continue.
-          if (result.geometry.hasOwnProperty('location')) {
+          if (Object.prototype.hasOwnProperty.call(result.geometry, 'location')) {
             // If location has both lat and lng properties, continue.
-            if (result.geometry.location.hasOwnProperty('lat') && result.geometry.location.hasOwnProperty('lng')) {
+            if (Object.prototype.hasOwnProperty.call(result.geometry.location, 'lat') && Object.prototype.hasOwnProperty.call(result.geometry.location, 'lng')) {
               // Return an object to be used as a marker on the map.
               return {
                 // If the name of the carrier is the same as the tasting room, set the ID to 0.
-                id: carrier['LicName'] === CBCName ? 0 : ++id,
-                name: carrier['LicName'],
+                id: carrier.LicName === CBCName ? 0 : ++id,
+                name: carrier.LicName,
                 address: result.formatted_address,
-                extra: `${carrier['LicName']},${result.formatted_address}`,
+                extra: `${carrier.LicName},${result.formatted_address}`,
                 lat: result.geometry.location.lat,
                 lng: result.geometry.location.lng
               }

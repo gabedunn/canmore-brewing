@@ -1,17 +1,17 @@
 <template>
   <div class="main">
-    <navbar/>
-    <landing/>
-    <tasting-room/>
-    <food/>
-    <tours/>
-    <social/>
-    <events/>
-    <our-beers/>
-    <our-story/>
-    <beer-locator/>
-    <contact/>
-    <copy-footer/>
+    <navbar />
+    <landing />
+    <tasting-room />
+    <food />
+    <tours />
+    <social />
+    <events />
+    <our-beers />
+    <our-story />
+    <beer-locator />
+    <contact />
+    <copy-footer />
   </div>
 </template>
 

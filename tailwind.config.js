@@ -21,7 +21,7 @@ module.exports = {
         }
       },
       screens: {
-        'fhd': '1440px'
+        fhd: '1440px'
       },
       fontFamily: {
         cbsans: ['"Open Sans"', ...theme.fontFamily.sans],

@@ -1,6 +1,6 @@
 <template>
   <section id="social">
-    <header-title title="social"/>
+    <header-title title="social" />
     <div class="container">
       <div class="mx-8 xl:mx-32 mt-10 mb-6">
         <vue-instagram
@@ -39,7 +39,7 @@
                 target="_blank"
               >
                 <h2 class="font-normal text-xl">
-                  <font-awesome-icon :icon="['fab', 'instagram']"/>
+                  <font-awesome-icon :icon="['fab', 'instagram']" />
                   {{ props.feed.user.username }}
                 </h2>
               </a>
@@ -69,7 +69,7 @@
           slot="error"
           slot-scope="props"
         >
-          <div v-text="props.error.error_message"/>
+          <div v-text="props.error.error_message" />
         </template>
       </vue-instagram>
     </div>

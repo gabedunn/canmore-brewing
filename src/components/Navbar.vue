@@ -32,9 +32,9 @@
       </div>
       <div class="nav-menu">
         <a
-          v-scroll-to="item.target"
           v-for="item in items"
           :key="item.name"
+          v-scroll-to="item.target"
           class="navbar-item"
           href="#"
         >

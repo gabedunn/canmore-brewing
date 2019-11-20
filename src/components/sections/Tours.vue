@@ -1,9 +1,10 @@
 <template>
   <section id="tours">
-    <header-title title="Tours"/>
+    <header-title title="Tours" />
     <div class="container">
       <div
-        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-standard text-justify text-cbblack-grey font-semibold font-cbsans">
+        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-standard text-justify text-cbblack-grey font-semibold font-cbsans"
+      >
         <div class="lg:w-1/2 lg:pr-8 text-justify lg:order-1">
           <p class="py-2">
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
@@ -27,11 +28,13 @@
             <source
               class="rounded"
               srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.webp"
-              type="image/webp">
+              type="image/webp"
+            >
             <source
               class="rounded"
               srcset="../../assets/img/tasting_room/brian_doing_tour_cropped.png"
-              type="image/png">
+              type="image/png"
+            >
             <img
               alt="Brian doing tour"
               class="rounded"

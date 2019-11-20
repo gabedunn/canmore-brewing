@@ -20,10 +20,12 @@
             <picture>
               <source
                 srcset="../../assets/img/tasting_room/susie_at_taps.webp"
-                type="image/webp">
+                type="image/webp"
+              >
               <source
                 srcset="../../assets/img/tasting_room/susie_at_taps.png"
-                type="image/png">
+                type="image/png"
+              >
               <img
                 alt="Susie at the taps"
                 src="../../assets/img/tasting_room/susie_at_taps.png"
@@ -36,13 +38,23 @@
             Our Core Values
           </h1>
           <ul class="values list-disc ml-6 md:ml-8 lg:ml-10 fhd:ml-12">
-            <li class="text-standard">People come first.</li>
-            <li class="text-standard">Respect it. Whether it’s a person, tradition, our products, or the planet.</li>
-            <li class="text-standard">Be a positive part of the community.</li>
-            <li class="text-standard">Our compass is driven by honesty and truthfulness to ourselves and our customers
+            <li class="text-standard">
+              People come first.
             </li>
-            <li class="text-standard">Respectful and positive teams focused on “we” not “I”.</li>
-            <li class="text-standard">We will work hard to make our customers successful. We’re nothing without them.
+            <li class="text-standard">
+              Respect it. Whether it’s a person, tradition, our products, or the planet.
+            </li>
+            <li class="text-standard">
+              Be a positive part of the community.
+            </li>
+            <li class="text-standard">
+              Our compass is driven by honesty and truthfulness to ourselves and our customers
+            </li>
+            <li class="text-standard">
+              Respectful and positive teams focused on “we” not “I”.
+            </li>
+            <li class="text-standard">
+              We will work hard to make our customers successful. We’re nothing without them.
             </li>
           </ul>
         </div>

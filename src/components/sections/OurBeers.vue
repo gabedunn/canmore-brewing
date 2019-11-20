@@ -1,10 +1,12 @@
 <template>
   <section id="our-beers">
-    <header-title title="Our Beers"/>
+    <header-title title="Our Beers" />
     <div class="beers">
       <div class="container">
         <div class="mx-8 lg:mx-40 my-10">
-          <h1 class="text-4xl font-semibold text-center">Stay Tuned - Our next seasonal is in the tank now.</h1>
+          <h1 class="text-4xl font-semibold text-center">
+            Stay Tuned - Our next seasonal is in the tank now.
+          </h1>
           <hr class="bg-cbblack-background h-2 mt-8">
         </div>
       </div>
@@ -47,7 +49,8 @@
         image="Brown"
         title="Georgetown Brown"
         side="left"
-        bg="#a2cfc9">
+        bg="#a2cfc9"
+      >
         Who can resist a ghost town story?
         The old coal mining town has mostly faded into the riverbanks of the Bow, just a short hop west of Canmore.
         Follow the Georgetown Trail and see for yourself.
@@ -63,7 +66,8 @@
         image="Stout"
         title="Mineside Stout"
         side="right"
-        bg="#e15829">
+        bg="#e15829"
+      >
         For over 100 years the west side of the Bow River in Canmore has been known as Mineside, courtesy of the once
         numerous coal mines in the area. It all started in 1887 with the No. 1 Mine at Canmore Creek.
         <br><br>
@@ -78,7 +82,8 @@
         image="Misty"
         title="Misty Mountain Hops"
         side="left"
-        bg="#B4B4B4">
+        bg="#B4B4B4"
+      >
         When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks
         pack their bags. Some folks stay for a beer and have some fun - that's us.
         <br><br>

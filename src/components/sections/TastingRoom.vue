@@ -1,9 +1,10 @@
 <template>
   <section id="tasting-room">
-    <header-title title="Tasting Room"/>
+    <header-title title="Tasting Room" />
     <div class="container">
       <div
-        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tasting-room text-standard text-justify text-cbblack-grey font-semibold font-cbsans">
+        class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tasting-room text-standard text-justify text-cbblack-grey font-semibold font-cbsans"
+      >
         <figure class="lg:w-1/2 order-last lg:order-first">
           <picture>
             <source

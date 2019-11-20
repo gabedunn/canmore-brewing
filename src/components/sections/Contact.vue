@@ -15,21 +15,21 @@
               href="https://twitter.com/canmorebrewing"
               target="_blank"
             >
-              <font-awesome-icon :icon="['fab', 'twitter']"/>
+              <font-awesome-icon :icon="['fab', 'twitter']" />
             </a>
             <a
               class="px-1"
               href="https://www.facebook.com/canmorebrewing/"
               target="_blank"
             >
-              <font-awesome-icon :icon="['fab', 'facebook']"/>
+              <font-awesome-icon :icon="['fab', 'facebook']" />
             </a>
             <a
               class="px-1"
               href="https://www.instagram.com/canmorebrewing/"
               target="_blank"
             >
-              <font-awesome-icon :icon="['fab', 'instagram']"/>
+              <font-awesome-icon :icon="['fab', 'instagram']" />
             </a>
             @canmorebrewing
           </p>
@@ -82,9 +82,9 @@
               :opened="infoStatus"
             />
             <map-marker
+              :id="marker.id"
               :address="marker.address"
               :extra="marker.extra"
-              :id="marker.id"
               :lat="marker.lat"
               :lng="marker.lng"
               :name="marker.name"
@@ -93,7 +93,9 @@
             />
           </gmap-map>
           <div class="hours mt-8 md:mt-16 text-standard text-white">
-            <h3 class="subtitle">Hours:</h3>
+            <h3 class="subtitle">
+              Hours:
+            </h3>
             <p>Monday-Tuesday: Closed</p>
             <p>Wednesday-Thursday: 2PM - 7PM</p>
             <p>Friday-Saturday: 1PM - 8PM</p>

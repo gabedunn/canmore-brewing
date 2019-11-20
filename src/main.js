@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
 import * as VueGoogleMaps from 'vue2-google-maps'
 import VuePlyr from 'vue-plyr'
-import 'vue-plyr/dist/vue-plyr.css'
+import 'plyr/dist/plyr.css'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue'

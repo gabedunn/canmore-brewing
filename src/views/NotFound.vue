@@ -15,7 +15,9 @@
           --> {{ this.$route.fullPath }}
         </h2>
         <h2 class="subtitle is-4 link-home">
-          <router-link to="/">Go Home.</router-link>
+          <router-link to="/">
+            Go Home.
+          </router-link>
         </h2>
       </div>
     </div>

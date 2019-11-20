@@ -22,7 +22,7 @@
             >
           </picture>
           <p class="beer-description font-cbsans font-semibold text-xl py-8">
-            <slot/>
+            <slot />
           </p>
           <div class="font-beer-info font-light text-xl">
             <p>{{ alcohol }}% Alc/vol.</p>

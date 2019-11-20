@@ -25,7 +25,7 @@
       </vue-plyr>
     </figure>
     <div>
-      <p v-text="caption"/>
+      <p v-text="caption" />
     </div>
     <div>
       <time

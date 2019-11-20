@@ -9,7 +9,7 @@
         class="store-title"
         v-text="name"
       />
-      <p v-text="address"/>
+      <p v-text="address" />
       <p>
         <a
           v-if="extra"
@@ -21,7 +21,8 @@
         <a
           v-else
           :href="`https://www.google.com/maps/dir//${lat},${lng}/@${lat},${lng},13z`"
-          target="_blank">
+          target="_blank"
+        >
           Get Directions
         </a>
       </p>

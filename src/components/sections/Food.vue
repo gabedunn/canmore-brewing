@@ -1,6 +1,6 @@
 <template>
   <section id="food">
-    <header-title title="Food"/>
+    <header-title title="Food" />
     <div class="container">
       <div class="mx-8 lg:mx-40 my-10">
         <div class="tasting-room text-justify text-standard text-cbblack-grey font-semibold font-cbsans">
