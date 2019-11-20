@@ -17,7 +17,7 @@
             please visit our Eventbrite page
             <a
               class="click-here"
-              href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+              :href="eventbrite"
               rel="noopener"
               target="_blank"
             >linked here</a>.
@@ -48,7 +48,7 @@
         </p>
         <a
           class="btn btn-orange mx-auto my-8 lg:mb-0 w-4/5 md:w-1/2 lg:w-1/4 text-center text-2xl lg:order-4"
-          href="https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385"
+          :href="eventbrite"
           rel="noopener"
           target="_blank"
         >
@@ -66,6 +66,11 @@
     name: 'Tours',
     components: {
       HeaderTitle
+    },
+    data () {
+      return {
+        eventbrite: 'https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-77186810829'
+      }
     }
   }
 </script>
