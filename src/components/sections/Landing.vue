@@ -121,7 +121,7 @@
 
 <style scoped>
   #landing {
-    padding-top: 4.5rem;
+    /*padding-top: 4.5rem;*/
     background-image: url(../../assets/img/tasting_room/landing-background.webp),
     url(../../assets/img/tasting_room/landing-background.png);
     background-size: cover;

@@ -1,6 +1,7 @@
 <template>
   <div class="main">
     <navbar />
+    <notice />
     <landing />
     <tasting-room />
     <food />
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+  import Notice from '../components/sections/Notice'
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
@@ -37,6 +39,7 @@
     },
     components: {
       Navbar,
+      Notice,
       Landing,
       TastingRoom,
       Food,
