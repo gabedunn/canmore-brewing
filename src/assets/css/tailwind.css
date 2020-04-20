@@ -4,6 +4,7 @@
 @import "text-standard.css";
 @import "titles.css";
 @import "click-here.css";
+@import "button.css";
 
 /* noinspection CssInvalidAtRule */
 @tailwind base;
