@@ -13,9 +13,11 @@
       </div>
     </div>
     <div class="container px-2 lg:px-8 text-center">
-      <button class="btn btn-cborange mb-8 text-2xl">
-        Home Delivery Service
-      </button>
+      <a href="https://canmorebrewing.square.site">
+        <button class="btn btn-orange mb-8">
+          Home Delivery Service
+        </button>
+      </a>
       <div class="text-standard text-white">
         <p>
           To protect our customers, staff, community, and to flatten the curve as much as possible, our tasting room is
@@ -24,12 +26,12 @@
         <p>
           However, we have set up a
           <span class="font-extrabold uppercase">home delivery service</span>
-          for the Canmore area.
+          for the Canmore area available from Wednesday to Sunday, and in Banff on Saturdays.
           <a
             href="https://canmorebrewing.square.site"
             target="_blank"
           >Click here</a>
-          to have our delicious beer brought to your door.
+          for more information and to have our delicious beer brought to your door.
         </p>
       </div>
     </div>
@@ -49,11 +51,15 @@
   }
 
   p {
-    @apply font-cbsans font-semibold;
+    @apply font-cbsans font-semibold my-3;
   }
 
   a {
     text-decoration: underline;
+  }
+
+  a .btn {
+    text-decoration: none;
   }
 
   .section-header {
