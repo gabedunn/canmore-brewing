@@ -149,20 +149,4 @@
     flex-shrink: 0;
     padding: 1.5rem;
   }
-
-  .btn {
-    @apply font-bold p-3 rounded text-2xl font-normal;
-  }
-
-  .btn-first {
-    width: 12rem;
-  }
-
-  .btn-second {
-    width: 15rem;
-  }
-
-  .btn-orange {
-    @apply bg-cborange text-white;
-  }
 </style>

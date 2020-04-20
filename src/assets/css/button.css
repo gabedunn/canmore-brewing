@@ -1,7 +1,19 @@
 .btn {
-    @apply py-2 px-4 rounded;
+    @apply font-bold p-3 rounded text-2xl font-normal;
 }
 
-.btn-cborange {
+.btn-first {
+    width: 12rem;
+}
+
+.btn-second {
+    width: 15rem;
+}
+
+.btn-orange {
     @apply bg-cborange text-white;
+}
+
+.btn-orange:hover {
+    @apply bg-cborange-dark;
 }
