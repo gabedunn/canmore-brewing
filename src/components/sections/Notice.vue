@@ -15,6 +15,8 @@
     <div class="container px-2 lg:px-8 text-center">
       <a href="https://canmorebrewing.square.site">
         <button class="btn btn-orange mb-8">
+          Click Here For
+          <br>
           Home Delivery Service
         </button>
       </a>
@@ -59,6 +61,7 @@
   }
 
   a .btn {
+    @apply font-bold px-4 shadow-2xl-dark;
     text-decoration: none;
   }
 
@@ -69,30 +72,30 @@
 
   .title {
     @apply font-cbtitle;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   @media (min-width: 768px) {
     .title {
-      font-size: 1.8rem;
+      font-size: 1.3rem;
     }
   }
 
   @media (min-width: 1024px) {
     .title {
-      font-size: 2.3rem;
+      font-size: 1.8rem;
     }
   }
 
   @media (min-width: 1280px) {
     .title {
-      font-size: 3.1rem;
+      font-size: 2.6rem;
     }
   }
 
   @media (min-width: 1440px) {
     .title {
-      font-size: 4rem;
+      font-size: 3.1rem;
     }
   }
 </style>
