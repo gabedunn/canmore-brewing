@@ -97,9 +97,7 @@
               Hours:
             </h3>
             <p>Monday-Tuesday: Closed</p>
-            <p>Wednesday-Thursday: 2PM - 7PM</p>
-            <p>Friday-Saturday: 1PM - 8PM</p>
-            <p>Sunday: 1PM – 6PM</p>
+            <p>Wednesday-Sunday: 2PM - 6PM</p>
           </div>
         </div>
       </div>
