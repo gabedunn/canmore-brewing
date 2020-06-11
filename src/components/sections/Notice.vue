@@ -7,8 +7,11 @@
       <div class="container">
         <div class="mx-8 lg:mx-40">
           <h1 class="title uppercase">
-            Tasting Room Closure
+            Tasting Room Now Open
           </h1>
+          <h2 class="uppercase text-2xl mt-2">
+            For off-sales and growler fills
+          </h2>
         </div>
       </div>
     </div>
@@ -17,23 +20,18 @@
         <button class="btn btn-orange mb-8">
           Click Here For
           <br>
-          Home Delivery Service
+          Curbside Pickup
         </button>
       </a>
       <div class="text-standard text-white">
         <p>
-          To protect our customers, staff, community, and to flatten the curve as much as possible, our tasting room is
-          closed until further notice.
+          Curbside pickup is available when we are open: Wednesday-Sunday, 2:00-6:00 PM.
         </p>
-        <p>
-          However, we have set up a
-          <span class="font-extrabold uppercase">home delivery service</span>
-          for the Canmore area available from Wednesday to Sunday, and in Banff on Saturdays.
-          <a
-            href="https://canmorebrewing.square.site"
-            target="_blank"
-          >Click here</a>
-          for more information and to have our delicious beer brought to your door.
+        <p v-if="isTastingRoomOpen">
+          We are now open for drink-in!
+        </p>
+        <p v-else>
+          We are opening for drink-in on June 17th.
         </p>
       </div>
     </div>
@@ -42,7 +40,18 @@
 
 <script>
   export default {
-    name: 'Events'
+    name: 'Notice',
+    data () {
+      return {
+        currentTime: (new Date()).getTime(),
+        openTime: 1592330400000
+      }
+    },
+    computed: {
+      isTastingRoomOpen () {
+        return this.currentTime > this.openTime
+      }
+    }
   }
 </script>
 
