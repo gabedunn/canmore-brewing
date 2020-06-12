@@ -10,22 +10,15 @@
             Tasting Room Now Open
           </h1>
           <h2 class="uppercase text-2xl mt-2">
-            For off-sales and growler fills
+            For off-sales and growler fills, from 2-6 PM
           </h2>
         </div>
       </div>
     </div>
     <div class="container px-2 lg:px-8 text-center">
-      <a href="https://canmorebrewing.square.site">
-        <button class="btn btn-orange mb-8">
-          Click Here For
-          <br>
-          Curbside Pickup
-        </button>
-      </a>
       <div class="text-standard text-white">
         <p>
-          Curbside pickup is available when we are open: Wednesday-Sunday, 2:00-6:00 PM.
+          Curbside pickup is also available when we are open: Wednesday-Sunday, 2:00-6:00 PM.
         </p>
         <p v-if="isTastingRoomOpen">
           We are now open for drink-in!
@@ -34,6 +27,13 @@
           We are opening for drink-in on June 17th.
         </p>
       </div>
+      <a href="https://canmorebrewing.square.site">
+        <button class="btn btn-orange mb-8">
+          Click Here For
+          <br>
+          Curbside Pickup
+        </button>
+      </a>
     </div>
   </section>
 </template>
