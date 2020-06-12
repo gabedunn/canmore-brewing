@@ -28,7 +28,7 @@
         </p>
       </div>
       <a href="https://canmorebrewing.square.site">
-        <button class="btn btn-orange mb-8">
+        <button class="btn btn-orange mt-8">
           Click Here For
           <br>
           Curbside Pickup
