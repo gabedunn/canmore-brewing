@@ -7,17 +7,20 @@
       <div class="container">
         <div class="mx-8 lg:mx-40">
           <h1 class="title uppercase">
-            Tasting Room & Patio Now Open For Dine-In!
+            Tasting Room & Patio Now Open!
           </h1>
           <h2 class="uppercase text-2xl mt-2">
             Wed-Thu 1-7 PM, Fri-Sat 1-8 PM, Sun 1-7 PM
+          </h2>
+          <h2 class="uppercase text-2xl mt-2">
+            Social distancing rules apply.
           </h2>
         </div>
       </div>
     </div>
     <div class="container px-2 lg:px-8 text-center">
       <div class="text-standard text-white">
-        <p>
+        <p class="p-m-0">
           Curbside pickup is available whenever we are open.
         </p>
       </div>
@@ -57,6 +60,11 @@
 
   p {
     @apply font-cbsans font-semibold my-3;
+  }
+
+  p.p-m-0 {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   a {
