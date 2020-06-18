@@ -7,10 +7,10 @@
       <div class="container">
         <div class="mx-8 lg:mx-40">
           <h1 class="title uppercase">
-            Tasting Room Now Open
+            Tasting Room & Patio Now Open For Dine-In!
           </h1>
           <h2 class="uppercase text-2xl mt-2">
-            For off-sales and growler fills, from 2-6 PM
+            Wed-Thu 1-7 PM, Fri-Sat 1-8 PM, Sun 1-7 PM
           </h2>
         </div>
       </div>
@@ -18,13 +18,7 @@
     <div class="container px-2 lg:px-8 text-center">
       <div class="text-standard text-white">
         <p>
-          Curbside pickup is also available when we are open: Wednesday-Sunday, 2:00-6:00 PM.
-        </p>
-        <p v-if="isTastingRoomOpen">
-          We are now open for drink-in!
-        </p>
-        <p v-else>
-          We are opening for drink-in on June 17th.
+          Curbside pickup is available whenever we are open.
         </p>
       </div>
       <a href="https://canmorebrewing.square.site">
@@ -81,7 +75,6 @@
 
   .title {
     @apply font-cbtitle;
-    font-size: 1rem;
   }
 
   @media (min-width: 768px) {
