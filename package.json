@@ -18,7 +18,7 @@
     "@babel/polyfill": "^7.10.4",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/vue-fontawesome": "^0.1.8",
     "contentful": "^7.10.0",
     "moment": "^2.27.0",
