@@ -96,10 +96,17 @@
             <h3 class="subtitle">
               Hours:
             </h3>
-            <p>Monday-Tuesday: Closed</p>
-            <p>Wednesday-Thursday: 1PM - 7PM</p>
-            <p>Friday-Saturday: 1PM - 8PM</p>
-            <p>Sunday: 1PM - 7PM</p>
+            <p
+              v-if="google"
+              class="open-status"
+            >
+              We are currently {{ open ? 'open!' : 'closed.' }}
+            </p>
+            <p
+              v-for="day in days"
+              :key="day"
+              v-text="day"
+            />
           </div>
         </div>
       </div>
@@ -108,6 +115,8 @@
 </template>
 
 <script>
+  import { get } from 'r2'
+
   import MapMarker from '../MapMarker'
   import MarkerInfo from '../MarkerInfo'
 
@@ -121,7 +130,37 @@
       return {
         mapOptions: this.$store.state.mapOptions,
         marker: this.$store.state.markers.find(m => m.id === 0),
-        infoStatus: true
+        infoStatus: true,
+        days: [],
+        open: [],
+        google: true
+      }
+    },
+    async mounted () {
+      const place = await get(
+        'https://cors-anywhere.herokuapp.com/' +
+          'https://maps.googleapis.com/maps/api/place/details/json?' +
+          // Add the API key to the query.
+          `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
+          // Specifies the place_id to get the hours from
+          '&place_id=ChIJwRQhBJPFcFMRdW4gwcwgaRY' +
+          '&fields=opening_hours'
+      ).json
+
+      if (place.status === 'OK') {
+        this.days = place.result.opening_hours.weekday_text
+        this.open = place.result.opening_hours.open_now
+      } else {
+        this.google = false
+        this.days = [
+          'Monday: 1:00 – 7:00 p.m.',
+          'Tuesday: Closed',
+          'Wednesday: 1:00 – 7:00 p.m.',
+          'Thursday: 1:00 – 7:00 p.m.',
+          'Friday: 1:00 – 8:00 p.m.',
+          'Saturday: 1:00 – 8:00 p.m.',
+          'Sunday: 1:00 – 7:00 p.m.'
+        ]
       }
     },
     methods: {
@@ -147,6 +186,10 @@
 
   p {
     @apply font-cbsans font-semibold text-white;
+  }
+
+  .open-status {
+    @apply -mt-3 mb-1;
   }
 
   .hours p {
