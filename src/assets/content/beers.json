@@ -1,0 +1,15 @@
+{
+  "core": [
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273161/beers/logos/pale-logo.png",
+      "name": "Ten Peaks Pale Ale",
+      "srm": 7,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273047/beers/cans/pale-can.png",
+      "abv": 5,
+      "textColour": "black",
+      "ibu": 33,
+      "description": "The Valley of the Ten Peaks is one of the most remarkable views in all of Banff National Park, even having the distinction of appearing on the twenty dollar bill on two occasions. O Canada!\n\nA moderately hopped American style pale ale, slightly sweet, biscuity and very quenching. Welcome to craft beer."
+    }
+  ]
+}
