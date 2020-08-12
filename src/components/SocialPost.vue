@@ -1,33 +1,35 @@
 <template>
   <div class="social-card">
-    <figure v-if="type === 'image' || type === 'carousel'">
+    <figure v-if="type === 'IMAGE' || type === 'CAROUSEL_ALBUM'">
       <a
-        :href="link"
+        :href="permalink"
         target="_blank"
       >
         <img
-          :src="images.standard_resolution.url"
-          alt="Placeholder image"
+          :src="media"
+          alt="instagram post"
         >
       </a>
     </figure>
-    <figure v-else-if="type === 'video'">
+    <figure v-else-if="type === 'VIDEO'">
       <vue-plyr>
         <video
-          :poster="images.standard_resolution.url"
+          playsinline
+          controls
+          :data-poster="thumbnail"
           loop
         >
           <source
-            :src="videos.standard_resolution.url"
+            :src="media"
             type="video/mp4"
           >
         </video>
       </vue-plyr>
     </figure>
-    <div>
+    <div class="content">
       <p v-text="caption" />
     </div>
-    <div>
+    <div class="timestamp">
       <time
         :datetime="isoTime"
         v-text="time"
@@ -43,19 +45,19 @@
     name: 'SocialPost',
     // TODO: add proper validation for these props
     props: {
-      createdTime: { type: String, required: true },
       caption: { type: String, required: true },
-      images: { type: Object, required: true },
-      videos: { type: Object, required: false, default: () => {} },
-      link: { type: String, required: true },
-      type: { type: String, required: true }
+      type: { type: String, required: true },
+      media: { type: String, required: true },
+      thumbnail: { type: String, required: false, default: undefined },
+      permalink: { type: String, required: true },
+      timestamp: { type: String, required: true }
     },
     computed: {
       time () {
-        return moment.unix(this.createdTime).format('h:mm A - MMM D, YYYY')
+        return moment(this.timestamp).format('h:mm A - MMM D, YYYY')
       },
       isoTime () {
-        return moment.unix(this.createdTime).format()
+        return moment(this.timestamp).format()
       }
     }
   }
