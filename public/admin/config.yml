@@ -17,7 +17,7 @@ collections:
     files:
       - label: Fallback Hours
         name: hours
-        file: src/assets/content/global/hours.json
+        file: src/assets/content/hours.json
         fields:
           - label: Monday
             name: monday
