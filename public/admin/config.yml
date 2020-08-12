@@ -15,6 +15,32 @@ collections:
   - label: Content
     name: Content
     files:
+      - label: Notification Banner
+        name: notification
+        file: src/assets/content/notification.json
+        fields:
+          - { label: Enabled, name: enabled, widget: boolean }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitles, name: subtitle, widget: list, field: { label: Line, name: line, widget: string } }
+          - { label: Content, name: content, widget: string }
+          - { label: Button Text, name: button, widget: list, field: { label: Line, name: line, widget: string } }
+          - { label: Button URL, name: url, widget: string }
+          - label: Colour
+            name: colour
+            hint: Background colour for the notiofication banner.
+            widget: select
+            options:
+              - { label: White, value: white }
+              - { label: Gray, value: gray }
+              - { label: Pink, value: pink }
+              - { label: Red, value: red }
+              - { label: Orange, value: orange }
+              - { label: Yellow, value: yellow }
+              - { label: Green, value: green }
+              - { label: Teal, value: teal }
+              - { label: Blue, value: blue }
+              - { label: Indigo, value: indigo }
+              - { label: Purple, value: purple }
       - label: Fallback Hours
         name: hours
         file: src/assets/content/hours.json
