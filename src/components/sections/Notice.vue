@@ -26,7 +26,10 @@
           v-text="content"
         />
       </div>
-      <a href="https://canmorebrewing.square.site">
+      <a
+        v-if="buttonStatus"
+        :href="url"
+      >
         <button class="btn btn-orange mt-8">
           <span
             v-for="line in button"
@@ -42,7 +45,7 @@
 </template>
 
 <script>
-  import { enabled, title, subtitle, content, button, url, colour } from '../../assets/content/notification.json'
+  import { enabled, colour, title, subtitle, content, button_status as buttonStatus, button, url } from '../../assets/content/notification.json'
 
   export default {
     name: 'Notice',
@@ -51,12 +54,13 @@
         currentTime: (new Date()).getTime(),
         openTime: 1592330400000,
         enabled,
+        colour,
         title,
         subtitle,
         content,
+        buttonStatus,
         button,
-        url,
-        colour
+        url
       }
     }
   }

@@ -20,11 +20,6 @@ collections:
         file: src/assets/content/notification.json
         fields:
           - { label: Enabled, name: enabled, widget: boolean }
-          - { label: Title, name: title, widget: string }
-          - { label: Subtitles, name: subtitle, widget: list, field: { label: Line, name: line, widget: string } }
-          - { label: Content, name: content, widget: string }
-          - { label: Button Text, name: button, widget: list, field: { label: Line, name: line, widget: string } }
-          - { label: Button URL, name: url, widget: string }
           - label: Colour
             name: colour
             hint: Background colour for the notiofication banner.
@@ -41,6 +36,12 @@ collections:
               - { label: Blue, value: blue }
               - { label: Indigo, value: indigo }
               - { label: Purple, value: purple }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitles, name: subtitle, widget: list, field: { label: Line, name: line, widget: string } }
+          - { label: Content, name: content, widget: string }
+          - { label: Enable Button, name: button_status, widget: boolean }
+          - { label: Button Text, name: button, widget: list, required: false, field: { label: Line, name: line, widget: string } }
+          - { label: Button URL, name: url, widget: string, required: false }
       - label: Fallback Hours
         name: hours
         file: src/assets/content/hours.json
