@@ -1,34 +1,40 @@
 <template>
   <section
     id="notice"
-    class="bg-red-600"
+    :class="`bg-${colour}-600`"
   >
     <div class="section-header bg-red text-white text-center">
       <div class="container">
         <div class="mx-8 lg:mx-40">
-          <h1 class="title uppercase">
-            Tasting Room & Patio Now Open!
-          </h1>
-          <h2 class="uppercase text-2xl mt-2">
-            Wed-Thu 1-7 PM, Fri-Sat 1-8 PM, Sun 1-7 PM
-          </h2>
-          <h2 class="uppercase text-2xl mt-2">
-            Social distancing rules apply.
-          </h2>
+          <h1
+            class="title uppercase"
+            v-text="title"
+          />
+          <h2
+            v-for="sub in subtitle"
+            :key="sub"
+            class="uppercase text-2xl mt-2"
+            v-text="sub"
+          />
         </div>
       </div>
     </div>
     <div class="container px-2 lg:px-8 text-center">
       <div class="text-standard text-white">
-        <p class="p-m-0">
-          Curbside pickup is available whenever we are open.
-        </p>
+        <p
+          class="p-m-0"
+          v-text="content"
+        />
       </div>
       <a href="https://canmorebrewing.square.site">
         <button class="btn btn-orange mt-8">
-          Click Here For
-          <br>
-          Curbside Pickup
+          <span
+            v-for="line in button"
+            :key="line"
+          >
+            {{ line }}
+            <br>
+          </span>
         </button>
       </a>
     </div>
@@ -36,17 +42,21 @@
 </template>
 
 <script>
+  import { enabled, title, subtitle, content, button, url, colour } from '../../assets/content/notification.json'
+
   export default {
     name: 'Notice',
     data () {
       return {
         currentTime: (new Date()).getTime(),
-        openTime: 1592330400000
-      }
-    },
-    computed: {
-      isTastingRoomOpen () {
-        return this.currentTime > this.openTime
+        openTime: 1592330400000,
+        enabled,
+        title,
+        subtitle,
+        content,
+        button,
+        url,
+        colour
       }
     }
   }

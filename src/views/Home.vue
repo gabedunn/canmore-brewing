@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <navbar />
-    <notice />
+    <notice v-if="enabled" />
     <landing />
     <tasting-room />
     <food />
@@ -31,6 +31,8 @@
   import Contact from '../components/sections/Contact'
   import CopyFooter from '../components/sections/CopyFooter'
 
+  import { enabled } from '../assets/content/notification.json'
+
   export default {
     name: 'HomePage',
     metaInfo: {
@@ -51,6 +53,11 @@
       BeerLocator,
       Contact,
       CopyFooter
+    },
+    data () {
+      return {
+        enabled
+      }
     }
   }
 </script>

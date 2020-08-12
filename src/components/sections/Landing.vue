@@ -2,6 +2,7 @@
   <section
     id="landing"
     class="lg:h-screen w-full font-sans bg-fixed"
+    :class="{ 'navbar-padding': !enabled }"
   >
     <div class="container flexy">
       <div class="flexy-head flex object-top pt-12 sm:pt-16 pb-8 sm:pb-0">
@@ -76,10 +77,13 @@
 </template>
 
 <script>
+  import { enabled } from '../../assets/content/notification.json'
+
   export default {
     name: 'LandingPage',
     data () {
       return {
+        enabled,
         buttons: [
           {
             text: 'Tasting Room',
@@ -121,12 +125,15 @@
 
 <style scoped>
   #landing {
-    /*padding-top: 4.5rem;*/
     background-image: url(../../assets/img/tasting_room/landing-background.webp),
     url(../../assets/img/tasting_room/landing-background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .navbar-padding {
+    padding-top: 4.5rem;
   }
 
   .flexy {
