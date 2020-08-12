@@ -1,0 +1,24 @@
+{
+  "monday": {
+    "hours": "1:00 – 7:00 p.m."
+  },
+  "tuesday": {
+    "closed": true,
+    "hours": "Closed (this isn't used anywhere if the closed option is enabled)."
+  },
+  "wednesday": {
+    "hours": "1:00 – 7:00 p.m."
+  },
+  "thursday": {
+    "hours": "1:00 – 7:00 p.m."
+  },
+  "friday": {
+    "hours": "1:00 – 8:00 p.m."
+  },
+  "saturday": {
+    "hours": "1:00 – 8:00 p.m."
+  },
+  "sunday": {
+    "hours": "1:00 – 7:00 p.m."
+  }
+}
