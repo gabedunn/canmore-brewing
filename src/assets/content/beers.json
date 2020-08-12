@@ -66,5 +66,18 @@
       "ibu": 25,
       "description": "The Highline trail in Canmore is a local favourite and is epic in all proportions. Traversing the slopes of the *Ehagay Nakoda Range* from the base of the *Three Sisters* to the shadow of *Ha Ling Peak*, it has something for everyone!\n\nThis lagered blonde was made to be a favourite for as long as the trail has been. Light in body and colour, with hints of stone fruit and grain."
     }
+  ],
+  "seasonal": [
+    {
+      "bg": "#5405ff",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
+      "name": "Sulphur Mountain Session Ale",
+      "srm": 4,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273871/beers/cans/stout-can.png",
+      "abv": 4,
+      "textColour": "white",
+      "ibu": 35,
+      "description": "Built for epic adventures, this Session Ale is a collaboration with Pursuit Collection inspired by iconic Sulphur Mountain. Alberta barley, juniper berries and spruce tips help create a light, crisp flavour. Pairing suggestion: majestic Rocky Mountain views.,"
+    }
   ]
 }
