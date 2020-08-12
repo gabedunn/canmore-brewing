@@ -42,6 +42,50 @@ collections:
           - { label: Enable Button, name: button_status, widget: boolean }
           - { label: Button Text, name: button, widget: list, required: false, field: { label: Line, name: line, widget: string } }
           - { label: Button URL, name: url, widget: string, required: false }
+      - label: Beers
+        name: beers
+        file: src/assets/content/beers.json
+        fields:
+          - label: Core Beers
+            name: core
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: markdown }
+              - { label: Alcohol by Volume, name: abv, widget: number, valueType: float, min: 0, step: 0.1 }
+              - { label: IBU, name: ibu, widget: number, valueType: int, min: 0, step: 1 }
+              - { label: SRM, name: srm, widget: number, valueType: int, min: 0, step: 1 }
+              - { label: Logo, name: logo, widget: image }
+              - { label: Can Image, name: can, widget: image }
+              - { label: Background Colour, name: bg, widget: string, hint: Hex code for the colour. }
+              - label: Text Colour
+                name: textColour
+                widget: select
+                options:
+                  - { label: Black, value: black }
+                  - { label: White, value: white }
+                default: black
+                hint: Contrast to the background colour.
+          - label: Seasonal Beers
+            name: seasonal
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Description, name: description, widget: markdown }
+              - { label: Alcohol by Volume, name: abv, widget: number, valueType: float, min: 0, step: 0.1 }
+              - { label: IBU, name: ibu, widget: number, valueType: int, min: 0, step: 1 }
+              - { label: SRM, name: srm, widget: number, valueType: int, min: 0, step: 1 }
+              - { label: Logo, name: logo, widget: image }
+              - { label: Can Image, name: can, widget: image }
+              - { label: Background Colour, name: bg, widget: string, hint: Hex code for the colour. }
+              - label: Text Colour
+                name: textColour
+                widget: select
+                options:
+                  - { label: Black, value: black }
+                  - { label: White, value: white }
+                default: black
+                hint: Contrast to the background colour.
       - label: Fallback Hours
         name: hours
         file: src/assets/content/hours.json
