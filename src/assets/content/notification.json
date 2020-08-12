@@ -11,5 +11,6 @@
     "Curbside Pickup"
   ],
   "url": "https://canmorebrewing.square.site/",
-  "colour": "red"
+  "colour": "red",
+  "button_status": false
 }
