@@ -6,8 +6,12 @@
     @apply w-full;
 }
 
-.social-card div {
-    @apply px-6 py-4;
+.social-card .content {
+    @apply px-6 pt-4 pb-2;
+}
+
+.social-card .timestamp {
+    @apply px-6 pb-4 pt-2;
 }
 
 .social-card div p {
