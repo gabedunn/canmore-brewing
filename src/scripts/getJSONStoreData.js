@@ -23,7 +23,7 @@ const mapsAPI = async (address, postalCode) => {
     return get(
       'https://maps.googleapis.com/maps/api/geocode/json?' +
       // Add the API key to the query.
-      `key=${process.env.GOOGLE_MAPS_API_KEY}` +
+      `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
       // Limit results to region=ca (Canada).
       '&region=ca' +
       '&components=' +
