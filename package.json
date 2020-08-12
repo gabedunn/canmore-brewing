@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "data": "node ./src/getJSONStoreData.js"
+    "data": "node src/scripts/getJSONStoreData.js"
   },
   "dependencies": {
     "@babel/cli": "^7.10.5",

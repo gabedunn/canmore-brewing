@@ -42,7 +42,7 @@ const mapsAPI = async (address, postalCode) => {
 // Main function to get around top level async/await restrictions.
 const main = async () => {
   // Set the directory that stores the CSV files.
-  const CSVDataDir = join(__dirname, 'assets', 'csv')
+  const CSVDataDir = join(__dirname, '..', 'assets', 'csv')
 
   // Set the file paths for the list of stores and sales.
   const storesPath = join(CSVDataDir, 'stores.csv')
@@ -167,7 +167,7 @@ const main = async () => {
   finalData.forEach(store => console.log(store))
 
   // Write the data to a temp file (markers-1.json) in JSON format.
-  writeFileSync(join(__dirname, 'assets', 'js', 'markers.json'), JSON.stringify(finalData, null, 2), 'utf8')
+  writeFileSync(join(__dirname, '..', 'assets', 'js', 'markers.json'), JSON.stringify(finalData, null, 2), 'utf8')
 }
 
 // Run the main function.
