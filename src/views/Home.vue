@@ -33,6 +33,8 @@
 
   import { enabled } from '../assets/content/notification.json'
 
+  // TODO: add an awards section
+
   export default {
     name: 'HomePage',
     metaInfo: {
