@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "title": "Tasting room & patio now open!",
+  "subtitle": [
+    "Wed-Thu 1-7 PM, Fri-Sat 1-8 PM, Sun 1-7 PM",
+    "Social distancing rules apply."
+  ],
+  "content": "Curbside pickup is available whenever we are open.",
+  "button": [
+    " Click Here For",
+    "Curbside Pickup"
+  ],
+  "url": "https://canmorebrewing.square.site/",
+  "colour": "red"
+}
