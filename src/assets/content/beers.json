@@ -10,6 +10,61 @@
       "textColour": "black",
       "ibu": 33,
       "description": "The Valley of the Ten Peaks is one of the most remarkable views in all of Banff National Park, even having the distinction of appearing on the twenty dollar bill on two occasions. O Canada!\n\nA moderately hopped American style pale ale, slightly sweet, biscuity and very quenching. Welcome to craft beer."
+    },
+    {
+      "bg": "#6c3431",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273439/beers/logos/rye-logo.png",
+      "name": "Railway Avenue Rye IPA",
+      "srm": 11,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273482/beers/cans/rye-can.png",
+      "abv": 6,
+      "textColour": "white",
+      "ibu": 60,
+      "description": "From the very street we call home, to the gentle bend in the pathway in front of the brewery, much of this town was shaped by the railway history. The trains still rumble by our door a few times a day.\n\nThis refreshing and crisp west coast style IPA has a healthy dose of malted rye, plenty of hops in the boil and a thorough dry hop. This IPA is very approachable."
+    },
+    {
+      "bg": "#a2cfc9",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273669/beers/logos/brown-logo.png",
+      "name": "Georgetown Brown Ale",
+      "srm": 23,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273705/beers/cans/brown-can.png",
+      "abv": 6,
+      "textColour": "black",
+      "ibu": 26,
+      "description": "Who can resist a ghost town story? The old coal mining town has mostly faded into the riverbanks of the Bow, just a short hop west of Canmore. Follow the Georgetown Trail and see for yourself.\n\nWith the addition of caramel and chocolate malts, this brown ale will entice you over to the dark side – in a good way! Crisp, sweet and soooooo caramello."
+    },
+    {
+      "bg": "#e15829",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
+      "name": "Mineside Stout",
+      "srm": 31,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273871/beers/cans/stout-can.png",
+      "abv": 5,
+      "textColour": "black",
+      "ibu": 21,
+      "description": "For over 100 years the west side of the Bow River in Canmore has been known as Mineside, courtesy of the once numerous coal mines in the area. It all started in 1887 with the No. 1 Mine at Canmore Creek.\n\nSilky smooth and dark, just like the area’s coal. This English style stout features pale, chocolate and caramel malts along with roasted and flaked barley for a complex, delicious treat."
+    },
+    {
+      "bg": "#b4b4b4",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597274078/beers/logos/misty-logo.png",
+      "name": "Misty Mountain Hops New England Style IPA",
+      "srm": 3,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597274124/beers/cans/misty-can.png",
+      "abv": 6.4,
+      "textColour": "black",
+      "ibu": 55,
+      "description": "When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks pack their bags. Some folks stay for a beer and have some fun - that's us.\n\nThis New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops."
+    },
+    {
+      "bg": "#ffffff",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273161/beers/logos/pale-logo.png",
+      "name": "Highline Lagered Blonde",
+      "srm": 5,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273047/beers/cans/pale-can.png",
+      "abv": 4,
+      "textColour": "black",
+      "ibu": 25,
+      "description": "The Highline trail in Canmore is a local favourite and is epic in all proportions. Traversing the slopes of the *Ehagay Nakoda Range* from the base of the *Three Sisters* to the shadow of *Ha Ling Peak*, it has something for everyone!\n\nThis lagered blonde was made to be a favourite for as long as the trail has been. Light in body and colour, with hints of stone fruit and grain."
     }
   ]
 }
