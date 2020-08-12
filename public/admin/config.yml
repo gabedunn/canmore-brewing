@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: gabedunn/canmore-brewing
+  branch: master
+
+site_url: https://canmorebrewing.com
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: canmore-brewing-company
+    api_key: 885415494169291
+
+collections:
+  - label: Content
+    name: Content
+    files:
+      - label: Fallback Hours
+        name: hours
+        file: src/assets/content/global/hours.json
+        fields:
+          - label: Monday
+            name: monday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Tuesday
+            name: tuesday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Wednesday
+            name: wednesday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Thursday
+            name: thursday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Friday
+            name: friday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Saturday
+            name: saturday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+          - label: Sunday
+            name: sunday
+            widget: object
+            fields:
+              - { label: Hours, name: hours, widget: string }
+              - { label: Closed, name: closed, widget: boolean, required: false, default: false }
+    editor:
+      preview: false
