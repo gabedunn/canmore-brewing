@@ -120,6 +120,8 @@
   import MapMarker from '../MapMarker'
   import MarkerInfo from '../MarkerInfo'
 
+  import hours from '../../assets/content/hours.json'
+
   export default {
     name: 'Contact',
     components: {
@@ -152,15 +154,9 @@
         this.open = place.result.opening_hours.open_now
       } else {
         this.google = false
-        this.days = [
-          'Monday: 1:00 – 7:00 p.m.',
-          'Tuesday: Closed',
-          'Wednesday: 1:00 – 7:00 p.m.',
-          'Thursday: 1:00 – 7:00 p.m.',
-          'Friday: 1:00 – 8:00 p.m.',
-          'Saturday: 1:00 – 8:00 p.m.',
-          'Sunday: 1:00 – 7:00 p.m.'
-        ]
+        this.days = Object.keys(hours).map(day => `${
+          day.replace(/^\w/, c => c.toUpperCase())}: ${hours[day].closed ? 'Closed' : hours[day].hours
+        }`)
       }
     },
     methods: {
