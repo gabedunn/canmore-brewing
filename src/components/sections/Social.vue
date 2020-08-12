@@ -78,6 +78,9 @@
   import SocialPost from '../SocialPost'
   import VueInstagram from '@/components/vue-instagram.vue'
 
+  // TODO: add option to view more posts
+  // TODO: switch to grid for posts layout
+
   export default {
     name: 'Social',
     components: {

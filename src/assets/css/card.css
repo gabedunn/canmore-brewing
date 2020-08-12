@@ -6,6 +6,10 @@
     @apply w-full;
 }
 
+.social-card .video video {
+    min-height: 10rem;
+}
+
 .social-card .content {
     @apply px-6 pt-4 pb-2;
 }

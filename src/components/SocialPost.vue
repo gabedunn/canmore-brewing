@@ -11,11 +11,13 @@
         >
       </a>
     </figure>
-    <figure v-else-if="type === 'VIDEO'">
-      <vue-plyr>
+    <figure
+      v-else-if="type === 'VIDEO'"
+      class="video"
+    >
+      <vue-plyr :options="plyrOptions">
         <video
           playsinline
-          controls
           :data-poster="thumbnail"
           loop
         >
@@ -51,6 +53,13 @@
       thumbnail: { type: String, required: false, default: undefined },
       permalink: { type: String, required: true },
       timestamp: { type: String, required: true }
+    },
+    data () {
+      return {
+        plyrOptions: {
+          controls: ['play-large', 'mute', 'fullscreen']
+        }
+      }
     },
     computed: {
       time () {
