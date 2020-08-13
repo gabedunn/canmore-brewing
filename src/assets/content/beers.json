@@ -57,6 +57,7 @@
     },
     {
       "bg": "#ffffff",
+      "hidden": true,
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273161/beers/logos/pale-logo.png",
       "name": "Highline Lagered Blonde",
       "srm": 5,
@@ -70,6 +71,7 @@
   "seasonal": [
     {
       "bg": "#5405ff",
+      "hidden": false,
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
       "name": "Sulphur Mountain Session Ale",
       "srm": 4,
