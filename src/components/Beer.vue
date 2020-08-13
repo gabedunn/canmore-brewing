@@ -8,22 +8,23 @@
         <div class="md:w-1/2 inline-block text-center">
           <picture>
             <source
-              :srcset="logo('webp')"
+              :srcset="logoWebp"
               type="image/webp"
             >
             <source
-              :srcset="logo('png')"
+              :srcset="logo"
               type="image/png"
             >
             <img
               :alt="title"
-              :src="logo('png')"
+              :src="logo"
               class="mx-auto"
             >
           </picture>
-          <p class="beer-description font-cbsans font-semibold text-xl py-8">
-            <slot />
-          </p>
+          <marked
+            :markdown="description"
+            :marked-class="`prose-xl font-cbsans font-semibold text-${colour} py-8`"
+          />
           <div class="font-beer-info font-light text-xl">
             <p>{{ alcohol }}% Alc/vol.</p>
             <p>{{ ibu }} IBU</p>
@@ -33,16 +34,16 @@
         <div :class="`inline-block md:order-${imageOrder} pt-8 md:pt-0`">
           <picture>
             <source
-              :srcset="can('webp')"
+              :srcset="canWebp"
               type="image/webp"
             >
             <source
-              :srcset="can('png')"
+              :srcset="can"
               type="image/png"
             >
             <img
               :alt="title"
-              :src="can('png')"
+              :src="can"
               class="mx-auto"
             >
           </picture>
@@ -53,8 +54,10 @@
 </template>
 
 <script>
+  import Marked from '@/components/Marked.vue'
   export default {
     name: 'Beer',
+    components: { Marked },
     props: {
       title: {
         type: String,
@@ -87,21 +90,17 @@
       colour: {
         type: String,
         default: 'black',
-        validator: value => {
-          if (value === '') { return false }
-          if (value === 'inherit') { return false }
-          if (value === 'transparent') { return false }
-
-          const image = document.createElement('img')
-          image.style.color = 'rgb(0, 0, 0)'
-          image.style.color = value
-          if (image.style.color !== 'rgb(0, 0, 0)') { return true }
-          image.style.color = 'rgb(255, 255, 255)'
-          image.style.color = value
-          return image.style.color !== 'rgb(255, 255, 255)'
-        }
+        validator: value => ['black', 'white'].some(c => c === value)
       },
-      image: {
+      description: {
+        type: String,
+        required: true
+      },
+      logo: {
+        type: String,
+        required: true
+      },
+      can: {
         type: String,
         required: true
       },
@@ -127,14 +126,12 @@
       },
       imageOrder () {
         return this.side === 'left' ? 'first' : 'last'
-      }
-    },
-    methods: {
-      can (type) {
-        return require('../assets/img/beers/' + this.image + '.can.' + type)
       },
-      logo (type) {
-        return require('../assets/img/logo/' + this.image + '.logo.' + type)
+      logoWebp () {
+        return this.logo.replace(/.png$/, '.webp')
+      },
+      canWebp () {
+        return this.can.replace(/.png$/, '.webp')
       }
     }
 
