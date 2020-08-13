@@ -1,17 +1,26 @@
 <template>
   <section id="our-beers">
-    <header-title title="Our Beers" />
+    <header-title title="Our Core Beers" />
     <div class="beers">
-      <div class="container">
-        <div class="mx-8 lg:mx-40 my-10">
-          <h1 class="text-4xl font-semibold text-center">
-            Stay Tuned - Our next seasonal is in the tank now.
-          </h1>
-          <hr class="bg-cbblack-background h-2 mt-8">
-        </div>
-      </div>
       <beer
         v-for="(beer, i) in core.filter(c => !c.name.includes('Highline'))"
+        :key="beer.name"
+        :alcohol="beer.abv"
+        :ibu="beer.ibu"
+        :srm="beer.srm"
+        :logo="beer.logo"
+        :can="beer.can"
+        :title="beer.name"
+        :side="i % 2 === 0 ? 'left' : 'right'"
+        :colour="beer.textColour"
+        :bg="beer.bg"
+        :description="beer.description"
+      />
+    </div>
+    <header-title title="Our Seasonal Beers" />
+    <div class="beers">
+      <beer
+        v-for="(beer, i) in seasonal"
         :key="beer.name"
         :alcohol="beer.abv"
         :ibu="beer.ibu"
