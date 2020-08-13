@@ -3,7 +3,7 @@
     <header-title title="Our Core Beers" />
     <div class="beers">
       <beer
-        v-for="(beer, i) in core.filter(c => !c.name.includes('Highline'))"
+        v-for="(beer, i) in filteredCore"
         :key="beer.name"
         :alcohol="beer.abv"
         :ibu="beer.ibu"
@@ -17,10 +17,16 @@
         :description="beer.description"
       />
     </div>
-    <header-title title="Our Seasonal Beers" />
-    <div class="beers">
+    <header-title
+      v-if="filteredSeasonal.length !== 0"
+      title="Our Seasonal Beers"
+    />
+    <div
+      v-if="filteredSeasonal.length !== 0"
+      class="beers"
+    >
       <beer
-        v-for="(beer, i) in seasonal"
+        v-for="(beer, i) in filteredSeasonal"
         :key="beer.name"
         :alcohol="beer.abv"
         :ibu="beer.ibu"
@@ -122,6 +128,14 @@
             tempImage: 'Misty'
           }
         ]
+      }
+    },
+    computed: {
+      filteredCore () {
+        return this.core.filter(b => !b.hidden)
+      },
+      filteredSeasonal () {
+        return this.seasonal.filter(b => !b.hidden)
       }
     }
   }
