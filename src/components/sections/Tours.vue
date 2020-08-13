@@ -6,6 +6,9 @@
         class="mx-8 lg:mx-40 my-10 flex flex-wrap items-center tours text-standard text-justify text-cbblack-grey font-semibold font-cbsans"
       >
         <div class="lg:w-1/2 lg:pr-8 text-justify lg:order-1">
+          <p class="py-2 underline">
+            Due to COVID-19 we have suspended our tours until further notice.
+          </p>
           <p class="py-2">
             We are super proud of our beautiful brewery and love to show it off. Book a tour to learn more about
             where we came from and how we make our delicious beer.
