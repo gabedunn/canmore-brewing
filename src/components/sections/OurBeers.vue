@@ -43,6 +43,8 @@
 
   import { core, seasonal } from '../../assets/content/beers.json'
 
+  // TODO: add fallback if we have no seasonal beers
+
   export default {
     name: 'OurBeers',
     components: {
