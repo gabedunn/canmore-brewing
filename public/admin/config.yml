@@ -66,6 +66,7 @@ collections:
                   - { label: White, value: white }
                 default: black
                 hint: Contrast to the background colour.
+              - { label: Hidden, name: hidden, widget: boolean, required: false }
           - label: Seasonal Beers
             name: seasonal
             widget: list
@@ -86,6 +87,7 @@ collections:
                   - { label: White, value: white }
                 default: black
                 hint: Contrast to the background colour.
+              - { label: Hidden, name: hidden, widget: boolean, required: false }
       - label: Fallback Hours
         name: hours
         file: src/assets/content/hours.json
