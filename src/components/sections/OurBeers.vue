@@ -11,7 +11,7 @@
         </div>
       </div>
       <beer
-        v-for="(beer, i) in core"
+        v-for="(beer, i) in core.filter(c => !c.name.includes('Highline'))"
         :key="beer.name"
         :alcohol="beer.abv"
         :ibu="beer.ibu"
