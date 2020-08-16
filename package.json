@@ -6,6 +6,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:pre": "yarn build && yarn prerender",
+    "prerender": "react-snap",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
@@ -61,11 +63,19 @@
     "eslint-plugin-vue": "^6.0.1",
     "lint-staged": "^9.4.3",
     "r2": "^2.0.1",
+    "react-snap": "^1.23.0",
     "vue-template-compiler": "^2.6.11"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "reactSnap": {
+    "source": "dist",
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    }
+  }
 }
