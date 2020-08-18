@@ -13,6 +13,7 @@ module.exports = {
         baseIndent: 1
       }
     ],
+    'vue/no-v-html': 'off',
     indent: 'off',
     'indent-legacy': ['error', 2],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
