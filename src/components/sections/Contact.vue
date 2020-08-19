@@ -66,32 +66,34 @@
           </p>
         </div>
         <div class="w-full md:w-2/5">
-          <gmap-map
-            :center="{lat:51.098, lng:-115.356925}"
-            :options="mapOptions"
-            :zoom="14"
-            map-type-id="roadmap"
-            style="height: 400px"
-          >
-            <marker-info
-              :address="marker.address"
-              :extra="marker.extra"
-              :lat="marker.lat"
-              :lng="marker.lng"
-              :name="marker.name"
-              :opened="infoStatus"
-            />
-            <map-marker
-              :id="marker.id"
-              :address="marker.address"
-              :extra="marker.extra"
-              :lat="marker.lat"
-              :lng="marker.lng"
-              :name="marker.name"
-              :type="marker.type"
-              @clicked="handleClick"
-            />
-          </gmap-map>
+          <client-only>
+            <gmap-map
+              :center="{lat:51.098, lng:-115.356925}"
+              :options="mapOptions"
+              :zoom="14"
+              map-type-id="roadmap"
+              style="height: 400px"
+            >
+              <marker-info
+                :address="marker.address"
+                :extra="marker.extra"
+                :lat="marker.lat"
+                :lng="marker.lng"
+                :name="marker.name"
+                :opened="infoStatus"
+              />
+              <map-marker
+                :id="marker.id"
+                :address="marker.address"
+                :extra="marker.extra"
+                :lat="marker.lat"
+                :lng="marker.lng"
+                :name="marker.name"
+                :type="marker.type"
+                @clicked="handleClick"
+              />
+            </gmap-map>
+          </client-only>
           <div class="hours mt-8 md:mt-16 text-standard text-white">
             <h3 class="subtitle">
               Hours:
@@ -116,6 +118,7 @@
 
 <script>
   import { get } from 'r2'
+  import ClientOnly from '../client-only.js'
 
   import MapMarker from '../MapMarker'
   import MarkerInfo from '../MarkerInfo'
@@ -125,6 +128,7 @@
   export default {
     name: 'Contact',
     components: {
+      ClientOnly,
       MapMarker,
       MarkerInfo
     },

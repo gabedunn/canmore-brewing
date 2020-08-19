@@ -4,38 +4,41 @@
       background-colour="cborange"
       title="Beer Locator"
     />
-    <gmap-map
-      :center="{lat:53.5, lng:-111}"
-      :options="this.$store.state.mapOptions"
-      :zoom="5.8"
-      map-type-id="roadmap"
-      style="width: 100%; height: 640px"
-    >
-      <marker-info
-        :address="this.$store.state.locatorInfo.address"
-        :extra="this.$store.state.locatorInfo.extra"
-        :lat="this.$store.state.locatorInfo.lat"
-        :lng="this.$store.state.locatorInfo.lng"
-        :name="this.$store.state.locatorInfo.name"
-        :opened="this.$store.state.locatorInfo.open"
-      />
-      <map-marker
-        v-for="marker in markers"
-        :id="marker.id"
-        :key="marker.id"
-        :address="marker.address"
-        :extra="marker.extra"
-        :lat="marker.lat"
-        :lng="marker.lng"
-        :name="marker.name"
-        :type="marker.type"
-        @clicked="handleClick"
-      />
-    </gmap-map>
+    <client-only>
+      <gmap-map
+        :center="{lat:53.5, lng:-111}"
+        :options="this.$store.state.mapOptions"
+        :zoom="5.8"
+        map-type-id="roadmap"
+        style="width: 100%; height: 640px"
+      >
+        <marker-info
+          :address="this.$store.state.locatorInfo.address"
+          :extra="this.$store.state.locatorInfo.extra"
+          :lat="this.$store.state.locatorInfo.lat"
+          :lng="this.$store.state.locatorInfo.lng"
+          :name="this.$store.state.locatorInfo.name"
+          :opened="this.$store.state.locatorInfo.open"
+        />
+        <map-marker
+          v-for="marker in markers"
+          :id="marker.id"
+          :key="marker.id"
+          :address="marker.address"
+          :extra="marker.extra"
+          :lat="marker.lat"
+          :lng="marker.lng"
+          :name="marker.name"
+          :type="marker.type"
+          @clicked="handleClick"
+        />
+      </gmap-map>
+    </client-only>
   </section>
 </template>
 
 <script>
+  import ClientOnly from '@/components/client-only.js'
   import MapMarker from '../MapMarker'
   import MarkerInfo from '../MarkerInfo'
   import HeaderTitle from '../Header'
@@ -43,6 +46,7 @@
   export default {
     name: 'BeerLocator',
     components: {
+      ClientOnly,
       HeaderTitle,
       MapMarker,
       MarkerInfo
