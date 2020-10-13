@@ -12284,10 +12284,10 @@ vue-router@^3.1.3:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.3.tgz#e6b14fabc0c0ee9fda0e2cbbda74b350e28e412b"
   integrity sha512-8iSa4mGNXBjyuSZFCCO4fiKfvzqk+mhL0lnKuGcQtO1eoj8nq3CmbEG8FwK5QqoqwDgsjsf1GDuisDX4cdb/aQ==
 
-vue-scrollto@^2.17.1:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.17.1.tgz#cd62ee0b98cf7e2ba9fd94f029addcd093978a48"
-  integrity sha512-uxOJXg6cZL88B+hTXRHDJMR+gHGiaS70ZTNk55fE5Z2TdwyIx9K/IHoNeTrtBrM6u3FASAIymKjZaQLmDf8Ykg==
+vue-scrollto@^2.19.1:
+  version "2.19.1"
+  resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.19.1.tgz#8c6ee7e7120a38accea1a9c47f45aeeb660fd312"
+  integrity sha512-4+CCBLm6fTwDkKgqJIOnE4UB9ngYVoFAREJfPhT0YaEKMo6oAjnP5fv4//cuN/DxXCi75N/QOwmpOPn/xwPd5g==
   dependencies:
     bezier-easing "2.1.0"
 
