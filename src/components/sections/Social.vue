@@ -92,7 +92,7 @@
       return {
         token: process.env.VUE_APP_INSTAGRAM_TOKEN,
         count: 4,
-        profilePic: 'https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/14032974_174713896292602_175919335_a.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=BqSqmcMRNmcAX-lUg-U&oh=99975640ade9a4b8be519a03f98aaeca&oe=5F5C8BCC'
+        profilePic: 'https://instagram.fyvr3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/14032974_174713896292602_175919335_a.jpg?_nc_ht=instagram.fyvr3-1.fna.fbcdn.net&_nc_ohc=Qybf6V82MokAX8J2oKO&tp=1&oh=52be96913d3ff3c2aa54f78ea20db06d&oe=5FE66192'
       }
     }
   }
