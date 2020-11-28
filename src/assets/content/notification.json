@@ -8,7 +8,7 @@
   "content": "Curbside pickup is available whenever we are open.",
   "button": [
     "SHOP BEER FOR HOME DELIVERY",
-    "and for merchandise"
+    "+ curbside pickup and for merchandise"
   ],
   "url": "https://canmorebrewing.square.site/",
   "colour": "red",
