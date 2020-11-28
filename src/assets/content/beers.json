@@ -57,7 +57,7 @@
     },
     {
       "bg": "#ffffff",
-      "hidden": true,
+      "hidden": false,
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597442529/beers/logos/Highline_Lagered_Blonde-NO-BG_sjhysu.psd",
       "name": "Highline Lagered Blonde",
       "srm": 5,
