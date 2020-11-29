@@ -1,6 +1,18 @@
 {
   "core": [
     {
+      "bg": "#ffffff",
+      "hidden": false,
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606608722/beers/logos/Highline_Lagered_Blonde-LOGO_mwmtvu.png",
+      "name": "Highline Lagered Blonde",
+      "srm": 5,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606608528/beers/cans/Highline_can_no-BG_mg7i0q.png",
+      "abv": 4,
+      "textColour": "black",
+      "ibu": 25,
+      "description": "The Highline trail in Canmore is a local favourite and is epic in all proportions. Traversing the slopes of the *Ehagay Nakoda Range* from the base of the *Three Sisters* to the shadow of *Ha Ling Peak*, it has something for everyone!\n\nThis lagered blonde was made to be a favourite for as long as the trail has been. Light in body and colour, with hints of stone fruit and grain."
+    },
+    {
       "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273161/beers/logos/pale-logo.png",
       "name": "Ten Peaks Pale Ale",
@@ -54,18 +66,6 @@
       "textColour": "black",
       "ibu": 55,
       "description": "When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks pack their bags. Some folks stay for a beer and have some fun - that's us.\n\nThis New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops."
-    },
-    {
-      "bg": "#ffffff",
-      "hidden": false,
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606608722/beers/logos/Highline_Lagered_Blonde-LOGO_mwmtvu.png",
-      "name": "Highline Lagered Blonde",
-      "srm": 5,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606608528/beers/cans/Highline_can_no-BG_mg7i0q.png",
-      "abv": 4,
-      "textColour": "black",
-      "ibu": 25,
-      "description": "The Highline trail in Canmore is a local favourite and is epic in all proportions. Traversing the slopes of the *Ehagay Nakoda Range* from the base of the *Three Sisters* to the shadow of *Ha Ling Peak*, it has something for everyone!\n\nThis lagered blonde was made to be a favourite for as long as the trail has been. Light in body and colour, with hints of stone fruit and grain."
     }
   ],
   "seasonal": [
