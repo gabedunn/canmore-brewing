@@ -70,6 +70,18 @@
   ],
   "seasonal": [
     {
+      "bg": "#FFFFFF",
+      "hidden": false,
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609933/beers/logos/Jam_session-LOGO-513x176_ih2h1a.png",
+      "name": "Jam Session Sour",
+      "srm": 35,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609781/beers/cans/Jam_session_282x760_xtzuky.png",
+      "abv": 4.8,
+      "textColour": "black",
+      "ibu": 9,
+      "description": "This Jam Session is anything but improvised; but your friends will still want to join you for one. \n\nWe’ve taken our time to get just the right sourness to go with the blackberries and cherries in this delicious kettle sour. \n\nPump up the jam!"
+    },
+    {
       "bg": "#5405ff",
       "hidden": true,
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
@@ -80,18 +92,6 @@
       "textColour": "white",
       "ibu": 35,
       "description": "Built for epic adventures, this Session Ale is a collaboration with Pursuit Collection inspired by iconic Sulphur Mountain. Alberta barley, juniper berries and spruce tips help create a light, crisp flavour. Pairing suggestion: majestic Rocky Mountain views.,"
-    },
-    {
-      "bg": "#FFFFFF",
-      "hidden": true,
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609258/beers/logos/Jam_session-LOGO-noBG_hfhlgd.png",
-      "name": "Jam Session Sour",
-      "srm": 35,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609084/beers/cans/Jam_session_2_gn16m2.png",
-      "abv": 4.8,
-      "textColour": "black",
-      "ibu": 9,
-      "description": "This Jam Session is anything but improvised; but your friends will still want to join you for one. \n\nWe’ve taken our time to get just the right sourness to go with the blackberries and cherries in this delicious kettle sour. \n\nPump up the jam!"
     }
   ]
 }
