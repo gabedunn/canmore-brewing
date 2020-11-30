@@ -54,7 +54,8 @@
           {
             name: 'Home',
             target: {
-              el: '#landing',
+              // el: '#landing',
+              el: '#notice',
               offset: 0
             }
           },
