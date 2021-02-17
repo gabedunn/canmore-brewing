@@ -145,13 +145,13 @@
     async mounted () {
       if (navigator.userAgent !== 'ReactSnap') {
         const proxy = window.location.hostname === 'localhost'
-          ? 'https://thingproxy.freeboard.io/fetch/'
-          : '/cors-proxy/'
+          ? 'https://thingproxy.freeboard.io/fetch/https://maps.googleapis.com/'
+          : '/cors/'
 
         const place = await get(
           // 'https://thingproxy.freeboard.io/fetch/' +
           proxy +
-            'https://maps.googleapis.com/maps/api/place/details/json?' +
+            'maps/api/place/details/json?' +
             // Add the API key to the query.
             `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
             // Specifies the place_id to get the hours from

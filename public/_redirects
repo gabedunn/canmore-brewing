@@ -31,6 +31,7 @@ https://canmore-brewing.netlify.com/* https://canmorebrewing.com/:splat 301!
 
 # CORS proxy
 /cors-proxy/* :splat 200
+/cors/* https://maps.googleapis.com/:splat  200
 
 # History mode for SPA
 /* /index.html 200
