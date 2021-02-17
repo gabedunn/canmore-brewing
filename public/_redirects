@@ -29,5 +29,8 @@ https://www.canmorebrewingcompany.ca/* https://canmorebrewing.com/:splat 301!
 https://nifty-edison-5c0237.netlify.com/* https://canmorebrewing.com/:splat 301!
 https://canmore-brewing.netlify.com/* https://canmorebrewing.com/:splat 301!
 
+# CORS proxy
+/cors-proxy/* :splat 200!
+
 # History mode for SPA
 /* /index.html 200

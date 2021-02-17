@@ -143,24 +143,31 @@
       }
     },
     async mounted () {
-      const place = await get(
-        'https://thingproxy.freeboard.io/fetch/' +
-          'https://maps.googleapis.com/maps/api/place/details/json?' +
-          // Add the API key to the query.
-          `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
-          // Specifies the place_id to get the hours from
-          '&place_id=ChIJwRQhBJPFcFMRdW4gwcwgaRY' +
-          '&fields=opening_hours'
-      ).json
+      if (navigator.userAgent !== 'ReactSnap') {
+        const proxy = window.location.hostname === 'localhost'
+          ? 'https://thingproxy.freeboard.io/fetch/'
+          : '/cors-proxy/'
 
-      if (place.status === 'OK') {
-        this.days = place.result.opening_hours.weekday_text
-        this.open = place.result.opening_hours.open_now
-      } else {
-        this.google = false
-        this.days = Object.keys(hours).map(day => `${
-          day.replace(/^\w/, c => c.toUpperCase())}: ${hours[day].closed ? 'Closed' : hours[day].hours
-        }`)
+        const place = await get(
+          // 'https://thingproxy.freeboard.io/fetch/' +
+          proxy +
+            'https://maps.googleapis.com/maps/api/place/details/json?' +
+            // Add the API key to the query.
+            `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
+            // Specifies the place_id to get the hours from
+            '&place_id=ChIJwRQhBJPFcFMRdW4gwcwgaRY' +
+            '&fields=opening_hours'
+        ).json
+
+        if (place.status === 'OK') {
+          this.days = place.result.opening_hours.weekday_text
+          this.open = place.result.opening_hours.open_now
+        } else {
+          this.google = false
+          this.days = Object.keys(hours).map(day => `${
+            day.replace(/^\w/, c => c.toUpperCase())}: ${hours[day].closed ? 'Closed' : hours[day].hours
+          }`)
+        }
       }
     },
     methods: {
