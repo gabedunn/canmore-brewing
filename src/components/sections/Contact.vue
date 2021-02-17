@@ -144,7 +144,7 @@
     },
     async mounted () {
       const place = await get(
-        'https://cors-anywhere.herokuapp.com/' +
+        'https://thingproxy.freeboard.io/fetch/' +
           'https://maps.googleapis.com/maps/api/place/details/json?' +
           // Add the API key to the query.
           `key=${process.env.VUE_APP_GOOGLE_MAPS_API_KEY}` +
