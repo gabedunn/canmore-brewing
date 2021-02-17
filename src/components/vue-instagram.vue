@@ -66,7 +66,9 @@
       feeds: []
     }),
     mounted () {
-      this.getUserFeed()
+      if (navigator.userAgent !== 'ReactSnap') {
+        this.getUserFeed()
+      }
     },
     methods: {
       async getUserFeed () {
