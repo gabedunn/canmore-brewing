@@ -1,6 +1,7 @@
 {
   "monday": {
-    "hours": "1:00 – 7:00 p.m."
+    "hours": "1:00 – 7:00 p.m.",
+    "closed": true
   },
   "tuesday": {
     "closed": true,
