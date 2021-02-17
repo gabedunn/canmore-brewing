@@ -66,6 +66,17 @@
       "textColour": "black",
       "ibu": 55,
       "description": "When the skies in the Bow Valley turn grey anc cloudy each fall, and the mountain tops turn white, some folks pack their bags. Some folks stay for a beer and have some fun - that's us.\n\nThis New England style IPA is hazy, fruity, and just the right beer to embrace the Fall with. Lots of aroma and flavour are provided by Hallertau Blanc, Mosaic, and Amarillo hops."
+    },
+    {
+      "bg": "FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1613588010/beers/logos/OutsiderCider_logo-only_ewatk2.png",
+      "name": "Outsider Cider",
+      "srm": 1,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1613588053/beers/cans/Outsider_cider_can_g78jn7.png",
+      "abv": 7,
+      "textColour": "black",
+      "ibu": 30,
+      "description": "Get your daily fix of Outsider Cider - for the outsider in you. Crisp apple, tropical fruit, a hint of tartness and a dry finish. Just what the doctor ordered. Made with 100% Canadian apples. \n\n(It’s also gluten-free and vegan.)"
     }
   ],
   "seasonal": [
@@ -80,18 +91,6 @@
       "textColour": "black",
       "ibu": 9,
       "description": "This Jam Session is anything but improvised; but your friends will still want to join you for one. \n\nWe’ve taken our time to get just the right sourness to go with the blackberries and cherries in this delicious kettle sour. \n\nPump up the jam!"
-    },
-    {
-      "bg": "#5405ff",
-      "hidden": true,
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
-      "name": "Sulphur Mountain Session Ale",
-      "srm": 4,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273871/beers/cans/stout-can.png",
-      "abv": 4,
-      "textColour": "white",
-      "ibu": 35,
-      "description": "Built for epic adventures, this Session Ale is a collaboration with Pursuit Collection inspired by iconic Sulphur Mountain. Alberta barley, juniper berries and spruce tips help create a light, crisp flavour. Pairing suggestion: majestic Rocky Mountain views.,"
     }
   ]
 }
