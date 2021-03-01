@@ -65,7 +65,7 @@ const main = async () => {
 
   // Create an array from a set (to remove duplicate values) of the parsed local sales data (stripped down to only the
   // license number to be used as a key for future reference).
-  const localArray = [...new Set(parseFile(localPath).map(sale => `${sale['License #']}00`))]
+  const localArray = [...new Set(parseFile(localPath).map(sale => `${sale['Licenseno']}00`))]
 
   // Create an array with the parsed data for the Saskatchewan stores.
   const saskArray = parseFile(saskPath)
