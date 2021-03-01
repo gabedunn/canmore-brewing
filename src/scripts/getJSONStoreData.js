@@ -7,14 +7,20 @@
 const parse = require('csv-parse/lib/sync')
 const { get } = require('r2')
 const { config } = require('dotenv')
-const { readFileSync, writeFileSync } = require('fs')
+const {
+  readFileSync,
+  writeFileSync
+} = require('fs')
 const { join } = require('path')
 
 // Run the dotenv config function to populate process.env
 config()
 
 // Function to parse the data from the csv file supplied. Trims the original fs read and enables columns.
-const parseFile = file => parse(readFileSync(file, 'utf8').trim(), { columns: true, skip_empty_lines: true })
+const parseFile = file => parse(readFileSync(file, 'utf8').trim(), {
+  columns: true,
+  skip_empty_lines: true
+})
 
 // Function that returns Google Maps API info given an address and a postal code.
 const mapsAPI = async (address, postalCode) => {
@@ -127,30 +133,27 @@ const main = async () => {
     }
 
     // If there are results (status === 'OK'), test for a bunch of properties on the results array and return an object
-    // with all of the required data.
-    if (results.status === 'OK') {
-      // If the results have a results property, continue.
-      if (Object.prototype.hasOwnProperty.call(results, 'results')) {
-        // Use the first result by default.
-        const result = results.results[0]
-        // If the result has a formatted address and a geometry property, continue.
-        if (Object.prototype.hasOwnProperty.call(result, 'formatted_address') && Object.prototype.hasOwnProperty.call(result, 'geometry')) {
-          // If geometry has a location property, continue.
-          if (Object.prototype.hasOwnProperty.call(result.geometry, 'location')) {
-            // If location has both lat and lng properties, continue.
-            if (Object.prototype.hasOwnProperty.call(result.geometry.location, 'lat') && Object.prototype.hasOwnProperty.call(result.geometry.location, 'lng')) {
-              // Return an object to be used as a marker on the map.
-              return {
-                // If the name of the carrier is the same as the tasting room, set the ID to 0.
-                id: carrier.LicName === CBCName ? 0 : ++id,
-                name: carrier.LicName,
-                address: result.formatted_address,
-                extra: `${carrier.LicName},${result.formatted_address}`,
-                lat: result.geometry.location.lat,
-                lng: result.geometry.location.lng
-              }
-            }
-          }
+    // with all of the required data, and if the results have a results property, continue.
+    if (results.status === 'OK' && Object.prototype.hasOwnProperty.call(results, 'results')) {
+      // Use the first result by default.
+      const result = results.results[0]
+      // If the result has a formatted address and a geometry property, and if geometry has a location property, and if location has both lat and lng properties, continue.
+      if (
+        Object.prototype.hasOwnProperty.call(result, 'formatted_address') &&
+        Object.prototype.hasOwnProperty.call(result, 'geometry') &&
+        Object.prototype.hasOwnProperty.call(result.geometry, 'location') &&
+        Object.prototype.hasOwnProperty.call(result.geometry.location, 'lat') &&
+        Object.prototype.hasOwnProperty.call(result.geometry.location, 'lng')
+      ) {
+        // Return an object to be used as a marker on the map.
+        return {
+          // If the name of the carrier is the same as the tasting room, set the ID to 0.
+          id: carrier.LicName === CBCName ? 0 : ++id,
+          name: carrier.LicName,
+          address: result.formatted_address,
+          extra: `${carrier.LicName},${result.formatted_address}`,
+          lat: result.geometry.location.lat,
+          lng: result.geometry.location.lng
         }
       }
     } else {
