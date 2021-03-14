@@ -1,16 +1,15 @@
 {
   "enabled": true,
-  "title": "We are open for Dine-in Service, offsales and home delivery",
+  "title": "We are open for Dine-in Service, offsales and curbside pickup.",
   "subtitle": [
-    "Wed-Thu 1-7, Fri-Sat 1-8, Sun 1-7 PM",
-    "Curbside pickup also available. Order by 4:00 for same-day home delivery."
+    "Wed-Thu 1-7, Fri-Sat 1-8, Sun 1-7 PM"
   ],
   "content": "Curbside pickup is available whenever we are open.",
   "button": [
     "CLICK HERE TO SHOP",
-    "Home delivery/Curbside pickup/Merchandise"
+    "ONLINE STORE / CURBSIDE PICKUP"
   ],
   "url": "https://canmorebrewing.square.site/",
-  "colour": "red",
+  "colour": "white",
   "button_status": true
 }
