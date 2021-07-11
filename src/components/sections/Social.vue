@@ -92,7 +92,7 @@
       return {
         token: process.env.VUE_APP_INSTAGRAM_TOKEN,
         count: 4,
-        profilePic: 'https://instagram.fyvr3-1.fna.fbcdn.net/v/t51.2885-19/s150x150/14032974_174713896292602_175919335_a.jpg?_nc_ht=instagram.fyvr3-1.fna.fbcdn.net&_nc_ohc=Qybf6V82MokAX8J2oKO&tp=1&oh=52be96913d3ff3c2aa54f78ea20db06d&oe=5FE66192'
+        profilePic: 'https://res.cloudinary.com/canmore-brewing-company/image/upload/v1626034401/canmore-brewing-ig-profile.jpg'
       }
     }
   }
