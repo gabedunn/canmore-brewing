@@ -69,7 +69,7 @@
     },
     data () {
       return {
-        eventbrite: 'https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-161348607027?aff=erelexpmlt'
+        eventbrite: 'https://www.eventbrite.ca/e/brewery-tour-and-tasting-tickets-36977395385'
       }
     }
   }
