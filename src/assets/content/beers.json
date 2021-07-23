@@ -82,15 +82,14 @@
   "seasonal": [
     {
       "bg": "#FFFFFF",
-      "hidden": false,
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609933/beers/logos/Jam_session-LOGO-513x176_ih2h1a.png",
-      "name": "Jam Session Sour",
-      "srm": 35,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1606609781/beers/cans/Jam_session_282x760_xtzuky.png",
-      "abv": 4.8,
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1627063110/beers/logos/PitStop_LOGO_hv6869.png",
+      "name": "Pit Stop Phuzzy Peach Sour",
+      "srm": 4,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1627063024/beers/cans/Pit-stop-sour-NO-BG_wrggae.png",
+      "abv": 5.2,
       "textColour": "black",
-      "ibu": 9,
-      "description": "This Jam Session is anything but improvised; but your friends will still want to join you for one. \n\nWe’ve taken our time to get just the right sourness to go with the blackberries and cherries in this delicious kettle sour. \n\nPump up the jam!"
+      "ibu": 36,
+      "description": "There are NO peaches in this beer. The Philly Sour yeast, which was recently found on the bark of a dogwood tree in West Philadelphia, is responsible for the wonderful peach notes in this beer. The additoin of Sabro hops makes the magic complete - giving us the incredibly juicy Phuzzy Peach Sour."
     }
   ]
 }
