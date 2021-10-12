@@ -101,6 +101,17 @@
       "textColour": "black",
       "ibu": 20,
       "description": "This beer is dedicated to our little sister, Maureen. She would have liked this beer, and the Little Sister peak it’s brewed under. Brewed in the traditional Belgian style with unmalted wheat and malted barley - we’ve added a bit of Earl Grey tea to the finished beer for just a little extra complexity."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1634074558/beers/logos/BlackDog-Logo_zigamz.png",
+      "name": "Black Dog Cascadian Dark Ale",
+      "srm": 36,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1634074673/beers/cans/Black-Dog-can_282wide_fjnhxm.png",
+      "abv": 6,
+      "textColour": "black",
+      "ibu": 55,
+      "description": "Like LedZeppelin said: “I gotta roll, can’t stand still; got a flamin’ heart, can’t get my fill.” You’ll want your fill of this one. A light-bodied dark ale with ample punch from a blend of kettle and dry-hopping. Imagine an IPA that’s got a dark side with a hint of roasted grain. A great balance between citrus-like Northwest hop flavors, bitterness, caramel and roast, chocolate malts.\n\nDon’t let this black dog get away!"
     }
   ]
 }
