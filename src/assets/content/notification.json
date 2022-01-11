@@ -1,11 +1,10 @@
 {
-  "enabled": false,
-  "title": "Heated Patio is still open!",
+  "enabled": true,
+  "title": "Taproom is open!",
   "subtitle": [
-    "We're open inside and out!",
     "Open Tues/Wed/Thur 1-7 pm, Fri/Sat 1-8pm, Sun 1-7pm"
   ],
-  "content": "We are open for indoor and outdoor seating. Events are coming back slowly. Tours are back too!",
+  "content": "We are open for indoor seating. Events are coming back slowly. Tours are back too!",
   "button": [
     "CLICK HERE TO SHOP",
     "ONLINE STORE"
