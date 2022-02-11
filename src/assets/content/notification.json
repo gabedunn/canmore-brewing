@@ -1,15 +1,13 @@
 {
-  "enabled": false,
-  "title": "Taproom is open!",
-  "subtitle": [
-    "Open Tues/Wed/Thur 1-7 pm, Fri/Sat 1-8pm, Sun 1-7pm"
-  ],
-  "content": "We are open for indoor seating. Events are coming back slowly. Tours are back too!",
+  "enabled": true,
+  "title": "We are open for indoor or patio seating. Keep an eye out for upcoming concert events!",
+  "subtitle": [],
+  "content": "Shop our online store for beer or clothing.",
   "button": [
     "CLICK HERE TO SHOP",
     "ONLINE STORE"
   ],
   "url": "https://canmorebrewing.square.site/",
-  "colour": "gray",
+  "colour": "white",
   "button_status": true
 }
