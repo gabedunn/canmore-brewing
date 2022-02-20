@@ -13,7 +13,7 @@
     "data": "node src/scripts/getJSONStoreData.js"
   },
   "dependencies": {
-    "@babel/cli": "^7.10.5",
+    "@babel/cli": "^7.17.3",
     "@babel/core": "^7.12.9",
     "@babel/node": "^7.12.6",
     "@babel/polyfill": "^7.10.4",
