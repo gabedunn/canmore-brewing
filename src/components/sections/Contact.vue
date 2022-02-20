@@ -48,7 +48,7 @@
             <a href="mailto:steve.dunn@canmorebrewing.com">steve.dunn@&#8203;canmorebrewing.com</a>
           </p>
           <p class="pt-8">
-            Sales (Calgary Area & Rest of Alberta)
+            Sales (Calgary Area & Southern Alberta)
             <br>
             <a href="tel:4038273791">(403) 827 3791</a>
             <br>
