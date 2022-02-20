@@ -55,6 +55,13 @@
             <a href="mailto:john.hedley@canmorebrewing.com">john.hedley@&#8203;canmorebrewing.com</a>
           </p>
           <p class="pt-8">
+            Sales (Edmonton & Northern Alberta)
+            <br>
+            <a href="tel:7809998440">(780) 999-8440</a>
+            <br>
+            <a href="mailto:chris.jameson@canmorebrewing.com">chris.jameson@&#8203;canmorebrewing.com</a>
+          </p>
+          <p class="pt-8">
             Tasting Room and Brewery located at:
             <br>
             <a
