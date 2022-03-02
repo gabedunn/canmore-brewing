@@ -30,7 +30,7 @@
     "register-service-worker": "^1.7.2",
     "sanitize-html": "^2.3.2",
     "tailwindcss": "^1.9.6",
-    "vue": "^2.6.12",
+    "vue": "^2.6.14",
     "vue-instagram": "^3.0.0",
     "vue-meta": "^2.4.0",
     "vue-plyr": "^6.0.4",
@@ -62,7 +62,7 @@
     "lint-staged": "^9.4.3",
     "r2": "^2.0.1",
     "react-snap": "^1.23.0",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.14"
   },
   "browserslist": [
     "> 1%",
