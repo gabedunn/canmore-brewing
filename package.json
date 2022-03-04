@@ -23,7 +23,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.8",
     "@tailwindcss/typography": "^0.2.0",
     "dedent": "^0.7.0",
-    "marked": "^2.0.0",
+    "marked": "^4.0.10",
     "moment": "^2.29.1",
     "plyr": "^3.6.12",
     "postcss-preset-env": "^6.7.1",
