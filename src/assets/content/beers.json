@@ -90,17 +90,6 @@
       "textColour": "black",
       "ibu": 36,
       "description": "There are NO peaches in this beer. The Philly Sour yeast, which was recently found on the bark of a dogwood tree in West Philadelphia, is responsible for the wonderful peach notes in this beer. The addition of Sabro hops makes the magic complete - giving us the incredibly juicy Phuzzy Peach Sour."
-    },
-    {
-      "bg": "#fa5788",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1627064952/beers/logos/LittleSister_logo_150dpi_glqswk.png",
-      "name": "Little Sister Belgian Witbier",
-      "srm": 3,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1627064622/beers/cans/LIL-SIS-NO-BG-282x699_z0vzuz.png",
-      "abv": 5.2,
-      "textColour": "black",
-      "ibu": 20,
-      "description": "This beer is dedicated to our little sister, Maureen. She would have liked this beer, and the Little Sister peak it’s brewed under. Brewed in the traditional Belgian style with unmalted wheat and malted barley - we’ve added a bit of Earl Grey tea to the finished beer for just a little extra complexity."
     }
   ]
 }
