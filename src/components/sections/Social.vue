@@ -7,7 +7,7 @@
           :count="1"
           :token="token"
         >
-          <template v-slot:feeds="props">
+          <template #feeds="props">
             <figure class="inline-block">
               <a
                 :href="`https://instagram.com/${props.feed.username}`"

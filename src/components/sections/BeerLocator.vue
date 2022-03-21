@@ -7,18 +7,18 @@
     <client-only>
       <gmap-map
         :center="{lat:53.5, lng:-111}"
-        :options="this.$store.state.mapOptions"
+        :options="$store.state.mapOptions"
         :zoom="5.8"
         map-type-id="roadmap"
         style="width: 100%; height: 640px"
       >
         <marker-info
-          :address="this.$store.state.locatorInfo.address"
-          :extra="this.$store.state.locatorInfo.extra"
-          :lat="this.$store.state.locatorInfo.lat"
-          :lng="this.$store.state.locatorInfo.lng"
-          :name="this.$store.state.locatorInfo.name"
-          :opened="this.$store.state.locatorInfo.open"
+          :address="$store.state.locatorInfo.address"
+          :extra="$store.state.locatorInfo.extra"
+          :lat="$store.state.locatorInfo.lat"
+          :lng="$store.state.locatorInfo.lng"
+          :name="$store.state.locatorInfo.name"
+          :opened="$store.state.locatorInfo.open"
         />
         <map-marker
           v-for="marker in markers"

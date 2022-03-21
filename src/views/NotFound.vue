@@ -12,7 +12,7 @@
           The page you are looking for does not exist.
         </h2>
         <h2 class="subtitle is-3 link-path">
-          --> {{ this.$route.fullPath }}
+          --> {{ $route.fullPath }}
         </h2>
         <h2 class="subtitle is-4 link-home">
           <router-link to="/">
