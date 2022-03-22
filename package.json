@@ -2,13 +2,12 @@
   "name": "canmore-brewing",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint",
     "data": "node src/scripts/getJSONStoreData.js"
   },
   "dependencies": {
@@ -21,6 +20,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@fortawesome/vue-fontawesome": "^2.0.6",
     "@tailwindcss/typography": "^0.2.0",
+    "axios": "^0.26.1",
     "dedent": "^0.7.0",
     "marked": "^4.0.12",
     "moment": "^2.29.1",
@@ -39,32 +39,35 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.1",
-    "@vue/cli-plugin-eslint": "^4.5.11",
-    "@vue/cli-plugin-pwa": "^4.5.11",
-    "@vue/cli-plugin-unit-jest": "^4.5.16",
-    "@vue/cli-service": "^4.4.6",
-    "@vue/eslint-config-standard": "^5.1.2",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.3",
+    "@vue/cli-plugin-eslint": "~5.0.3",
+    "@vue/cli-plugin-pwa": "~5.0.3",
+    "@vue/cli-plugin-unit-jest": "~5.0.3",
+    "@vue/cli-service": "~5.0.3",
+    "@vue/eslint-config-standard": "^6.1.0",
     "@vue/test-utils": "^1.1.3",
+    "@vue/vue2-jest": "^27.0.0-alpha.3",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^27.5.1",
     "core-js": "^3.9.1",
     "csv-parse": "^4.16.0",
     "dotenv": "^8.2.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.3.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^7.15.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.1.0",
     "lint-staged": "^12.3.7",
-    "r2": "^2.0.1",
     "vue-template-compiler": "^2.6.12"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "license": "MIT"
 }
