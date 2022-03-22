@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import marked from 'marked'
+  import { marked } from 'marked'
   import dedent from 'dedent'
   import sanitize from 'sanitize-html'
 
@@ -65,7 +65,7 @@
         const stripped = this.dedent ? dedent(markdown) : markdown
 
         // Parse the markdown with marked and then sanitize it
-        return sanitize(marked(stripped, this.options), this.sanitizeOptions)
+        return sanitize(marked.parse(stripped, this.options), this.sanitizeOptions)
       }
     }
   }
