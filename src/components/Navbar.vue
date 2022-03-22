@@ -66,21 +66,9 @@
             }
           },
           {
-            name: 'Food',
-            target: {
-              el: '#food'
-            }
-          },
-          {
             name: 'Tours',
             target: {
               el: '#tours'
-            }
-          },
-          {
-            name: 'Social',
-            target: {
-              el: '#social'
             }
           },
           {
@@ -90,7 +78,7 @@
             }
           },
           {
-            name: 'Our Beers',
+            name: 'Beers',
             target: {
               el: '#our-beers'
             }
