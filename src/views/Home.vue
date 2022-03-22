@@ -4,12 +4,12 @@
     <notice v-if="enabled" />
     <landing />
     <tasting-room />
+    <our-beers />
     <food />
     <tours />
     <social />
     <events />
-    <our-beers />
-    <our-story />
+    <about-us />
     <beer-locator />
     <contact />
     <copy-footer />
@@ -21,12 +21,12 @@
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
+  import OurBeers from '../components/sections/OurBeers'
   import Food from '../components/sections/Food'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import Events from '../components/sections/Events'
-  import OurBeers from '../components/sections/OurBeers'
-  import OurStory from '../components/sections/OurStory'
+  import AboutUs from '../components/sections/AboutUs'
   import BeerLocator from '../components/sections/BeerLocator'
   import Contact from '../components/sections/Contact'
   import CopyFooter from '../components/sections/CopyFooter'
@@ -46,12 +46,12 @@
       Notice,
       Landing,
       TastingRoom,
+      OurBeers,
       Food,
       Tours,
       Social,
       Events,
-      OurBeers,
-      OurStory,
+      AboutUs,
       BeerLocator,
       Contact,
       CopyFooter

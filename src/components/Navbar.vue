@@ -46,6 +46,8 @@
 </template>
 
 <script>
+  import notification from '../assets/content/notification.json'
+
   export default {
     name: 'NavBar',
     data () {
@@ -54,8 +56,7 @@
           {
             name: 'Home',
             target: {
-              // el: '#landing',
-              el: '#notice',
+              el: notification.enabled ? '#notice' : '#landing',
               offset: 0
             }
           },
@@ -63,6 +64,12 @@
             name: 'Tasting Room',
             target: {
               el: '#tasting-room'
+            }
+          },
+          {
+            name: 'Beers',
+            target: {
+              el: '#our-beers'
             }
           },
           {
@@ -78,15 +85,9 @@
             }
           },
           {
-            name: 'Beers',
+            name: 'About Us',
             target: {
-              el: '#our-beers'
-            }
-          },
-          {
-            name: 'Our Story',
-            target: {
-              el: '#our-story'
+              el: '#about-us'
             }
           },
           {
