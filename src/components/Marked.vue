@@ -12,7 +12,7 @@
   import sanitize from 'sanitize-html'
 
   export default {
-    name: 'Marked',
+    name: 'MarkedContainer',
     props: {
       dedent: {
         type: Boolean,

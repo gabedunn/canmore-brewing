@@ -18,8 +18,8 @@
 </template>
 
 <script>
-  // import axios from 'axios'
-  import { get } from 'r2'
+  import axios from 'axios'
+  // import { get } from 'r2'
 
   export default {
     props: {
@@ -73,22 +73,26 @@
     methods: {
       async getUserFeed () {
         this.loading = true
-        const req = await get(`https://graph.instagram.com/me/media?access_token=${this.token}&fields=${this.fields}`)
+        try {
+          const req = await axios.get(`https://graph.instagram.com/me/media?access_token=${this.token}&fields=${this.fields}`)
 
-        const response = await req.response
-        const data = await req.json
+          // const response = await req.response
+          const data = await req.data
 
-        this.loading = false
-        if (response.status === 400) this.error = response.error.message
-        if (response.status === 200) {
-          for (const n in data.data) {
-            if (this.mediatypes.includes(data.data[n].media_type)) {
-              this.feeds.push(data.data[n])
-              if (this.feeds.length >= this.count) {
-                return
+          this.loading = false
+
+          if (req.status === 200) {
+            for (const n in data.data) {
+              if (this.mediatypes.includes(data.data[n].media_type)) {
+                this.feeds.push(data.data[n])
+                if (this.feeds.length >= this.count) {
+                  return
+                }
               }
             }
           }
+        } catch (err) {
+          this.error = err.message
         }
       }
     }

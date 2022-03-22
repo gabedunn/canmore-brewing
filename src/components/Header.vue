@@ -13,7 +13,7 @@
 
 <script>
   export default {
-    name: 'Header',
+    name: 'PageHeader',
     props: {
       title: {
         required: true,

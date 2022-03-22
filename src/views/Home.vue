@@ -31,7 +31,7 @@
   import Contact from '../components/sections/Contact'
   import CopyFooter from '../components/sections/CopyFooter'
 
-  import { enabled } from '../assets/content/notification.json'
+  import notification from '../assets/content/notification.json'
 
   // TODO: add an awards section
 
@@ -58,7 +58,7 @@
     },
     data () {
       return {
-        enabled
+        enabled: notification.enabled
       }
     }
   }

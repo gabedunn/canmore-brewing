@@ -63,7 +63,7 @@
   import HeaderTitle from '../Header'
 
   export default {
-    name: 'Tours',
+    name: 'ToursSection',
     components: {
       HeaderTitle
     },

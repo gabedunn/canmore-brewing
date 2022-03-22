@@ -65,7 +65,7 @@
   import HeaderTitle from '../Header'
 
   export default {
-    name: 'Food',
+    name: 'FoodSection',
     components: {
       HeaderTitle
     }
