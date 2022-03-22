@@ -31,15 +31,26 @@
         </button>
       </div>
       <div class="nav-menu">
-        <a
-          v-for="item in items"
-          :key="item.name"
-          v-scroll-to="item.target"
-          class="navbar-item"
-          href="#"
-        >
-          <span v-text="item.name" />
-        </a>
+        <template v-for="item in items">
+          <a
+            v-if="item.target"
+            :key="item.name"
+            v-scroll-to="item.target"
+            class="navbar-item"
+            href="#"
+          >
+            <span v-text="item.name" />
+          </a>
+          <a
+            v-else
+            :key="item.name"
+            class="navbar-item"
+            :href="item.href"
+            target="blank"
+          >
+            <span v-text="item.name" />
+          </a>
+        </template>
       </div>
     </div>
   </nav>
@@ -101,6 +112,10 @@
             target: {
               el: '#contact'
             }
+          },
+          {
+            name: 'Shop Online',
+            href: 'https://canmorebrewing.square.site/'
           }
         ]
       }
