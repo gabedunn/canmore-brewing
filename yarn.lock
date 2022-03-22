@@ -1357,10 +1357,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.1.0"
 
-"@fortawesome/vue-fontawesome@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.8.tgz#615347c56d285eb634315f59fe4f4156e4eee8b4"
-  integrity sha512-SdFiUD+vFDA/xKuEbnQTVrK8FDxoV0eyQaiHxmCcjAc0+vQe0Kf6oGm28opNPIt8MTgKWR3+Yg3xXP455Ae4tQ==
+"@fortawesome/vue-fontawesome@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-2.0.6.tgz#87e691ed87f28f4667238573a29743f543a087f6"
+  integrity sha512-V3vT3flY15AKbUS31aZOP12awQI3aAzkr2B1KnqcHLmwrmy51DW3pwyBczKdypV8QxBZ8U68Hl2XxK2nudTxpg==
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.2.0"
