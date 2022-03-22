@@ -5,7 +5,6 @@
     <landing />
     <tasting-room />
     <our-beers />
-    <food />
     <tours />
     <social />
     <events />
@@ -22,7 +21,6 @@
   import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
   import OurBeers from '../components/sections/OurBeers'
-  import Food from '../components/sections/Food'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import Events from '../components/sections/Events'
@@ -47,7 +45,6 @@
       Landing,
       TastingRoom,
       OurBeers,
-      Food,
       Tours,
       Social,
       Events,
