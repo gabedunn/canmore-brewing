@@ -101,6 +101,17 @@
       "textColour": "black",
       "ibu": 5,
       "description": "This Gose-style brew, with its typical sour profile, a hint of Himalyan salt, and blackcurrant, combined with a LOW 1.9% alcohol, make it a great pairing with just about anything this summer.\n\nAnd, maybe the best part? The salt and blackcurrant are proven ***electrolytes*** - so this beer is your best friend after a workout!"
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819575/beers/logos/Riverside-LOGO_tsuk64.png",
+      "name": "Riverside IPA",
+      "srm": 6,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/Riverside-CAN-NO-BG-285x760_tprwf1.png",
+      "abv": 6,
+      "textColour": "black",
+      "ibu": 45,
+      "description": "If there ever was a perfect summer IPA, this is it. Citrus and tropical fruit balance here like a Voyageur in a trusty canoe. It'll make the portage far more enjoyable. \n\nWith a relatively moderate IBU of 45, and a subtle tropical fruit finish, this could be your new favourite summer beer."
     }
   ]
 }
