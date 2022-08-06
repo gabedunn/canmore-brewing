@@ -90,6 +90,17 @@
       "textColour": "black",
       "ibu": 10,
       "description": "Hopefully, the luscious red hues of this hibiscus kettle sour remind you more of the great day you had in the sun - and less of the sunburn it gave you.\n\nHibiscus along with Lemondrop hops give this beer a refreshing citrus tartness that will leave you wanting more. Unlike that sunburn you got."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819599/beers/logos/GOSE-LOGO_zvr7in.png",
+      "name": "How Low Can You Gose? (Lower Alcohol Blackcurrant Gose with electrolytes)",
+      "srm": 2,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/GOSE-CAN-NO-BG-285x760_x85jrx.png",
+      "abv": 1.9,
+      "textColour": "black",
+      "ibu": 5,
+      "description": "This Gose-style brew, with its typical sour profile, a hint of Himalyan salt, and blackcurrant, combined with a LOW 1.9% alcohol, make it a great pairing with just about anything this summer.\n\nAnd, maybe the best part? The salt and blackcurrant are proven ***electrolytes*** - so this beer is your best friend after a workout!"
     }
   ]
 }
