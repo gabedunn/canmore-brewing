@@ -79,5 +79,17 @@
       "description": "Get your daily fix of Outsider Cider - for the outsider in you. Crisp apple, tropical fruit, a hint of tartness and a dry finish. Just what the doctor ordered. Made with 100% Canadian apples. \n\n(It’s also gluten-free and vegan.)"
     }
   ],
-  "seasonal": []
+  "seasonal": [
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819312/beers/logos/SunburnSour_LOGO_wx3zs2.png",
+      "name": "Sunburn Hibiscus Sour",
+      "srm": 0,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659818405/beers/cans/sunburn-sour-CAN-NO-BG_eng4uh.png",
+      "abv": 5.1,
+      "textColour": "black",
+      "ibu": 10,
+      "description": "Hopefully, the luscious red hues of this hibiscus kettle sour remind you more of the great day you had in the sun - and less of the sunburn it gave you.\n\nHibiscus along with Lemondrop hops give this beer a refreshing citrus tartness that will leave you wanting more. Unlike that sunburn you got."
+    }
+  ]
 }
