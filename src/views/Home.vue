@@ -4,7 +4,7 @@
     <notice v-if="enabled" />
     <landing />
     <tasting-room />
-    <food />
+    <snacks />
     <tours />
     <social />
     <events />
