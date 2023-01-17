@@ -1,6 +1,6 @@
 <template>
-  <section id="food">
-    <header-title title="Food" />
+  <section id="snacks">
+    <header-title title="Snacks" />
     <div class="container">
       <div class="mx-8 lg:mx-40 my-10">
         <div class="tasting-room text-justify text-standard text-cbblack-grey font-semibold font-cbsans">
@@ -65,7 +65,7 @@
   import HeaderTitle from '../Header'
 
   export default {
-    name: 'Food',
+    name: 'Snacks',
     components: {
       HeaderTitle
     }

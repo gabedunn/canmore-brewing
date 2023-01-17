@@ -21,7 +21,7 @@
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
-  import Food from '../components/sections/Food'
+  import Snacks from '../components/sections/Snacks'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import Events from '../components/sections/Events'
@@ -46,7 +46,7 @@
       Notice,
       Landing,
       TastingRoom,
-      Food,
+      Snacks,
       Tours,
       Social,
       Events,

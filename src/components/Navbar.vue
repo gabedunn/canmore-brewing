@@ -66,9 +66,9 @@
             }
           },
           {
-            name: 'Food',
+            name: 'Snacks',
             target: {
-              el: '#food'
+              el: '#snacks'
             }
           },
           {
