@@ -124,7 +124,8 @@
 </template>
 
 <script>
-  import { get } from 'r2'
+  import axios from 'axios'
+  // import { get } from 'r2'
   import ClientOnly from '../client-only.js'
 
   import MapMarker from '../MapMarker'
@@ -133,7 +134,7 @@
   import hours from '../../assets/content/hours.json'
 
   export default {
-    name: 'Contact',
+    name: 'ContactPage',
     components: {
       ClientOnly,
       MapMarker,
@@ -155,7 +156,7 @@
           ? 'https://thingproxy.freeboard.io/fetch/https://maps.googleapis.com/'
           : '/cors/'
 
-        const place = await get(
+        const placeReq = await axios.get(
           // 'https://thingproxy.freeboard.io/fetch/' +
           proxy +
             'maps/api/place/details/json?' +
@@ -164,7 +165,9 @@
             // Specifies the place_id to get the hours from
             '&place_id=ChIJwRQhBJPFcFMRdW4gwcwgaRY' +
             '&fields=opening_hours'
-        ).json
+        )
+
+        const place = placeReq.data
 
         if (place.status === 'OK') {
           this.days = place.result.opening_hours.weekday_text

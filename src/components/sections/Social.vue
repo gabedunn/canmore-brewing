@@ -82,7 +82,7 @@
   // TODO: switch to grid for posts layout
 
   export default {
-    name: 'Social',
+    name: 'SocialFeed',
     components: {
       HeaderTitle,
       SocialPost,

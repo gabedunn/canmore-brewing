@@ -174,4 +174,4 @@ const main = async () => {
 }
 
 // Run the main function.
-return main()
+main()

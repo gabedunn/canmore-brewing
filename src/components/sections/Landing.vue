@@ -77,13 +77,13 @@
 </template>
 
 <script>
-  import { enabled } from '../../assets/content/notification.json'
+  import notification from '../../assets/content/notification.json'
 
   export default {
     name: 'LandingPage',
     data () {
       return {
-        enabled,
+        enabled: notification.enabled,
         buttons: [
           {
             text: 'Tasting Room',

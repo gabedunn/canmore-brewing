@@ -31,31 +31,43 @@
         </button>
       </div>
       <div class="nav-menu">
-        <a
-          v-for="item in items"
-          :key="item.name"
-          v-scroll-to="item.target"
-          class="navbar-item"
-          href="#"
-        >
-          <span v-text="item.name" />
-        </a>
+        <template v-for="item in items">
+          <a
+            v-if="item.target"
+            :key="item.name"
+            v-scroll-to="item.target"
+            class="navbar-item"
+            href="#"
+          >
+            <span v-text="item.name" />
+          </a>
+          <a
+            v-else
+            :key="item.name"
+            class="navbar-item"
+            :href="item.href"
+            target="blank"
+          >
+            <span v-text="item.name" />
+          </a>
+        </template>
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+  import notification from '../assets/content/notification.json'
+
   export default {
-    name: 'Navbar',
+    name: 'NavBar',
     data () {
       return {
         items: [
           {
             name: 'Home',
             target: {
-              // el: '#landing',
-              el: '#notice',
+              el: notification.enabled ? '#notice' : '#landing',
               offset: 0
             }
           },
@@ -66,9 +78,9 @@
             }
           },
           {
-            name: 'Snacks',
+            name: 'Beers',
             target: {
-              el: '#snacks'
+              el: '#our-beers'
             }
           },
           {
@@ -78,27 +90,15 @@
             }
           },
           {
-            name: 'Social',
-            target: {
-              el: '#social'
-            }
-          },
-          {
             name: 'Events',
             target: {
               el: '#events'
             }
           },
           {
-            name: 'Our Beers',
+            name: 'About Us',
             target: {
-              el: '#our-beers'
-            }
-          },
-          {
-            name: 'Our Story',
-            target: {
-              el: '#our-story'
+              el: '#about-us'
             }
           },
           {
@@ -112,6 +112,10 @@
             target: {
               el: '#contact'
             }
+          },
+          {
+            name: 'Shop Online',
+            href: 'https://canmorebrewing.square.site/'
           }
         ]
       }

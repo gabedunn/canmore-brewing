@@ -56,7 +56,7 @@
 <script>
   import Marked from '@/components/Marked.vue'
   export default {
-    name: 'Beer',
+    name: 'BeerItem',
     components: { Marked },
     props: {
       title: {

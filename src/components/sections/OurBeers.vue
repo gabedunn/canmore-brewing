@@ -47,7 +47,8 @@
   import Beer from '../Beer'
   import HeaderTitle from '../Header'
 
-  import { core, seasonal } from '../../assets/content/beers.json'
+  import beers from '../../assets/content/beers.json'
+  const { core, seasonal } = beers
 
   // TODO: add fallback if we have no seasonal beers
 

@@ -41,7 +41,7 @@
   import HeaderTitle from '../Header'
 
   export default {
-    name: 'Events',
+    name: 'EventsSection',
     components: {
       HeaderTitle
     }

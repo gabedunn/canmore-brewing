@@ -4,12 +4,11 @@
     <notice v-if="enabled" />
     <landing />
     <tasting-room />
-    <snacks />
+    <our-beers />
     <tours />
     <social />
     <events />
-    <our-beers />
-    <our-story />
+    <about-us />
     <beer-locator />
     <contact />
     <copy-footer />
@@ -21,17 +20,16 @@
   import Navbar from '../components/Navbar'
   import Landing from '../components/sections/Landing'
   import TastingRoom from '../components/sections/TastingRoom'
-  import Snacks from '../components/sections/Snacks'
+  import OurBeers from '../components/sections/OurBeers'
   import Tours from '../components/sections/Tours'
   import Social from '../components/sections/Social'
   import Events from '../components/sections/Events'
-  import OurBeers from '../components/sections/OurBeers'
-  import OurStory from '../components/sections/OurStory'
+  import AboutUs from '../components/sections/AboutUs'
   import BeerLocator from '../components/sections/BeerLocator'
   import Contact from '../components/sections/Contact'
   import CopyFooter from '../components/sections/CopyFooter'
 
-  import { enabled } from '../assets/content/notification.json'
+  import notification from '../assets/content/notification.json'
 
   // TODO: add an awards section
 
@@ -46,19 +44,18 @@
       Notice,
       Landing,
       TastingRoom,
-      Snacks,
+      OurBeers,
       Tours,
       Social,
       Events,
-      OurBeers,
-      OurStory,
+      AboutUs,
       BeerLocator,
       Contact,
       CopyFooter
     },
     data () {
       return {
-        enabled
+        enabled: notification.enabled
       }
     }
   }

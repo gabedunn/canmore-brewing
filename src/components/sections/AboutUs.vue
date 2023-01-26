@@ -1,10 +1,10 @@
 <template>
-  <section id="our-story">
+  <section id="about-us">
     <div class="container">
       <div class="mx-8 lg:mx-32 my-10 flex flex-wrap justify-between text-standard">
         <div class="lg:w-1/2 pr-8">
           <h1 class="title uppercase">
-            Our Story
+            About Us
           </h1>
           <p class="font-cbsans font-semibold text-justify">
             Growing up on the east coast, near the water, we learned how to enjoy the outdoors, have fun, build
@@ -65,7 +65,7 @@
 
 <script>
   export default {
-    name: 'OurStory'
+    name: 'AboutUsPage'
   }
 </script>
 

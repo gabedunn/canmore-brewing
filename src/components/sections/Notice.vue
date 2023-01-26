@@ -45,10 +45,11 @@
 </template>
 
 <script>
-  import { enabled, colour, title, subtitle, content, button_status as buttonStatus, button, url } from '../../assets/content/notification.json'
+  import notification from '../../assets/content/notification.json'
+  const { enabled, colour, title, subtitle, content, button_status: buttonStatus, button, url } = notification
 
   export default {
-    name: 'Notice',
+    name: 'NoticeElement',
     data () {
       return {
         currentTime: (new Date()).getTime(),
