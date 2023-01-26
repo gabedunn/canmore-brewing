@@ -17,7 +17,7 @@ Vue.use(VueScrollTo, {
 })
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyC4iHpC-f-H18btEyAFgBw9tos2cHMpSco',
+    key: process.env.VUE_APP_GOOGLE_MAPS_API_KEY,
     libraries: 'places'
   }
 })

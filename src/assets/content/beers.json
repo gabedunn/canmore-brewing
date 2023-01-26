@@ -24,18 +24,18 @@
       "description": "The Valley of the Ten Peaks is one of the most remarkable views in all of Banff National Park, even having the distinction of appearing on the twenty dollar bill on two occasions. O Canada!\n\nA moderately hopped American style pale ale, slightly sweet, biscuity and very quenching. Welcome to craft beer."
     },
     {
-      "bg": "#6c3431",
+      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273439/beers/logos/rye-logo.png",
       "name": "Railway Avenue Rye IPA",
       "srm": 11,
       "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273482/beers/cans/rye-can.png",
       "abv": 6,
-      "textColour": "white",
+      "textColour": "black",
       "ibu": 60,
       "description": "From the very street we call home, to the gentle bend in the pathway in front of the brewery, much of this town was shaped by the railway history. The trains still rumble by our door a few times a day.\n\nThis refreshing and crisp west coast style IPA has a healthy dose of malted rye, plenty of hops in the boil and a thorough dry hop. This IPA is very approachable."
     },
     {
-      "bg": "#a2cfc9",
+      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273669/beers/logos/brown-logo.png",
       "name": "Georgetown Brown Ale",
       "srm": 23,
@@ -46,7 +46,7 @@
       "description": "Who can resist a ghost town story? The old coal mining town has mostly faded into the riverbanks of the Bow, just a short hop west of Canmore. Follow the Georgetown Trail and see for yourself.\n\nWith the addition of caramel and chocolate malts, this brown ale will entice you over to the dark side – in a good way! Crisp, sweet and soooooo caramello."
     },
     {
-      "bg": "#e15829",
+      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
       "name": "Mineside Stout",
       "srm": 31,
@@ -57,7 +57,7 @@
       "description": "For over 100 years the west side of the Bow River in Canmore has been known as Mineside, courtesy of the once numerous coal mines in the area. It all started in 1887 with the No. 1 Mine at Canmore Creek.\n\nSilky smooth and dark, just like the area’s coal. This English style stout features pale, chocolate and caramel malts along with roasted and flaked barley for a complex, delicious treat."
     },
     {
-      "bg": "#b4b4b4",
+      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597274078/beers/logos/misty-logo.png",
       "name": "Misty Mountain Hops New England Style IPA",
       "srm": 3,
@@ -79,5 +79,28 @@
       "description": "Get your daily fix of Outsider Cider - for the outsider in you. Crisp apple, tropical fruit, a hint of tartness and a dry finish. Just what the doctor ordered. Made with 100% Canadian apples. \n\n(It’s also gluten-free and vegan.)"
     }
   ],
-  "seasonal": []
+  "seasonal": [
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819312/beers/logos/SunburnSour_LOGO_wx3zs2.png",
+      "name": "Sunburn Hibiscus Sour",
+      "srm": 0,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/sunburn-sour-282x760_b7epql.png",
+      "abv": 5.1,
+      "textColour": "black",
+      "ibu": 10,
+      "description": "Hopefully, the luscious red hues of this hibiscus kettle sour remind you more of the great day you had in the sun - and less of the sunburn it gave you.\n\nHibiscus along with Lemondrop hops give this beer a refreshing citrus tartness that will leave you wanting more. Unlike that sunburn you got."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819599/beers/logos/GOSE-LOGO_zvr7in.png",
+      "name": "How Low Can You Gose? (Lower Alcohol Blackcurrant Gose with electrolytes)",
+      "srm": 2,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/GOSE-CAN-NO-BG-285x760_x85jrx.png",
+      "abv": 1.9,
+      "textColour": "black",
+      "ibu": 5,
+      "description": "This Gose-style brew, with its typical sour profile, a hint of Himalyan salt, and blackcurrant, combined with a LOW 1.9% alcohol, make it a great pairing with just about anything this summer.\n\nAnd, maybe the best part? The salt and blackcurrant are proven ***electrolytes*** - so this beer is your best friend after a workout!"
+    }
+  ]
 }

@@ -29,6 +29,9 @@ https://www.canmorebrewingcompany.ca/* https://canmorebrewing.com/:splat 301!
 https://nifty-edison-5c0237.netlify.com/* https://canmorebrewing.com/:splat 301!
 https://canmore-brewing.netlify.com/* https://canmorebrewing.com/:splat 301!
 
+# Restaurants Short Link
+/restaurants https://qrcodes.pro/O06W9Q 301
+
 # CORS proxy
 /cors/* https://maps.googleapis.com/:splat  200
 
