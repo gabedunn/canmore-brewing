@@ -107,7 +107,7 @@
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678382033/beers/logos/Lighten-Up_logo_wcpiig.png",
       "name": "Lighten Up Lager",
       "srm": 2,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678385936/beers/cans/IMG_1774_yi9o63.jpg",
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678388251/beers/cans/LightenUp_282x760_z3xlmz.jpg",
       "abv": 2.6,
       "textColour": "black",
       "ibu": 15,
@@ -118,11 +118,44 @@
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387460/beers/logos/JamSessionSour2-logo_x7dpjw.png",
       "name": "Jam Session Sour 2.0",
       "srm": 9,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387496/beers/cans/IMG_1777_ffkef5.jpg",
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678388208/beers/cans/Jam-Sesh-2_282x760_hntu0c.jpg",
       "abv": 5.8,
       "textColour": "black",
       "ibu": 10,
       "description": "Our OG sour is back! But with a new twist!\n\nNot too tart. Not too sweet. That's my jam! Blueberry and blackberry give way to a subtle vanilla finish in this very approachable and fruity sour. Made with the ripest blueberries and blackberries for a full-flavoured experience, this sour will quench the biggest thirst and keep you coming back."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389176/beers/logos/6thDIPA_LOGO_jbnyls.png",
+      "name": "6th Birthday DIPA",
+      "srm": 5,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389204/beers/cans/6thDIPA_282x760_fskkcg.jpg",
+      "abv": 8.2,
+      "textColour": "black",
+      "ibu": 60,
+      "description": "W﻿e packed this DOUBLE IPA with Azacca, Sabro, Citra, Galaxy, Idaho 7, and Amarillo hops: Six hops for the six years you've supported us!  Big, bright & bold, this one is a tropical fruit cacophony of flavours!\n\nThanks for joining us on this ride, and cheers to the next six years!"
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389345/beers/logos/Equinox_Amber-Ale-LOGO_focuec.png",
+      "name": "Equinox Amber Ale",
+      "srm": 15,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389368/beers/cans/EquinoxAmber_282x760_nugqjz.jpg",
+      "abv": 5.2,
+      "textColour": "black",
+      "ibu": 15,
+      "description": "The equinox is the time of year when the earth is perfectly balanced with the equator being perpendicular to the sun.\n\nJust like the earth, the Equinox Amber Ale is perfectly balanced between the rich malty sweetness of the Alberta grains and the subtle hop bitterness of the classic hops used in this ale."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389658/beers/logos/Choc_Mpl_Porter_LOGO_taiz0t.png",
+      "name": "Chocolate Maple Porter",
+      "srm": 30,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389908/beers/cans/Choco-Porter_282x760_czhizp.jpg",
+      "abv": 5.3,
+      "textColour": "black",
+      "ibu": 29,
+      "description": "Nothing goes better with a winter's day than a nice rich, dark porter. This perennial favourite includes a luscious range of dark malts as well as 50 KG of Grade A Canadian maple syrup. Dark, rich, and luscious. \n\nYou're welcome."
     }
   ]
 }
