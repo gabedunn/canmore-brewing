@@ -101,6 +101,17 @@
       "textColour": "black",
       "ibu": 10,
       "description": "Hopefully, the luscious red hues of this hibiscus kettle sour remind you more of the great day you had in the sun - and less of the sunburn it gave you.\n\nHibiscus along with Lemondrop hops give this beer a refreshing citrus tartness that will leave you wanting more. Unlike that sunburn you got."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678382033/beers/logos/Lighten-Up_logo_wcpiig.png",
+      "name": "Lighten Up Lager",
+      "srm": 2,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678385936/beers/cans/IMG_1774_yi9o63.jpg",
+      "abv": 2.6,
+      "textColour": "black",
+      "ibu": 15,
+      "description": "This is a light, crisp lager with a smooth dose of YCH hop flavour. (Yakima Chief Hops). At just 2.6% ABV, there's no stress tipping a few back. So lighten up!\n\nWith an aroma and colour of bread crust, it's a perfect balance for the light floral notes of the hops."
     }
   ]
 }
