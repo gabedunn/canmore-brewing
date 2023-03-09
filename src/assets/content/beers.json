@@ -112,6 +112,17 @@
       "textColour": "black",
       "ibu": 15,
       "description": "This is a light, crisp lager with a smooth dose of YCH hop flavour. (Yakima Chief Hops). At just 2.6% ABV, there's no stress tipping a few back. So lighten up!\n\nWith an aroma and colour of bread crust, it's a perfect balance for the light floral notes of the hops."
+    },
+    {
+      "bg": "#FFFFFF",
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387460/beers/logos/JamSessionSour2-logo_x7dpjw.png",
+      "name": "Jam Session Sour 2.0",
+      "srm": 9,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387496/beers/cans/IMG_1777_ffkef5.jpg",
+      "abv": 5.8,
+      "textColour": "black",
+      "ibu": 10,
+      "description": "Our OG sour is back! But with a new twist!\n\nNot too tart. Not too sweet. That's my jam! Blueberry and blackberry give way to a subtle vanilla finish in this very approachable and fruity sour. Made with the ripest blueberries and blackberries for a full-flavoured experience, this sour will quench the biggest thirst and keep you coming back."
     }
   ]
 }
