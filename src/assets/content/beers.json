@@ -93,28 +93,6 @@
     },
     {
       "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819312/beers/logos/SunburnSour_LOGO_wx3zs2.png",
-      "name": "Sunburn Hibiscus Sour",
-      "srm": 1,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/sunburn-sour-282x760_b7epql.png",
-      "abv": 5.1,
-      "textColour": "black",
-      "ibu": 10,
-      "description": "Hopefully, the luscious red hues of this hibiscus kettle sour remind you more of the great day you had in the sun - and less of the sunburn it gave you.\n\nHibiscus along with Lemondrop hops give this beer a refreshing citrus tartness that will leave you wanting more. Unlike that sunburn you got."
-    },
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678382033/beers/logos/Lighten-Up_logo_wcpiig.png",
-      "name": "Lighten Up Lager",
-      "srm": 2,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678388251/beers/cans/LightenUp_282x760_z3xlmz.jpg",
-      "abv": 2.6,
-      "textColour": "black",
-      "ibu": 15,
-      "description": "This is a light, crisp lager with a smooth dose of YCH hop flavour. (Yakima Chief Hops). At just 2.6% ABV, there's no stress tipping a few back. So lighten up!\n\nWith an aroma and colour of bread crust, it's a perfect balance for the light floral notes of the hops."
-    },
-    {
-      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387460/beers/logos/JamSessionSour2-logo_x7dpjw.png",
       "name": "Jam Session Sour 2.0",
       "srm": 9,
@@ -126,47 +104,25 @@
     },
     {
       "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389176/beers/logos/6thDIPA_LOGO_jbnyls.png",
-      "name": "6th Birthday DIPA",
-      "srm": 5,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389204/beers/cans/6thDIPA_282x760_fskkcg.jpg",
-      "abv": 8.2,
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486484/Bow-Hemain-Pilsner_vhl75e.png",
+      "name": "Bowhemian Pilsner",
+      "srm": 4,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486613/Bowhemian_Pils_can-no-BG_izjq7i.png",
+      "abv": 4.7,
       "textColour": "black",
-      "ibu": 60,
-      "description": "W﻿e packed this DOUBLE IPA with Azacca, Sabro, Citra, Galaxy, Idaho 7, and Amarillo hops: Six hops for the six years you've supported us!  Big, bright & bold, this one is a tropical fruit cacophony of flavours!\n\nThanks for joining us on this ride, and cheers to the next six years!"
+      "ibu": 35,
+      "description": "We're bringing this classic style to the BOWhemian Valley and making it our own. Crisp and refreshing; golden colour, with a touch of honey-like sweetness, and complimented by a subtle bready undertone. With a delicate hop character, you'll get the little citrus flavours coming through in the clean smooth finish."
     },
     {
       "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389345/beers/logos/Equinox_Amber-Ale-LOGO_focuec.png",
-      "name": "Equinox Amber Ale",
-      "srm": 15,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389368/beers/cans/EquinoxAmber_282x760_nugqjz.jpg",
-      "abv": 5.2,
+      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486982/Please_Demeter_mt0vny.png",
+      "name": "Please Demeter Saison w. Ginger",
+      "srm": 4,
+      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688487388/Please-Demeter_Can_ka30eg.jpg",
+      "abv": 6.5,
       "textColour": "black",
-      "ibu": 15,
-      "description": "The equinox is the time of year when the earth is perfectly balanced with the equator being perpendicular to the sun.\n\nJust like the earth, the Equinox Amber Ale is perfectly balanced between the rich malty sweetness of the Alberta grains and the subtle hop bitterness of the classic hops used in this ale."
-    },
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389658/beers/logos/Choc_Mpl_Porter_LOGO_taiz0t.png",
-      "name": "Chocolate Maple Porter",
-      "srm": 30,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678389908/beers/cans/Choco-Porter_282x760_czhizp.jpg",
-      "abv": 5.3,
-      "textColour": "black",
-      "ibu": 29,
-      "description": "Nothing goes better with a winter's day than a nice rich, dark porter. This perennial favourite includes a luscious range of dark malts as well as 50 KG of Grade A Canadian maple syrup. Dark, rich, and luscious. \n\nYou're welcome."
-    },
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1680110166/beers/logos/Raise-the-haze-LOGO_gn4g0k.png",
-      "name": "Raise the Haze - Hazy Pale Ale",
-      "srm": 5,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1680204332/beers/cans/Raise_the_Haze_-_can-282x693_bgrzxb.png",
-      "abv": 5.3,
-      "textColour": "black",
-      "ibu": 30,
-      "description": "Raise a glass of this New England Pale Ale - bursting with Citra and Galaxy hops. Its hazy appearance and refreshing taste bring on the vibrant spirit of spring, inviting you to \"raise the haze\" and celebrate the return of longer, sunny days!"
+      "ibu": 25,
+      "description": "For this one, we summoned the Greek goddess of grain and harvest - Demeter. And she delivered! So did all the women who contributed to this Pink Boots Collaboration Brew! They've created this deliciously crisp, dry Belgian Saison where mild earthy spice and citrus give way to a subtle ginger finish. A portion of the proceeds of the sale of this beer will go to the Pink Boots Society."
     }
   ]
 }
