@@ -93,28 +93,6 @@
     },
     {
       "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678387460/beers/logos/JamSessionSour2-logo_x7dpjw.png",
-      "name": "Jam Session Sour 2.0",
-      "srm": 9,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1678388208/beers/cans/Jam-Sesh-2_282x760_hntu0c.jpg",
-      "abv": 5.8,
-      "textColour": "black",
-      "ibu": 10,
-      "description": "Our OG sour is back! But with a new twist!\n\nNot too tart. Not too sweet. That's my jam! Blueberry and blackberry give way to a subtle vanilla finish in this very approachable and fruity sour. Made with the ripest blueberries and blackberries for a full-flavoured experience, this sour will quench the biggest thirst and keep you coming back."
-    },
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486484/Bow-Hemain-Pilsner_vhl75e.png",
-      "name": "Bowhemian Pilsner",
-      "srm": 4,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688664670/Pilsner-Connect_dts0lg.jpg",
-      "abv": 4.7,
-      "textColour": "black",
-      "ibu": 35,
-      "description": "We're bringing this classic style to the BOWhemian Valley and making it our own. Crisp and refreshing; golden colour, with a touch of honey-like sweetness, and complimented by a subtle bready undertone. With a delicate hop character, you'll get the little citrus flavours coming through in the clean smooth finish."
-    },
-    {
-      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486982/Please_Demeter_mt0vny.png",
       "name": "Please Demeter Saison w. Ginger",
       "srm": 4,
