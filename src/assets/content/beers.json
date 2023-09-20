@@ -79,28 +79,5 @@
       "description": "Get your daily fix of Outsider Cider - for the outsider in you. Crisp apple, tropical fruit, a hint of tartness and a dry finish. Just what the doctor ordered. Made with 100% Canadian apples. \n\n(It’s also gluten-free and vegan.)"
     }
   ],
-  "seasonal": [
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659819599/beers/logos/GOSE-LOGO_zvr7in.png",
-      "name": "How Low Can You Gose? (Lower Alcohol Blackcurrant Gose with electrolytes)",
-      "srm": 2,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1659820579/beers/cans/GOSE-CAN-NO-BG-285x760_x85jrx.png",
-      "abv": 1.9,
-      "textColour": "black",
-      "ibu": 5,
-      "description": "This Gose-style brew, with its typical sour profile, a hint of Himalyan salt, and blackcurrant, combined with a LOW 1.9% alcohol, make it a great pairing with just about anything this summer.\n\nAnd, maybe the best part? The salt and blackcurrant are proven ***electrolytes*** - so this beer is your best friend after a workout!"
-    },
-    {
-      "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688486982/Please_Demeter_mt0vny.png",
-      "name": "Please Demeter Saison w. Ginger",
-      "srm": 4,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1688665030/Please-Demeter_Can-Connect_rxggik.jpg",
-      "abv": 6.5,
-      "textColour": "black",
-      "ibu": 25,
-      "description": "For this one, we summoned the Greek goddess of grain and harvest - Demeter. And she delivered! So did all the women who contributed to this Pink Boots Collaboration Brew! They've created this deliciously crisp, dry Belgian Saison where mild earthy spice and citrus give way to a subtle ginger finish. A portion of the proceeds of the sale of this beer will go to the Pink Boots Society."
-    }
-  ]
+  "seasonal": []
 }
