@@ -23,7 +23,7 @@
     "@tailwindcss/typography": "^0.2.0",
     "dedent": "^0.7.0",
     "marked": "^4.0.12",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "plyr": "^3.6.2",
     "postcss-preset-env": "^6.7.0",
     "register-service-worker": "^1.7.1",
