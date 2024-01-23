@@ -4,7 +4,7 @@
     "closed": false
   },
   "tuesday": {
-    "closed": true,
+    "closed": false,
     "hours": "1:00 – 8:00 p.m."
   },
   "wednesday": {
