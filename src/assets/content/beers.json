@@ -47,17 +47,6 @@
     },
     {
       "bg": "#FFFFFF",
-      "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273832/beers/logos/stout-logo.png",
-      "name": "Mineside Stout",
-      "srm": 31,
-      "can": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597273871/beers/cans/stout-can.png",
-      "abv": 5,
-      "textColour": "black",
-      "ibu": 21,
-      "description": "For over 100 years the west side of the Bow River in Canmore has been known as Mineside, courtesy of the once numerous coal mines in the area. It all started in 1887 with the No. 1 Mine at Canmore Creek.\n\nSilky smooth and dark, just like the area’s coal. This English style stout features pale, chocolate and caramel malts along with roasted and flaked barley for a complex, delicious treat."
-    },
-    {
-      "bg": "#FFFFFF",
       "logo": "https://res.cloudinary.com/canmore-brewing-company/image/upload/v1597274078/beers/logos/misty-logo.png",
       "name": "Misty Mountain Hops New England Style IPA",
       "srm": 3,
